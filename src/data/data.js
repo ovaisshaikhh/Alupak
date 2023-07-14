@@ -3,7 +3,7 @@ export const footerData = [
     title: "About the Brand",
     content: [
       {
-        li: "FAQS",
+        li: "FAQs",
         link: "/",
       },
       {

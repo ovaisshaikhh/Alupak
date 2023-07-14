@@ -1,9 +1,14 @@
 import React from "react";
+import fb from "../assets/iconfb.svg";
+import twitter from "../assets/icontwitter.svg";
+import linkedin from "../assets/iconlinkedin.svg";
+import yt from "../assets/iconyoutube.svg";
+import call from "../assets/iconcall.svg"
 
 const Socials = () => {
   return (
     // xs:grid-cols-7
-    <div className="grid xs:grid-cols-5 lg:grid-cols-4 xl:grid-cols-5 xll:grid-cols-7 xs:gap-2 sg:gap-4 xll:gap-[3rem] sx:mt-16 lg:mt-0 text-white ">
+    <div className="grid xs:grid-cols-5 lg:grid-cols-4 xl:grid-cols-5 xll:grid-cols-5 xs:gap-2 sg:gap-4 xll:gap-[0rem] justify-items-center  sx:mt-16 lg:mt-0 text-white ">
       {/* @Facebook */}
       <p className=" rounded-full social-icon hover:animate-bounce">
         <a
@@ -11,7 +16,8 @@ const Socials = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <i class="fa-brands fa-facebook-f sx:text-sm sm:text-lg md:text-sm xl:text-lg p-2 flex justify-center"></i>
+          <img className="w-4" src={fb} alt="fb" />
+          {/* <i class="fa-brands fa-facebook-f sx:text-sm sm:text-lg md:text-sm xl:text-lg p-2 flex justify-center"></i> */}
         </a>
       </p>
       {/* @Twitter */}
@@ -21,7 +27,8 @@ const Socials = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <i class="fa-brands fa-twitter sx:text-sm sm:text-lg md:text-sm xl:text-lg p-2 flex justify-center"></i>
+          <img className="w-4" src={twitter} alt="twitter" />
+          {/* <i class="fa-brands fa-twitter sx:text-sm sm:text-lg md:text-sm xl:text-lg p-2 flex justify-center"></i> */}
         </a>
       </p>
       {/* @Linkedin */}
@@ -31,20 +38,23 @@ const Socials = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <i class="fa-brands fa-linkedin-in sx:text-sm sm:text-lg md:text-sm xl:text-lg p-2 flex justify-center"></i>
+          {/* <i class="fa-brands fa-linkedin-in sx:text-sm sm:text-lg md:text-sm xl:text-lg p-2 flex justify-center"></i> */}
+          <img className="w-4" src={linkedin} alt="ln" />
         </a>
       </p>
       {/* @Youtube */}
       <p className="rounded-full social-icon hover:animate-bounce">
         <a href="https://www.w3schools.com/" target="_blank" rel="noreferrer">
-          <i class="fa-brands fa-youtube sx:text-sm sm:text-lg md:text-sm xl:text-lg p-2 flex justify-center"></i>
+          {/* <i class="fa-brands fa-youtube sx:text-sm sm:text-lg md:text-sm xl:text-lg p-2 flex justify-center"></i> */}
+          <img className="w-4" src={yt} alt="yt" />
         </a>
       </p>
       {/* @Call */}
       <p className=" rounded-full social-icon hover:animate-bounce">
         <a type="email" href="mailto:info@image.net.pk" rel="noreferrer">
-          <i class="fa fa-phone sx:text-sm sm:text-lg md:text-sm xl:text-lg p-2 flex justify-center"></i>
+          {/* <i class="fa fa-phone sx:text-sm sm:text-lg md:text-sm xl:text-lg p-2 flex justify-center"></i> */}
           {/* <i class="fa fa-phone fa-light "></i> */}
+          <img className="w-4" src={call} alt="call" />
         </a>
       </p>
       {/* @Email */}

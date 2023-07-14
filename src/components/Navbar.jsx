@@ -12,7 +12,7 @@ const Navbar = () => {
       <header className="flex justify-between py-8 px-24 items-center navbar absolute z-50 left-0 right-0">
         <div>
           <Link to="/">
-            <img className="w-[93%]" src={logo} alt="logo" />
+            <img className="w-[85%]" src={logo} alt="logo" />
           </Link>
         </div>
 

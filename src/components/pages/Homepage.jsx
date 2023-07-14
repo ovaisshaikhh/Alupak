@@ -1,12 +1,17 @@
 // import React from 'react';
-import { Banner } from "../index"
+import React from "react";
+import { Banner, HomeSecond, HomeAbout, HomeUsps, HomeIndustries } from "../index";
 
 const Homepage = () => {
   return (
-    <div>
-        <Banner />
-    </div>
-  )
-}
+    <React.Fragment>
+      <Banner />
+      <HomeSecond />
+      <HomeAbout />
+      <HomeUsps />
+      <HomeIndustries />
+    </React.Fragment>
+  );
+};
 
-export default Homepage
+export default Homepage;
