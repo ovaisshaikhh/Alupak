@@ -9,7 +9,7 @@ body,
 .font {
   font-family: "Avenir", sans-serif;
 }
-
+/* menu items of navbar */
 .hover-underline-animation {
     display: inline-block;
     position: relative;
@@ -34,22 +34,7 @@ body,
     transform-origin: bottom left;
   }
 
-  /* ------------------- */
-  .navbar {
-    /* position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: transparent; */
-    /* position: absolute;
-    z-index: 9999; */
+  .openInStyle {
+    transition: all 0.3s ease-in-out;
+    transform: translate(0%);
   }
-  
-  /* .banner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-  } */
-  

@@ -10,16 +10,22 @@ const HomeAbout = () => {
       <div class="image-container">
         <img src={AboutBanner} alt="Timer Image" />
         <div class="text-overlay px-[7rem]">
-          <h1 className="text-[#f8d721] text-[3rem] font-black">About Us</h1>
-          <p className="mb-4">
-            If you have confirmed that the image file is in the correct location
-            and the issue persists, please provide more information about the
-            error message you are receiving. This additional information will
-            help in diagnosing the problem and providing a more specific
-            solution.
-          </p>
-          <div className="text-black">
-            <Button value={"Read More"} />
+          <div>
+            <h1 className="text-[#ffd303] text-[3rem] font-black">About Us</h1>
+            <p className="mb-4">
+              If you have confirmed that the image file is in the correct
+              location and the issue persists, please provide more information
+              about the error message you are receiving. This additional
+              information will help in diagnosing the problem and providing a
+              more specific solution.
+            </p>
+            <div className="text-black relative z-50">
+              <Button value={"Read More"} />
+            </div>
+          </div>
+          {/*  */}
+          <div className="absolute w-[100%] left-[-91px]">
+            <img className="w-[20%]" src={stamp} alt="stamp" />
           </div>
         </div>
       </div>

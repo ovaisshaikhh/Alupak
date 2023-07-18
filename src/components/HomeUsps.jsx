@@ -2,6 +2,7 @@ import React from "react";
 import time from "../assets/Timer.png";
 import quality from "../assets/quality.png";
 import sustain from "../assets/Sustain.png";
+import "../styles/usp.css"
 
 const HomeUsps = () => {
   return (
@@ -9,7 +10,7 @@ const HomeUsps = () => {
       <div className="grid grid-cols-3 gap-8 relative top-[-2.2rem]">
         {/* 1 */}
         <div className="text-center">
-          <div>
+          <div className="">
             <img className="m-auto w-[15%]" src={time} />
           </div>
           <div className="px-10">
@@ -46,6 +47,11 @@ const HomeUsps = () => {
             </p>
           </div>
         </div>
+        {/*  */}
+        {/* <div class="circle">
+        <img className="m-auto " src={time} />
+        </div> */}
+
       </div>
     </div>
   );

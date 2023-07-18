@@ -6,7 +6,7 @@ const Button = ({ value, onClick }) => {
     <button
       onClick={(event) => onClick(event)}
       // button draw-border
-      className=" bg-[#f8d721] rounded-full font-bold md:text-xs leading-5 lg:px-[1.6rem] lg:py-[.6rem] lg:pb-[.5rem] md:px-[32px] md:py-[10px] sx:px-[20px] sx:py-[7px] sx:text-xs hover:bg-[#fde047]"
+      className=" bg-[#ffd303] rounded-full font-bold md:text-xs leading-5 lg:px-[1.6rem] lg:py-[.6rem] lg:pb-[.5rem] md:px-[32px] md:py-[10px] sx:px-[20px] sx:py-[7px] sx:text-xs hover:bg-[#fde047]"
     >
       <span> {value}</span>
     </button>
