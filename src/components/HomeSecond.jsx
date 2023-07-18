@@ -10,7 +10,7 @@ const HomeSecond = () => {
     const options = {
       root: null,
       rootMargin: "0px",
-      threshold: 0.5, // Adjust this value to control the visibility threshold
+      threshold: 0.5,
     };
 
     const observer = new IntersectionObserver(handleIntersection, options);
@@ -43,7 +43,7 @@ const HomeSecond = () => {
           ref={targetRef}
           className={
             isVisible
-              ? "bg-[#ffd303] lg:w-[10rem] lg:h-[40vh] xm:w-[14rem] xm:h-[40vh] background-animation_H"
+              ? "background-animation_H bg-[#ffd303] lg:w-[10rem] lg:h-[40vh] xm:w-[14rem] xm:h-[40vh]"
               : "bg-[#ffd303] lg:w-[10rem] lg:h-[40vh] xm:w-[14rem] xm:h-[40vh]"
           }
         >
@@ -61,7 +61,7 @@ const HomeSecond = () => {
         </div>
       </div>
       {/* -- */}
-      <div className="mx-[9rem] py-10 ">
+      <div className="mx-[9rem] py-10">
         <h1
           ref={targetRef}
           className={

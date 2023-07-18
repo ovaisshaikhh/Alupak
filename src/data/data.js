@@ -4,7 +4,7 @@ export const footerData = [
     content: [
       {
         li: "FAQs",
-        link: "/",
+        link: "/faqs",
       },
       {
         li2: "About Us",
@@ -21,11 +21,11 @@ export const footerData = [
     content: [
       {
         li: "Contact",
-        link: "/get-in-touch",
+        link: "/contact",
       },
       {
         li2: "Careers",
-        link2: "/our-team",
+        link2: "/careers",
       },
       {
         li3: "",

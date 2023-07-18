@@ -5,6 +5,8 @@ import {
   Products,
   Careers,
   PageNotFound,
+  Faqs,
+  Contact,
 } from "./components/pages";
 import "./index.css";
 import { Route, Routes } from "react-router-dom";
@@ -14,12 +16,13 @@ function App() {
   return (
     <div className="font">
       <Navbar />
-      {/* <Homepage/> */}
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/products" element={<Products />} />
         <Route path="/about-us" element={<Aboutus />} />
         <Route path="/careers" element={<Careers />} />
+        <Route path="/faqs" element={<Faqs />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/*" element={<PageNotFound />} />
       </Routes>
 

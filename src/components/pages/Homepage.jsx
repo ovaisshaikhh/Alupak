@@ -1,6 +1,12 @@
 // import React from 'react';
 import React from "react";
-import { Banner, HomeSecond, HomeAbout, HomeUsps, HomeIndustries, VisibilityComponent  } from "../index";
+import {
+  Banner,
+  HomeSecond,
+  HomeAbout,
+  HomeUsps,
+  HomeIndustries,
+} from "../index";
 
 const Homepage = () => {
   return (
@@ -10,7 +16,6 @@ const Homepage = () => {
       <HomeAbout />
       <HomeUsps />
       <HomeIndustries />
-      {/* <VisibilityComponent /> */}
     </React.Fragment>
   );
 };

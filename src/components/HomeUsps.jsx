@@ -2,7 +2,6 @@ import React from "react";
 import time from "../assets/Timer.png";
 import quality from "../assets/quality.png";
 import sustain from "../assets/Sustain.png";
-import "../styles/usp.css"
 
 const HomeUsps = () => {
   return (
@@ -47,11 +46,6 @@ const HomeUsps = () => {
             </p>
           </div>
         </div>
-        {/*  */}
-        {/* <div class="circle">
-        <img className="m-auto " src={time} />
-        </div> */}
-
       </div>
     </div>
   );

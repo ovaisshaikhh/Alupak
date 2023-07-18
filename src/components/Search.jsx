@@ -4,22 +4,16 @@ import "../styles/modal.css";
 const Search = ({ closeModal }) => {
   return (
     <div className="flex justify-center items-center fixed top-0 left-0 w-full h-full modal-container">
-      {/* //p-5 */}
-      <div className="bg-white p-5 rounded-lg max-w-md min-w-[50vw] min-h-[50vh] pt-0"> 
+      <div className="bg-white p-5 rounded-lg max-w-md min-w-[50vw] min-h-[50vh] pt-0">
+        {/* close button */}
         <div
           className="block text-right cursor-pointer text-xl relative top-[-17px] right-[-38px]"
           onClick={closeModal}
         >
-         <i class="fa fa-close text-white bg-[#3f3f46] rounded-full px-3 py-2"></i>
+          <i class="fa fa-close text-white bg-[#3f3f46] rounded-full px-3 py-2"></i>
         </div>
-        {/*  */}
+        {/* content */}
         <form>
-          <label
-            for="search"
-            class="mb-2 text-sm font-medium text-gray-900 sr-only"
-          >
-            Search documentation
-          </label>
           <div class="relative">
             <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
               <svg
@@ -45,12 +39,6 @@ const Search = ({ closeModal }) => {
               placeholder="Search documentation"
               required
             />
-            {/* <button
-              type="submit"
-              class="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2"
-            >
-              Search
-            </button> */}
           </div>
         </form>
       </div>

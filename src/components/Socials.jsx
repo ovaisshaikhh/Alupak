@@ -3,11 +3,10 @@ import fb from "../assets/iconfb.svg";
 import twitter from "../assets/icontwitter.svg";
 import linkedin from "../assets/iconlinkedin.svg";
 import yt from "../assets/iconyoutube.svg";
-import call from "../assets/iconcall.svg"
+import call from "../assets/iconcall.svg";
 
 const Socials = () => {
   return (
-    // xs:grid-cols-7
     <div className="grid xs:grid-cols-5 lg:grid-cols-4 xl:grid-cols-5 xll:grid-cols-5 xs:gap-2 sg:gap-4 xll:gap-[0rem] justify-items-center  sx:mt-16 lg:mt-0 text-white ">
       {/* @Facebook */}
       <p className=" rounded-full social-icon hover:animate-bounce">

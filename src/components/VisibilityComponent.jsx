@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
-import "../styles/animate.css"
+import "../styles/animate.css";
 
 const VisibilityComponent = () => {
   const targetRef = useRef(null);

@@ -9,32 +9,31 @@ body,
 .font {
   font-family: "Avenir", sans-serif;
 }
-/* menu items of navbar */
+/* @--menu items of navbar */
 .hover-underline-animation {
-    display: inline-block;
-    position: relative;
-    color: white;
-  }
-  
-  .hover-underline-animation:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: white;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-  }
-  
-  .hover-underline-animation:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
+  display: inline-block;
+  position: relative;
+}
 
-  .openInStyle {
-    transition: all 0.3s ease-in-out;
-    transform: translate(0%);
-  }
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.openInStyle {
+  transition: all 0.3s ease-in-out;
+  transform: translate(0%);
+}

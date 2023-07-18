@@ -4,7 +4,6 @@ import HI2 from "../assets/HI2-2.png";
 import HI3 from "../assets/HI3.png";
 import HI4 from "../assets/HI4-2.png";
 import "../styles/banner.css";
-import { motion } from "framer-motion";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..

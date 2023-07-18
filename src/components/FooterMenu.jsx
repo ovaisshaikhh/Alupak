@@ -3,13 +3,8 @@ import { Link } from "react-router-dom";
 
 const FooterMenu = ({
   title,
-  content: [
-    { li, link },
-    { li2, link2 },
-    { li3, link3 },
-  ],
+  content: [{ li, link }, { li2, link2 }, { li3, link3 }],
 }) => {
-
   const handleClickNav = () => {
     window.scrollTo(0, 0);
   };

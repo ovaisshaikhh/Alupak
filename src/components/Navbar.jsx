@@ -1,25 +1,20 @@
 import React, { useState } from "react";
 import logo from "../assets/Alupak logo.svg";
-import { Link, NavLink } from "react-router-dom";
-import { Button } from "./index";
-import { useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
+import { Button, Search } from "./index";
 import "../styles/main.css";
-import "../styles/modal.css"
-import { Search } from "../components/index";
 
 const Navbar = () => {
   const navigate = useNavigate();
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
-  // Searchbar Open Function
+  // Search Modal Function
   const openModal = () => {
     setModalIsOpen(true);
   };
-
   const closeModal = () => {
     setModalIsOpen(false);
   };
-
 
   return (
     <React.Fragment>
@@ -61,16 +56,14 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-
+        {/* ----------------------------------- */}
         <div>
           <button className="px-8" onClick={openModal}>
             <i class="fa fa-search text-white"></i>
           </button>
           <Button value={"Contact Us"} onClick={() => navigate("/careers")} />
         </div>
-
         {/* ----------------------------------- */}
-
         {/* Search box */}
         {modalIsOpen && <Search closeModal={closeModal} />}
       </header>

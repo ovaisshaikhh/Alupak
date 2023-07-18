@@ -6,10 +6,10 @@ import { Button } from "../components/index";
 
 const HomeAbout = () => {
   return (
-    <div>
+    <React.Fragment>
       <div class="image-container">
-        <img src={AboutBanner} alt="Timer Image" />
-        <div class="text-overlay px-[7rem]">
+        <img src={AboutBanner} alt="Timer_Image" />
+        <div class="text-overlay text-white px-[7rem]">
           <div>
             <h1 className="text-[#ffd303] text-[3rem] font-black">About Us</h1>
             <p className="mb-4">
@@ -29,7 +29,7 @@ const HomeAbout = () => {
           </div>
         </div>
       </div>
-    </div>
+    </React.Fragment>
   );
 };
 
