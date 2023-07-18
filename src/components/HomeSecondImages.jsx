@@ -12,7 +12,7 @@ const HomeSecondImages = () => {
         <div className="t4s-eff-border-run relative">
           <img src={A1} />
         </div>
-        <div className="lg:py-2 lg:px-4 lg:pt-4 xm:py-4 xm:px-8 xm:pt-8">
+        <div className="lg:py-2 lg:px-4 lg:pt-2 xm:py-4 xm:px-8 xm:pt-8">
           <h6 className="font-bold lg:mb-2 xm:mb-4">Aluminium Can</h6>
           <p className="lg:text-xs xm:text-sm">
             Widely used in the beverage industry for packaging carbonated
@@ -25,7 +25,7 @@ const HomeSecondImages = () => {
         <div className="t4s-eff-border-run relative">
           <img src={A2} />
         </div>
-        <div className="lg:py-2 lg:px-4 lg:pt-4 xm:py-4 xm:px-8 xm:pt-8">
+        <div className="lg:py-2 lg:px-4 lg:pt-2 xm:py-4 xm:px-8 xm:pt-8">
           <h6 className="font-bold lg:mb-2 xm:mb-4">
             Collapsable Aluminium Tubes
           </h6>
@@ -40,7 +40,7 @@ const HomeSecondImages = () => {
         <div className="t4s-eff-border-run relative">
           <img src={A3} />
         </div>
-        <div className="lg:py-2 lg:px-4 lg:pt-4 xm:py-4 xm:px-8 xm:pt-8">
+        <div className="lg:py-2 lg:px-4 lg:pt-2 xm:py-4 xm:px-8 xm:pt-8">
           <h6 className="font-bold lg:mb-2 xm:mb-4">Rigid Aluminium Tubes</h6>
           <p className="lg:text-xs xm:text-sm">
             Widely used in the beverage industry for packaging carbonated

@@ -44,18 +44,24 @@ const HomeIndustries = () => {
           ref={targetRef}
           className={
             isVisible
-              ? "bg-[#ffd303] w-[calc(100vw-7.1rem)] h-[5rem] background-animation"
-              : "bg-[#ffd303] w-[calc(100vw-7.1rem)] h-[5rem]"
+              ? " w-[calc(100vw-7.1rem)] h-[5rem] background-animation"
+              : " w-[calc(100vw-7.1rem)] h-[5rem]"
           }
         >
           {""}
         </div>
-        <div className="bg-[#ffd303] w-[50%] h-[10rem] absolute right-0">
+        <div 
+          ref={targetRef}
+          className={
+            isVisible
+              ? "w-[50%] h-[20rem] absolute right-0 background-animationV"
+              : "w-[50%] h-[20rem] absolute right-0"
+          }>
           {""}
         </div>
       </div>
       {/*  */}
-      <div className="grid grid-cols-5 pt-12 mx-12 ml-[10rem]">
+      <div className="grid grid-cols-5 pt-12 lg:mx-0 xm:mx-12 lg:ml-[5rem] xm:ml-[10rem]">
         <div className="col-span-4">
           <HomeIndustriesImages />
         </div>
@@ -64,8 +70,8 @@ const HomeIndustries = () => {
             ref={targetRef}
             className={
               isVisible
-                ? "tracking-in-expand vertical-text text-[5rem] font-black text-[#475569] pt-4 tracking-wider"
-                : "vertical-text text-[5rem] font-black text-[#475569] pt-4 tracking-wider"
+                ? "tracking-in-expand vertical-text lg:text-[3rem] xm:text-[5rem] font-black text-[#475569] pt-4 tracking-wider"
+                : "vertical-text lg:text-[3rem] xm:text-[5rem] font-black text-[#475569] pt-4 tracking-wider"
             }
           >
             Industries
@@ -73,7 +79,7 @@ const HomeIndustries = () => {
         </div>
       </div>
       {/*  */}
-      <div className="text-center m-8 mx-[20rem]">
+      <div className="text-center m-8 lg:mx-[10rem] xsm:mx-[20rem]">
         <p className="mb-4">
           Note that while most modern browsers support CSS writing-mode, it's a
           good practice to test your code on different browsers to ensure

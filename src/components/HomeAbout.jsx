@@ -12,7 +12,7 @@ const HomeAbout = () => {
         <div class="text-overlay text-white px-[7rem]">
           <div>
             <h1 className="text-[#ffd303] text-[3rem] font-black">About Us</h1>
-            <p className="mb-4">
+            <p className="mb-4 lg:text-sm xsm:text-base">
               If you have confirmed that the image file is in the correct
               location and the issue persists, please provide more information
               about the error message you are receiving. This additional
@@ -25,7 +25,7 @@ const HomeAbout = () => {
           </div>
           {/*  */}
           <div className="absolute w-[100%] left-[-91px]">
-            <img className="w-[20%]" src={stamp} alt="stamp" />
+            <img className="lg:w-[30%] xsm:w-[20%]" src={stamp} alt="stamp" />
           </div>
         </div>
       </div>

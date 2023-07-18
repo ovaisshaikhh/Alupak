@@ -38,13 +38,13 @@ const HomeSecond = () => {
 
   return (
     <div className="relative">
-      <div className="ml-[6rem] absolute z-[-1] ">
+      <div className="lg:ml-[4rem] xsm:ml-[6rem] absolute z-[-1] ">
         <div
           ref={targetRef}
           className={
             isVisible
-              ? "background-animation_H bg-[#ffd303] lg:w-[10rem] lg:h-[40vh] xm:w-[14rem] xm:h-[40vh]"
-              : "bg-[#ffd303] lg:w-[10rem] lg:h-[40vh] xm:w-[14rem] xm:h-[40vh]"
+              ? "background-animation_H  lg:w-[10rem] lg:h-[14rem] xm:w-[14rem] xm:h-[14rem]"
+              : "lg:w-[10rem] lg:h-[40vh] xm:w-[14rem] xm:h-[40vh]"
           }
         >
           {""}
@@ -53,15 +53,15 @@ const HomeSecond = () => {
           ref={targetRef}
           className={
             isVisible
-              ? "background-animation lg:w-[calc(100vw-7.1rem)] lg:h-[4rem] xm:w-[calc(100vw-7.1rem)] xm:h-[8rem]"
+              ? "background-animation lg:w-[calc(100vw-4rem)] lg:h-[4rem] xm:w-[calc(100vw-7.1rem)] xm:h-[8rem]"
               : "lg:w-[calc(100vw-7.1rem)] lg:h-[4rem] xm:w-[calc(100vw-7.1rem)] xm:h-[8rem]"
           }
         >
           {""}
         </div>
       </div>
-      {/* -- */}
-      <div className="mx-[9rem] py-10">
+      {/* ------------------ */}
+      <div className="lg:mx-[6rem] xsm:mx-[9rem] py-10">
         <h1
           ref={targetRef}
           className={

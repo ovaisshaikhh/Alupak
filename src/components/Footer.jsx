@@ -8,11 +8,11 @@ import location from "../assets/iconlocation.svg";
 
 const Footer = () => {
   return (
-    <footer className="absolute w-full h-auto bg-[#1f1f1f] text-white xs:footerShadow lg:shadow-inner px-12">
+    <footer className="absolute w-full h-auto bg-[#1f1f1f] text-white xs:footerShadow lg:shadow-inner lg:px-4 xm:px-12">
       {/* ----------------------------------------- */}
       <div>
         <img
-          className="w-[35%] absolute top-0 bottom-0 h-[-webkit-fill-available]"
+          className="w-[34%] absolute top-0 bottom-0 h-[-webkit-fill-available]"
           src={bg_logo}
           alt="bg"
         />
@@ -20,7 +20,7 @@ const Footer = () => {
 
       <div className="pb-11 pt-12">
         {/* md:block */}
-        <div className="md:grid md:grid-cols-4 md:gap-4 md:ml-16 md:mr-16 lg:gap-1 lg:ml-28 lg:mr-28 md:mt-4 sx:hidden">
+        <div className="md:grid md:grid-cols-4 md:gap-4 md:ml-16 md:mr-16 lg:gap-1 lg:mx-16 xm:mx-28 md:mt-4 sx:hidden">
           <div className="relative">
             <img
               className="m-auto mb-4 mt-[-2rem] w-[40%]"

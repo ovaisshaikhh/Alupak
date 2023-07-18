@@ -10,7 +10,9 @@ const Search = ({ closeModal }) => {
           className="block text-right cursor-pointer text-xl relative top-[-17px] right-[-38px]"
           onClick={closeModal}
         >
-          <i class="fa fa-close text-white bg-[#3f3f46] rounded-full px-3 py-2"></i>
+          {/* <i class="fa fa-close text-white bg-[#3f3f46] rounded-full px-3 py-2"></i> */}
+          <span className="text-white bg-[#3f3f46] rounded-full px-3 py-2"> &times;</span>
+         
         </div>
         {/* content */}
         <form>

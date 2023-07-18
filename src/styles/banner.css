@@ -87,7 +87,7 @@
     rgba(3, 18, 64, 1) 105%
   );
   color: #fff;
-  padding: 2rem;
+  /* padding: 2rem; */
   width: 100%;
   height: 100%;
   z-index: 9;
@@ -106,5 +106,25 @@
   writing-mode: vertical-rl;
   text-orientation: mixed; 
   white-space: nowrap;
+}
+/* ------------------------------ */
+.fade-up-element {
+  opacity: 0;
+  transform: translateY(30px); /* Move the element 30px down initially */
+  transition: opacity 1s ease, transform 1s ease;
+}
+.fade-up-element.show {
+  opacity: 1;
+  transform: translateY(0); 
+}
+/* -- */
+.fade-up-elementY {
+  opacity: 0;
+  transform: translateY(-30px); 
+  transition: opacity 1s ease, transform 1s ease;
+}
+.fade-up-elementY.showY {
+  opacity: 1;
+  transform: translateY(0); 
 }
 /* ------------------------------ */
