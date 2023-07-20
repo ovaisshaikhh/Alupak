@@ -50,13 +50,14 @@ const HomeIndustries = () => {
         >
           {""}
         </div>
-        <div 
+        <div
           ref={targetRef}
           className={
             isVisible
               ? "w-[50%] h-[20rem] absolute right-0 background-animationV"
               : "w-[50%] h-[20rem] absolute right-0"
-          }>
+          }
+        >
           {""}
         </div>
       </div>

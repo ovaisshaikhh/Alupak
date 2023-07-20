@@ -12,6 +12,22 @@ import HomeAbout from "./HomeAbout";
 import HomeUsps from "./HomeUsps";
 import HomeIndustries from "./HomeIndustries";
 import HomeIndustriesImages from "./HomeIndustriesImages";
-import VisibilityComponent from "./VisibilityComponent"
+import VisibilityComponent from "./VisibilityComponent";
 
-export { Navbar, Banner, Button, Search, Footer, FooterMenu, Socials, ButtonIcon, HomeSecond, HomeSecondImages, HomeAbout, HomeUsps, HomeIndustries, HomeIndustriesImages, VisibilityComponent  };
+export {
+  Navbar,
+  Banner,
+  Button,
+  Search,
+  Footer,
+  FooterMenu,
+  Socials,
+  ButtonIcon,
+  HomeSecond,
+  HomeSecondImages,
+  HomeAbout,
+  HomeUsps,
+  HomeIndustries,
+  HomeIndustriesImages,
+  VisibilityComponent,
+};

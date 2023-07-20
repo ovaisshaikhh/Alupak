@@ -53,7 +53,7 @@ const HomeIndustriesImages = () => {
           id="fade-up-element"
         >
           <img src={HI1} />
-          <div class="text-overlay-HI lg:p-4 xm:p-8">
+          <div className="text-overlay-HI lg:p-4 xm:p-8">
             <p className="lg:text-sm xm:text-base">glue & adhesive</p>
           </div>
         </div>
@@ -68,7 +68,7 @@ const HomeIndustriesImages = () => {
           id="fade-up-element"
         >
           <img src={HI2} />
-          <div class="text-overlay-HI lg:p-4 xm:p-8">
+          <div className="text-overlay-HI lg:p-4 xm:p-8">
             <p className="lg:text-sm xm:text-base">paint</p>
           </div>
         </div>
@@ -83,7 +83,7 @@ const HomeIndustriesImages = () => {
           id="fade-up-element"
         >
           <img src={HI3} />
-          <div class="text-overlay-HI lg:p-4 xm:p-8">
+          <div className="text-overlay-HI lg:p-4 xm:p-8">
             <p className="lg:text-sm xm:text-base">pharmaceutical</p>
           </div>
         </div>
@@ -98,7 +98,7 @@ const HomeIndustriesImages = () => {
           id="fade-up-element"
         >
           <img src={HI4} />
-          <div class="text-overlay-HI lg:p-4 xm:p-8">
+          <div className="text-overlay-HI lg:p-4 xm:p-8">
             <p className="lg:text-sm xm:text-base">dying pigment</p>
           </div>
         </div>

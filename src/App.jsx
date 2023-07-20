@@ -8,9 +8,9 @@ import {
   Faqs,
   Contact,
 } from "./components/pages";
-import "./index.css";
 import { Route, Routes } from "react-router-dom";
 import "./styles/main.css";
+import "./index.css";
 
 function App() {
   return (

@@ -59,7 +59,7 @@ const Navbar = () => {
         {/* ----------------------------------- */}
         <div>
           <button className="px-8" onClick={openModal}>
-            <i class="fa fa-search text-white"></i>
+            <i className="fa fa-search text-white"></i>
           </button>
           <Button value={"Contact Us"} onClick={() => navigate("/careers")} />
         </div>

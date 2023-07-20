@@ -1,8 +1,8 @@
+import { ButtonIcon } from "../components/index";
 import banner from "../assets/Bannerweb.png";
 import "../styles/banner.css";
 import "../styles/font.css";
 import "../styles/animate.css";
-import { ButtonIcon } from "../components/index";
 
 const Banner = () => {
   return (
@@ -16,9 +16,10 @@ const Banner = () => {
         </h1>
         <p className="text-sm mb-3">
           Alupak Industry is a leading company in the packaging industry,
-          specializing in high-quality <br className="lg:hidden xsm:block"/> aluminum packaging solutions.
+          specializing in high-quality <br className="lg:hidden xsm:block" />{" "}
+          aluminum packaging solutions.
         </p>
-        <ButtonIcon value={"Read more"} icon={<i class="fa fa-heart-o"></i>} />
+        <ButtonIcon value={"Read more"} icon={<i className="fa fa-heart-o"></i>} />
       </div>
     </div>
   );

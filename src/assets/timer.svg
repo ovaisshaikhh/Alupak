@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71" height="71" viewBox="0 0 71 71">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffd400;
+      }
+
+      .cls-2 {
+        fill: url(#pattern);
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 512 512">
+      <image width="512" height="512" xlink:href="timer-image.png"/>
+    </pattern>
+  </defs>
+  <g id="Timer" transform="translate(-228 -2609)">
+    <g id="Circle_Button_SIZE_LARGE_STATE_DEFAULT_STYLE_STYLE1_" data-name="Circle Button [SIZE=LARGE][STATE=DEFAULT][STYLE=STYLE1]" transform="translate(228.319 2608.986)">
+      <rect id="Area_SIZE:LARGE_STATE:DEFAULT_STYLE:STYLE1_" data-name="Area [SIZE:LARGE][STATE:DEFAULT][STYLE:STYLE1]" class="cls-1" width="71" height="71" rx="35.5" transform="translate(-0.319 0.014)"/>
+    </g>
+    <rect id="timer-2" data-name="timer" class="cls-2" width="37" height="36" transform="translate(246 2627)"/>
+  </g>
+</svg>

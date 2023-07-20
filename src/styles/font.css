@@ -4,6 +4,6 @@
     url("../fonts/Avenir-Black.woff") format("woff");
 }
 .vertical-text,
-.fontBoldAlupak{
-    font-family: "Avenir-Bold", sans-serif;
+.fontBoldAlupak {
+  font-family: "Avenir-Bold", sans-serif;
 }
