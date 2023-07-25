@@ -72,8 +72,8 @@
 .image-container-HI {
   position: relative;
 }
-.image-container-HI img {
-  display: block;
+.image-container-HI .deskimg {
+  /* display: block; */
   width: 100%;
   height: auto;
 }

@@ -37,60 +37,62 @@ const HomeUsps = () => {
     });
   };
 
-
-
   return (
     <React.Fragment>
-    <div 
-    ref={targetRef}
-    className={
-      isVisible
-        ? "fade-up-element show bg-[#1f1f1f] text-white mb-4 lg:px-[5rem] mt-20"
-        : "fade-up-element bg-[#1f1f1f] text-white mb-4 lg:px-[5rem] mt-20"
-    }
-    >
-      <div className="grid grid-cols-3 gap-8 relative top-[-2.2rem]">
-        {/* 1 */}
-        <div className="text-center">
-          <div className="">
-            <img className="m-auto lg:w-[25%] xsm:w-[15%]" src={time} />
+      <div
+        ref={targetRef}
+        className={
+          isVisible
+            ? "fade-up-element show bg-[#1f1f1f] text-white mb-4 lg:px-[5rem] mt-20"
+            : "fade-up-element bg-[#1f1f1f] text-white mb-4 lg:px-[5rem] mt-20"
+        }
+      >
+        <div className="grid grid-cols-3 gap-8 relative top-[-2.2rem]">
+          {/* 1 */}
+          <div className="text-center">
+            <div className="">
+              <img className="m-auto md:w-[25%] xsm:w-[15%]" src={time} />
+            </div>
+            <div className="md:px-3 lg:px-8 xsm:px-10">
+              <h5 className="lg:text-base xsm:text-lg my-3">Timely Delivery</h5>
+              <p className="md:text-xs xsm:text-sm text-[#d4d4d8]">
+                We understand our customers’ needs, hence we aim to do swift and
+                in-time deliveries.
+              </p>
+            </div>
           </div>
-          <div className="lg:px-8 xsm:px-10">
-            <h5 className="lg:text-base xsm:text-lg my-3">Timely Delivery</h5>
-            <p className="lg:text-xs xsm:text-sm text-[#d4d4d8]">
-              The SVG code you provided seems to be incomplete or requires
-              additional resources to function correctly.
-            </p>
+          {/* 2 */}
+          <div className="text-center">
+            <div>
+              <img className="m-auto md:w-[25%] xsm:w-[15%]" src={quality} />
+            </div>
+            <div className="md:px-3 lg:px-8 xsm:px-10">
+              <h5 className="lg:text-base xsm:text-lg my-3">
+                High Quality Materials
+              </h5>
+              <p className="md:text-xs xsm:text-sm text-[#d4d4d8]">
+                We manufacture high-grade packaging materials to keep your
+                products safe and in good shape.
+              </p>
+            </div>
           </div>
-        </div>
-        {/* 2 */}
-        <div className="text-center">
-          <div>
-            <img className="m-auto lg:w-[25%] xsm:w-[15%]" src={quality} />
-          </div>
-          <div className="lg:px-8 xsm:px-10">
-            <h5 className="lg:text-base xsm:text-lg my-3">High Quality Materials</h5>
-            <p className="lg:text-xs xsm:text-sm text-[#d4d4d8]">
-              The SVG code you provided seems to be incomplete or requires
-              additional resources to function correctly.
-            </p>
-          </div>
-        </div>
-        {/* 3 */}
-        <div className="text-center">
-          <div>
-            <img className="m-auto lg:w-[25%] xsm:w-[15%]" src={sustain} />
-          </div>
-          <div className="lg:px-8 xsm:px-10">
-            <h5 className="lg:text-base xsm:text-lg my-3">Sustainable Manufacturing</h5>
-            <p className="lg:text-xs xsm:text-sm text-[#d4d4d8]">
-              The SVG code you provided seems to be incomplete or requires
-              additional resources to function correctly.
-            </p>
+          {/* 3 */}
+          <div className="text-center">
+            <div>
+              <img className="m-auto md:w-[25%] xsm:w-[15%]" src={sustain} />
+            </div>
+            <div className="md:px-3 lg:px-8 xsm:px-10">
+              <h5 className="lg:text-base xsm:text-lg my-3">
+                Sustainable Manufacturing
+              </h5>
+              <p className="md:text-xs xsm:text-sm text-[#d4d4d8]">
+                We consider all safety and quality standards to manufacture our
+                products.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </React.Fragment>
   );
 };

@@ -3,6 +3,10 @@ import HI1 from "../assets/HI1.png";
 import HI2 from "../assets/HI2-2.png";
 import HI3 from "../assets/HI3.png";
 import HI4 from "../assets/HI4-2.png";
+import HI11 from "../assets/Mask Group 32/Mask Group 32@2x.png";
+import HI12 from "../assets/Mask Group 33/Mask Group 33@2x.png";
+import HI13 from "../assets/Mask Group 34/Mask Group 34@2x.png";
+import HI14 from "../assets/Mask Group 35/Mask Group 35@2x.png";
 import "../styles/banner.css";
 
 const HomeIndustriesImages = () => {
@@ -40,8 +44,8 @@ const HomeIndustriesImages = () => {
   };
 
   return (
-    <>
-      <div className="grid grid-cols-4">
+    <React.Fragment>
+      <div className="grid xs:grid-cols-2 xs:gap-2 md:gap-0 md:grid-cols-4 ">
         {/* 1 */}
         <div
           ref={targetRef}
@@ -52,9 +56,10 @@ const HomeIndustriesImages = () => {
           }
           id="fade-up-element"
         >
-          <img src={HI1} />
-          <div className="text-overlay-HI lg:p-4 xm:p-8">
-            <p className="lg:text-sm xm:text-base">glue & adhesive</p>
+          <img src={HI1} className="deskimg xs:hidden md:block" />
+          <img src={HI11} className="deskimg md:hidden xs:block" />
+          <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
+            <p className="xs:text-[13px] md:text-sm xm:text-base">glue & adhesive</p>
           </div>
         </div>
         {/* 2 */}
@@ -67,9 +72,10 @@ const HomeIndustriesImages = () => {
           }
           id="fade-up-element"
         >
-          <img src={HI2} />
-          <div className="text-overlay-HI lg:p-4 xm:p-8">
-            <p className="lg:text-sm xm:text-base">paint</p>
+          <img src={HI2} className="deskimg xs:hidden md:block" />
+          <img src={HI12} className="deskimg md:hidden xs:block" />
+          <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
+            <p className="xs:text-[13px] md:text-sm xm:text-base">paint</p>
           </div>
         </div>
         {/* 3 */}
@@ -82,9 +88,11 @@ const HomeIndustriesImages = () => {
           }
           id="fade-up-element"
         >
-          <img src={HI3} />
-          <div className="text-overlay-HI lg:p-4 xm:p-8">
-            <p className="lg:text-sm xm:text-base">pharmaceutical</p>
+          <img src={HI3} className="deskimg xs:hidden md:block" />
+          <img src={HI13} className="deskimg md:hidden xs:block" />
+
+          <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
+            <p className="xs:text-[13px] md:text-sm xm:text-base">pharmaceutical</p>
           </div>
         </div>
         {/* 4 */}
@@ -97,13 +105,14 @@ const HomeIndustriesImages = () => {
           }
           id="fade-up-element"
         >
-          <img src={HI4} />
-          <div className="text-overlay-HI lg:p-4 xm:p-8">
-            <p className="lg:text-sm xm:text-base">dying pigment</p>
+          <img src={HI4} className="deskimg xs:hidden md:block" />
+          <img src={HI14} className="deskimg md:hidden xs:block" />
+          <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
+            <p className="xs:text-[13px] md:text-sm xm:text-base">dying pigment</p>
           </div>
         </div>
       </div>
-    </>
+    </React.Fragment>
   );
 };
 

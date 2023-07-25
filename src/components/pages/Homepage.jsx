@@ -12,9 +12,9 @@ const Homepage = () => {
   return (
     <React.Fragment>
       <Banner />
-      <HomeSecond />
-      <HomeAbout />
-      <HomeUsps />
+      {/* <HomeSecond /> */}
+      {/* <HomeAbout /> */}
+      {/* <HomeUsps /> */}
       <HomeIndustries />
     </React.Fragment>
   );

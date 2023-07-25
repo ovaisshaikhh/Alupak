@@ -11,10 +11,10 @@ const FooterMenu = ({
   return (
     <React.Fragment>
       {/* @-desktop footer */}
-      <div className="sx:hidden md:block">
+      <div className="block xs:pt-4 md:pt-0 xs:relative z-10">
         <div className="text-center">
-          <h6 className="font-medium mb-4">{title}</h6>
-          <ul className="md:text-xs lg:text-sm xll:text-[0.73rem] font-normal">
+          <h6 className="md:text-sm lg:text-base xs:font-medium md:font-medium xs:mb-2 md:mb-4">{title}</h6>
+          <ul className="xs:text-xs md:text-xs lg:text-sm xll:text-[0.7rem] font-normal">
             <li
               // hover-underline-animation
               className="mb-2 hover:text-[#919191]"

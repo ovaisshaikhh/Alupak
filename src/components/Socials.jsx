@@ -7,7 +7,7 @@ import call from "../assets/iconcall.svg";
 
 const Socials = () => {
   return (
-    <div className="grid grid-cols-5 xs:gap-2 sg:gap-4 xll:gap-[0rem] justify-items-center  sx:mt-16 lg:mt-0 text-white ">
+    <div className="grid grid-cols-5 xs:gap-2 sg:gap-4 xll:gap-[0rem] justify-items-center items-center sx:my-6 md:mt-6 lg:mt-0 text-white">
       {/* @Facebook */}
       <p className=" rounded-full social-icon hover:animate-bounce">
         <a

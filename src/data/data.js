@@ -33,4 +33,21 @@ export const footerData = [
       },
     ],
   },
+  {
+    title: "Useful Links",
+    content: [
+      {
+        li: "Certificates",
+        link: "/contact",
+      },
+      {
+        li2: "Download PDF",
+        link2: "/careers",
+      },
+      {
+        li3: "Development",
+        link3: "/careers",
+      },
+    ],
+  },
 ];

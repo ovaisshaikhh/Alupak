@@ -4,7 +4,7 @@ import "../styles/modal.css";
 const Search = ({ closeModal }) => {
   return (
     <div className="flex justify-center items-center fixed top-0 left-0 w-full h-full modal-container">
-      <div className="bg-white p-5 rounded-lg max-w-md min-w-[50vw] min-h-[50vh] pt-0">
+      <div className="bg-white p-5 rounded-lg md:max-w-md md:min-w-[70vw] lg:max-w-md lg:min-w-[50vw] min-h-[50vh] pt-0">
         {/* close button */}
         <div
           className="block text-right cursor-pointer text-xl relative top-[-17px] right-[-38px]"

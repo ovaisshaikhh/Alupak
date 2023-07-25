@@ -44,8 +44,8 @@ const HomeIndustries = () => {
           ref={targetRef}
           className={
             isVisible
-              ? " w-[calc(100vw-7.1rem)] h-[5rem] background-animation"
-              : " w-[calc(100vw-7.1rem)] h-[5rem]"
+              ? "xs:w-[calc(100vw-2rem)] xs:h-[3rem] md:w-[calc(100vw-4rem)] lg:w-[calc(100vw-7.1rem)] md:h-[4rem] lg:h-[5rem] background-animation"
+              : "xs:w-[calc(100vw-2rem)] xs:h-[3rem] md:w-[calc(100vw-4rem)] lg:w-[calc(100vw-7.1rem)] md:h-[4rem] lg:h-[5rem]"
           }
         >
           {""}
@@ -54,25 +54,39 @@ const HomeIndustries = () => {
           ref={targetRef}
           className={
             isVisible
-              ? "w-[50%] h-[20rem] absolute right-0 background-animationV"
-              : "w-[50%] h-[20rem] absolute right-0"
+              ? "xs:w-[18%] md:w-[50%] xs:h-[10rem] md:h-[13rem] lg:h-[20rem] absolute right-0 background-animationV"
+              : "xs:w-[18%] md:w-[50%] xs:h-[10rem] md:h-[13rem] lg:h-[20rem] absolute right-0"
           }
         >
           {""}
         </div>
       </div>
-      {/*  */}
-      <div className="grid grid-cols-5 pt-12 lg:mx-0 xm:mx-12 lg:ml-[5rem] xm:ml-[10rem]">
-        <div className="col-span-4">
-          <HomeIndustriesImages />
-        </div>
-        <div>
+      {/* ------- */}
+      <div className="grid md:grid-cols-5 md:pt-8 lg:pt-12 lg:mx-0 xm:mx-12 md:ml-[4rem] lg:ml-[5rem] xm:ml-[10rem]">
+      <div className="xs:block md:hidden">
           <h2
             ref={targetRef}
             className={
               isVisible
-                ? "tracking-in-expand vertical-text lg:text-[3rem] xm:text-[5rem] font-black text-[#475569] pt-4 tracking-wider"
-                : "vertical-text lg:text-[3rem] xm:text-[5rem] font-black text-[#475569] pt-4 tracking-wider"
+                ? "tracking-in-expand xs:text-[2rem] font-black text-[#475569] pt-4 tracking-wider text-center"
+                : "xs:text-[2rem] font-black text-[#475569] pt-4 tracking-wider text-center"
+            }
+          >
+            Industries
+          </h2>
+        </div>
+
+
+        <div className="md:col-span-4">
+          <HomeIndustriesImages />
+        </div>
+        <div className="xs:hidden md:block">
+          <h2
+            ref={targetRef}
+            className={
+              isVisible
+                ? "tracking-in-expand vertical-text md:text-[2.5rem] lg:text-[3rem] xm:text-[5rem] font-black text-[#475569] pt-4 tracking-wider"
+                : "vertical-text md:text-[2.5rem] lg:text-[3rem] xm:text-[5rem] font-black text-[#475569] pt-4 tracking-wider"
             }
           >
             Industries
@@ -80,13 +94,11 @@ const HomeIndustries = () => {
         </div>
       </div>
       {/*  */}
-      <div className="text-center m-8 lg:mx-[10rem] xsm:mx-[20rem]">
-        <p className="mb-4">
-          Note that while most modern browsers support CSS writing-mode, it's a
-          good practice to test your code on different browsers to ensure
-          compatibility. Some older browsers might not fully support this
-          property, so you may need to consider alternative solutions for those
-          cases.
+      <div className="text-center m-8 md:mx-[8rem] lg:mx-[10rem] xsm:mx-[20rem]">
+        <p className="mb-4 xs:text-sm md:text-xs lg:text-sm">
+          Maintaining the quality of final goods while dispatching them for use
+          is an integral quest of major industries. Alupak promises to secure
+          the true essence of products with quality packaging materials.
         </p>
         <Button value={"Read More"} />
       </div>
