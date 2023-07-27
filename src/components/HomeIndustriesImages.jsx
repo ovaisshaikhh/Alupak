@@ -59,7 +59,7 @@ const HomeIndustriesImages = () => {
           <img src={HI1} className="deskimg xs:hidden md:block" />
           <img src={HI11} className="deskimg md:hidden xs:block" />
           <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
-            <p className="xs:text-[13px] md:text-sm xm:text-base">glue & adhesive</p>
+            <p className="xs:text-[12px] md:text-sm xm:text-base">glue & adhesive</p>
           </div>
         </div>
         {/* 2 */}
@@ -75,7 +75,7 @@ const HomeIndustriesImages = () => {
           <img src={HI2} className="deskimg xs:hidden md:block" />
           <img src={HI12} className="deskimg md:hidden xs:block" />
           <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
-            <p className="xs:text-[13px] md:text-sm xm:text-base">paint</p>
+            <p className="xs:text-[12px] md:text-sm xm:text-base">paint</p>
           </div>
         </div>
         {/* 3 */}
@@ -92,7 +92,7 @@ const HomeIndustriesImages = () => {
           <img src={HI13} className="deskimg md:hidden xs:block" />
 
           <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
-            <p className="xs:text-[13px] md:text-sm xm:text-base">pharmaceutical</p>
+            <p className="xs:text-[12px] md:text-sm xm:text-base">pharmaceutical</p>
           </div>
         </div>
         {/* 4 */}
@@ -108,7 +108,7 @@ const HomeIndustriesImages = () => {
           <img src={HI4} className="deskimg xs:hidden md:block" />
           <img src={HI14} className="deskimg md:hidden xs:block" />
           <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
-            <p className="xs:text-[13px] md:text-sm xm:text-base">dying pigment</p>
+            <p className="xs:text-[12px] md:text-sm xm:text-base">dying pigment</p>
           </div>
         </div>
       </div>

@@ -44,8 +44,8 @@ const HomeIndustries = () => {
           ref={targetRef}
           className={
             isVisible
-              ? "xs:w-[calc(100vw-2rem)] xs:h-[3rem] md:w-[calc(100vw-4rem)] lg:w-[calc(100vw-7.1rem)] md:h-[4rem] lg:h-[5rem] background-animation"
-              : "xs:w-[calc(100vw-2rem)] xs:h-[3rem] md:w-[calc(100vw-4rem)] lg:w-[calc(100vw-7.1rem)] md:h-[4rem] lg:h-[5rem]"
+              ? "xs:bg-[#ffd303] md:bg-transparent xs:w-[calc(100vw-4rem)] xs:h-[2.5rem] md:w-[calc(100vw-4rem)] lg:w-[calc(100vw-7.1rem)] md:h-[4rem] lg:h-[5rem] background-animation"
+              : "xs:bg-[#ffd303] md:bg-transparent xs:w-[calc(100vw-4rem)] xs:h-[2.5rem] md:w-[calc(100vw-4rem)] lg:w-[calc(100vw-7.1rem)] md:h-[4rem] lg:h-[5rem]"
           }
         >
           {""}
@@ -54,8 +54,8 @@ const HomeIndustries = () => {
           ref={targetRef}
           className={
             isVisible
-              ? "xs:w-[18%] md:w-[50%] xs:h-[10rem] md:h-[13rem] lg:h-[20rem] absolute right-0 background-animationV"
-              : "xs:w-[18%] md:w-[50%] xs:h-[10rem] md:h-[13rem] lg:h-[20rem] absolute right-0"
+              ? "xs:bg-[#ffd303] md:bg-transparent xs:w-[13%] md:w-[50%] xs:h-[5rem] md:h-[13rem] lg:h-[20rem] absolute right-0 background-animationV"
+              : "xs:bg-[#ffd303] md:bg-transparent xs:w-[13%] md:w-[50%] xs:h-[5rem] md:h-[13rem] lg:h-[20rem] absolute right-0"
           }
         >
           {""}
@@ -63,23 +63,24 @@ const HomeIndustries = () => {
       </div>
       {/* ------- */}
       <div className="grid md:grid-cols-5 md:pt-8 lg:pt-12 lg:mx-0 xm:mx-12 md:ml-[4rem] lg:ml-[5rem] xm:ml-[10rem]">
-      <div className="xs:block md:hidden">
+        {/* mobile */}
+        <div className="xs:block md:hidden">
           <h2
             ref={targetRef}
             className={
               isVisible
-                ? "tracking-in-expand xs:text-[2rem] font-black text-[#475569] pt-4 tracking-wider text-center"
-                : "xs:text-[2rem] font-black text-[#475569] pt-4 tracking-wider text-center"
+                ? "tracking-in-expand fontBoldAlupak xs:text-[2rem] font-black text-[#475569] pt-4 tracking-wider text-center"
+                : "fontBoldAlupak xs:text-[2rem] font-black text-[#475569] pt-4 tracking-wider text-center"
             }
           >
             Industries
           </h2>
         </div>
 
-
-        <div className="md:col-span-4">
+        <div className="md:col-span-4 xs:mx-4 md:mx-0">
           <HomeIndustriesImages />
         </div>
+        {/* desktop */}
         <div className="xs:hidden md:block">
           <h2
             ref={targetRef}

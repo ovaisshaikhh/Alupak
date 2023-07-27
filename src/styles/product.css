@@ -1,0 +1,95 @@
+.hidden-text {
+  /* display: none; */
+  /* transition: height 0.3s ease; */
+  /* height: 0; */
+}
+
+.hidden-text {
+  max-height: 0;
+  /* overflow: hidden; */
+  transition: max-height 0.3s ease;
+}
+
+.hidden-text.open {
+  /* max-height: 300px; */
+  transition: max-height 0.3s ease forward;
+}
+
+/* .hidden-text.open {
+  width: 300px;
+  height: 10px;
+  background: red;
+  transition: height 2s;
+} */
+/* .hidden-text.div2 {
+  width: 300px;
+  height: 10px;
+  background: red;
+  transition: height 2s;
+}
+
+.hidden-text.div2.open{
+  background: blue;
+  height: 300px;
+} */
+
+.hidden-text.open {
+  /* display: block; */
+  /* height: 300px;
+  transition: w; */
+  /* transform: translateY(-100%); */
+  /* animation: myAnim 1s ease 0s 1 normal forwards; */
+}
+
+/* .hidden-text.closed {
+  display: block;
+  transform: scaleY(0);
+}
+@keyframes myAnim {
+  0% {
+    transform: translateY(90%);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+} */
+/* ------------------- */
+.container {
+  position: relative;
+}
+.div1,
+.div2 {
+  position: absolute;
+}
+
+.MobProductCarouselIndustries .flickity-viewport {
+  height: 50vh !important;
+}
+@media (min-width: 768px) {
+  .container {
+    height: 300px;
+  }
+  .div1,
+  .div2 {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .div1,
+  .div2 {
+    margin: 0 1rem;
+  }
+  .hidden-text.div2.open {
+    /* border: 2px solid red; */
+  }
+  .hidden-text.div2.open{
+    width: 100%;
+    margin: 0;
+  }
+  .hidden-text.div2.open .info {
+    height: 320px;
+  }
+}

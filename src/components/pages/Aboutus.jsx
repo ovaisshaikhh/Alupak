@@ -1,7 +1,10 @@
-// import React from 'react'
+import React from 'react'
+import { AboutBanner } from "../index"
 
 const Aboutus = () => {
-  return <div>Aboutus</div>;
+  return <div>
+    <AboutBanner />
+  </div>;
 };
 
 export default Aboutus;

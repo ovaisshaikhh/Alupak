@@ -1,5 +1,8 @@
 import React, { useRef, useEffect, useState } from "react";
-import { HomeSecondImages } from "../components/index";
+import {
+  HomeSecondImages,
+  HomeSecondImagesCarousel,
+} from "../components/index";
 import "../styles/animate.css";
 
 const HomeSecond = () => {
@@ -43,8 +46,8 @@ const HomeSecond = () => {
           ref={targetRef}
           className={
             isVisible
-              ? "background-animation_H md:w-[7rem] md:h-[10rem] lg:w-[10rem] lg:h-[14rem] xm:w-[14rem] xm:h-[14rem]"
-              : "lg:w-[10rem] md:w-[7rem] md:h-[10rem] lg:h-[40vh] xm:w-[14rem] xm:h-[40vh]"
+              ? "background-animation_H xs:w-[4rem] xs:h-[8rem] md:w-[7rem] md:h-[10rem] lg:w-[10rem] lg:h-[14rem] xm:w-[14rem] xm:h-[14rem]"
+              : "xs:w-[4rem] xs:h-[8rem] lg:w-[10rem] md:w-[7rem] md:h-[10rem] lg:h-[40vh] xm:w-[14rem] xm:h-[40vh]"
           }
         >
           {""}
@@ -61,19 +64,26 @@ const HomeSecond = () => {
         </div>
       </div>
       {/* ------------------ */}
-      <div className="md:mx-[4rem] lg:mx-[6rem] xsm:mx-[9rem] lg:py-10 md:py-8 md:pb-4">
+      <div className="xs:py-8 md:mx-[4rem] lg:mx-[6rem] xsm:mx-[9rem] lg:py-10 md:py-8 md:pb-4">
         <h1
           ref={targetRef}
           className={
             isVisible
-              ? "tracking-in-expand text-[#3f3f46] md:text-[2.5rem] lg:text-[2.9rem] xm:text-[3.5rem] font-black tracking-wide md:leading-[3rem] lg:leading-[3.5rem] md:mb-3 lg:mb-4 fontBoldAlupak"
-              : "text-[#3f3f46] md:text-[2.5rem] lg:text-[2.9rem] xm:text-[3.5rem] font-black tracking-wide leading-[3.5rem] md:mb-3 lg:mb-4 fontBoldAlupak"
+              ? "tracking-in-expand text-[#3f3f46] xs:text-[2.5rem] md:text-[2.5rem] lg:text-[2.9rem] xm:text-[3.5rem] font-black tracking-wide md:leading-[3rem] lg:leading-[3.5rem] md:mb-3 lg:mb-4 fontBoldAlupak xs:flex xs:justify-center md:block xs:leading-10 "
+              : "text-[#3f3f46] md:text-[2.5rem] xs:text-[2.5rem] lg:text-[2.9rem] xm:text-[3.5rem] font-black tracking-wide leading-[3.5rem] md:mb-3 lg:mb-4 fontBoldAlupak  xs:flex xs:justify-center md:block xs:leading-10"
           }
         >
           Our <br />
           Products
         </h1>
-        <HomeSecondImages />
+        {/* desktop */}
+        <div className="md:block xs:hidden">
+          <HomeSecondImages />
+        </div>
+        {/* mobile */}
+        <div className="md:hidden xs:block xs:mx-4 md:mx-[unset] mt-[-2rem]">
+          <HomeSecondImagesCarousel />
+        </div>
       </div>
     </div>
   );

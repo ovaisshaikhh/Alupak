@@ -6,11 +6,21 @@ body {
 .background-animation_H {
   position: relative;
   top: 0;
-  left: 0;
+  /* left: 0; */
   width: inherit;
   height: 0;
   background-color: #fff;
   animation: colorFillAnimationH 1s linear forwards;
+}
+@media (min-width:768px){
+  .background-animation_H{
+     left: 0;
+  }
+}
+@media (max-width:768px){
+  .background-animation_H{
+     left: 50%;
+  }
 }
 
 @keyframes colorFillAnimationH {
