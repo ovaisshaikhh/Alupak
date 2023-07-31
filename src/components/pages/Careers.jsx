@@ -1,7 +1,13 @@
-// import React from 'react'
+import React from "react";
+import { CareersBanner, CareersForm } from "../index";
 
 const Careers = () => {
-  return <div>Careers</div>;
+  return (
+    <div>
+      <CareersBanner />
+      <CareersForm />
+    </div>
+  );
 };
 
 export default Careers;

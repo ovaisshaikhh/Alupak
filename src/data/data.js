@@ -42,7 +42,7 @@ export const footerData = [
       },
       {
         li2: "Download PDF",
-        link2: "/careers",
+        link2: "/downloads",
       },
       {
         li3: "Development",

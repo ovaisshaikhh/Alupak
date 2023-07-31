@@ -1,4 +1,3 @@
-// import React from 'react';
 import React from "react";
 import {
   Banner,
@@ -23,7 +22,6 @@ const Homepage = () => {
       <div className="sx:hidden md:block">
         <HomeUsps />
       </div>
-
       <HomeIndustries />
     </React.Fragment>
   );

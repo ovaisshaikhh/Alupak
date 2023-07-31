@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import time from "../assets/Timer.png";
 import quality from "../assets/quality.png";
 import sustain from "../assets/Sustain.png";
+import { Usps } from "../components/index";
 
 const HomeUsps = () => {
   const targetRef = useRef(null);
@@ -48,49 +49,24 @@ const HomeUsps = () => {
         }
       >
         <div className="grid grid-cols-3 gap-8 relative top-[-2.2rem]">
-          {/* 1 */}
-          <div className="text-center">
-            <div className="">
-              <img className="m-auto md:w-[25%] xsm:w-[15%]" src={time} />
-            </div>
-            <div className="md:px-3 lg:px-8 xsm:px-10">
-              <h5 className="lg:text-base xsm:text-lg my-3">Timely Delivery</h5>
-              <p className="md:text-xs xsm:text-sm text-[#d4d4d8]">
-                We understand our customers’ needs, hence we aim to do swift and
-                in-time deliveries.
-              </p>
-            </div>
-          </div>
-          {/* 2 */}
-          <div className="text-center">
-            <div>
-              <img className="m-auto md:w-[25%] xsm:w-[15%]" src={quality} />
-            </div>
-            <div className="md:px-3 lg:px-8 xsm:px-10">
-              <h5 className="lg:text-base xsm:text-lg my-3">
-                High Quality Materials
-              </h5>
-              <p className="md:text-xs xsm:text-sm text-[#d4d4d8]">
-                We manufacture high-grade packaging materials to keep your
-                products safe and in good shape.
-              </p>
-            </div>
-          </div>
-          {/* 3 */}
-          <div className="text-center">
-            <div>
-              <img className="m-auto md:w-[25%] xsm:w-[15%]" src={sustain} />
-            </div>
-            <div className="md:px-3 lg:px-8 xsm:px-10">
-              <h5 className="lg:text-base xsm:text-lg my-3">
-                Sustainable Manufacturing
-              </h5>
-              <p className="md:text-xs xsm:text-sm text-[#d4d4d8]">
-                We consider all safety and quality standards to manufacture our
-                products.
-              </p>
-            </div>
-          </div>
+          <Usps
+            imageUrl={time}
+            title="Timely Delivery"
+            paragraph="We understand our customers’ needs, hence we aim to do swift and
+        in-time deliveries."
+          />
+          <Usps
+            imageUrl={quality}
+            title="High Quality Materials"
+            paragraph="We manufacture high-grade packaging materials to keep your
+            products safe and in good shape."
+          />
+          <Usps
+            imageUrl={sustain}
+            title="Sustainable Manufacturing"
+            paragraph="We consider all safety and quality standards to manufacture our
+            products."
+          />
         </div>
       </div>
     </React.Fragment>

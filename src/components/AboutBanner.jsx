@@ -1,5 +1,5 @@
 import React from "react";
-import mobProductbanner from "../assets/pbmob.png";
+// import mobProductbanner from "../assets/pbmob.png";
 import Productbanner from "../assets/about/Group 11.png";
 import "../styles/banner.css";
 import "../styles/font.css";

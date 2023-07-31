@@ -85,6 +85,7 @@ const HomeSecond = () => {
           <HomeSecondImagesCarousel />
         </div>
       </div>
+      {/* ----------- */}
     </div>
   );
 };

@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
-import AboutBanner from "../assets/Mask Group 10.png";
-import AbputBanner2 from "../assets/aboutb.png";
-import mobBanner from "../assets/Mask Group 10/Mask Group 10@2x.png"
+import AbputBanner2 from "../assets/home/aboutb.png";
+import mobBanner from "../assets/home/Mask Group 10@2x.png";
 import stamp from "../assets/isocertified.png";
 import "../styles/banner.css";
 import { Button } from "../components/index";
@@ -50,12 +49,21 @@ const HomeAbout = () => {
             : "fade-up-element image-container"
         }
       >
-        {/* <img src={AboutBanner} alt="Timer_Image" /> */}
-        <img className="xs:hidden md:block" src={AbputBanner2} alt="banner_about" />
-        <img className="xs:block md:hidden h-[80vh] object-cover" src={mobBanner} alt="banner_about" />
+        <img
+          className="xs:hidden md:block"
+          src={AbputBanner2}
+          alt="banner_about"
+        />
+        <img
+          className="xs:block md:hidden h-[80vh] object-cover"
+          src={mobBanner}
+          alt="banner_about"
+        />
         <div className="text-overlay text-white xs:px-[2rem] xs:py-[2rem] md:px-[3rem] lg:px-[7rem]">
           <div>
-            <h1 className="text-[#ffd303] xs:text-[2rem] lg:text-[3rem] font-black fontBoldAlupak xs:mb-4 md:mb-[unset]">About Us</h1>
+            <h1 className="text-[#ffd303] xs:text-[2rem] lg:text-[3rem] font-black fontBoldAlupak xs:mb-4 md:mb-[unset]">
+              About Us
+            </h1>
             <p className="md:mb-2 xs:mb-4 xs:text-sm lg:mb-4 md:text-xs lg:text-sm">
               Alupak is Pakistan’s trusted aluminum collapsible tube supplier
               since 1983 based in Karachi, ISO 9001-2015 certified as well as
@@ -72,7 +80,11 @@ const HomeAbout = () => {
           {/*  */}
           {/* xs:hidden md:block */}
           <div className="absolute w-[100%] xs:left-0 xs:top-[-96px] md:top-[unset] md:left-[-61px] lg:left-[-91px]">
-            <img className="xs:w-[50%] md:w-[25%] lg:w-[30%] xsm:w-[20%] xs:m-auto md:m-[unset]" src={stamp} alt="stamp" />
+            <img
+              className="xs:w-[50%] md:w-[25%] lg:w-[30%] xsm:w-[20%] xs:m-auto md:m-[unset]"
+              src={stamp}
+              alt="stamp"
+            />
           </div>
         </div>
       </div>

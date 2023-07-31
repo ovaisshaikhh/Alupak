@@ -23,6 +23,18 @@ import ProductsIndustiresCarousel from "./ProductsIndustiresCarousel";
 import ProductPageImageGridCarousel from "./ProductPageImageGridCarousel";
 import ProductsIndustiresCarouselMob from "./ProductsIndustiresCarouselMob";
 import AboutBanner from "./AboutBanner";
+import CareersBanner from "./CareersBanner";
+import CareersForm from "./CareersForm";
+import AboutMission from "./AboutMission";
+import AboutUsps from "./AboutUsps";
+import DownloadsBanner from "./DownloadsBanner";
+import DownloadsUsefulLinks from "./DownloadsUsefulLinks";
+import Cards from "./Cards";
+import Usps from "./Usps";
+import ProductGridCard from "./ProductGridCard";
+import DownloadCard from "./DownloadCard";
+import Downloadsbottom from "./Downloadsbottom";
+import DownloadsUsefulLinksCarousel from "./DownloadsUsefulLinksCarousel"
 
 export {
   Navbar,
@@ -49,5 +61,17 @@ export {
   ProductsIndustiresCarousel,
   ProductPageImageGridCarousel,
   ProductsIndustiresCarouselMob,
-  AboutBanner
+  AboutBanner,
+  CareersBanner,
+  CareersForm,
+  AboutMission,
+  AboutUsps,
+  DownloadsBanner,
+  DownloadsUsefulLinks,
+  Cards,
+  Usps,
+  ProductGridCard,
+  DownloadCard,
+  Downloadsbottom,
+  DownloadsUsefulLinksCarousel
 };

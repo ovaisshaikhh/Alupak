@@ -1,12 +1,12 @@
 import React, { useEffect, useState, useRef } from "react";
-import HI1 from "../assets/HI1.png";
-import HI2 from "../assets/HI2-2.png";
-import HI3 from "../assets/HI3.png";
-import HI4 from "../assets/HI4-2.png";
-import HI11 from "../assets/Mask Group 32/Mask Group 32@2x.png";
-import HI12 from "../assets/Mask Group 33/Mask Group 33@2x.png";
-import HI13 from "../assets/Mask Group 34/Mask Group 34@2x.png";
-import HI14 from "../assets/Mask Group 35/Mask Group 35@2x.png";
+import HI1 from "../assets/home/HI1.png";
+import HI2 from "../assets/home/HI2-2.png";
+import HI3 from "../assets/home/HI3.png";
+import HI4 from "../assets/home/HI4-2.png";
+import HI11 from "../assets/home/Mask Group 32@2x.png";
+import HI12 from "../assets/home/Mask Group 33@2x.png";
+import HI13 from "../assets/home/Mask Group 34@2x.png";
+import HI14 from "../assets/home/Mask Group 35@2x.png";
 import "../styles/banner.css";
 
 const HomeIndustriesImages = () => {
@@ -59,7 +59,9 @@ const HomeIndustriesImages = () => {
           <img src={HI1} className="deskimg xs:hidden md:block" />
           <img src={HI11} className="deskimg md:hidden xs:block" />
           <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
-            <p className="xs:text-[12px] md:text-sm xm:text-base">glue & adhesive</p>
+            <p className="xs:text-[12px] md:text-sm xm:text-base">
+              glue & adhesive
+            </p>
           </div>
         </div>
         {/* 2 */}
@@ -92,7 +94,9 @@ const HomeIndustriesImages = () => {
           <img src={HI13} className="deskimg md:hidden xs:block" />
 
           <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
-            <p className="xs:text-[12px] md:text-sm xm:text-base">pharmaceutical</p>
+            <p className="xs:text-[12px] md:text-sm xm:text-base">
+              pharmaceutical
+            </p>
           </div>
         </div>
         {/* 4 */}
@@ -108,7 +112,9 @@ const HomeIndustriesImages = () => {
           <img src={HI4} className="deskimg xs:hidden md:block" />
           <img src={HI14} className="deskimg md:hidden xs:block" />
           <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
-            <p className="xs:text-[12px] md:text-sm xm:text-base">dying pigment</p>
+            <p className="xs:text-[12px] md:text-sm xm:text-base">
+              dying pigment
+            </p>
           </div>
         </div>
       </div>

@@ -7,6 +7,7 @@ import {
   PageNotFound,
   Faqs,
   Contact,
+  Downloads
 } from "./components/pages";
 import { Route, Routes } from "react-router-dom";
 import "./styles/main.css";
@@ -23,6 +24,7 @@ function App() {
         <Route path="/careers" element={<Careers />} />
         <Route path="/faqs" element={<Faqs />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/downloads" element={<Downloads />} />
         <Route path="/*" element={<PageNotFound />} />
       </Routes>
 

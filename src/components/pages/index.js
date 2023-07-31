@@ -5,5 +5,6 @@ import Careers from "./Careers";
 import PageNotFound from "./PageNotFound";
 import Faqs from "./Faqs";
 import Contact from "./Contact";
+import Downloads from "./Downloads";
 
-export { Homepage, Aboutus, Products, Careers, PageNotFound, Faqs, Contact };
+export { Homepage, Aboutus, Products, Careers, PageNotFound, Faqs, Contact, Downloads };
