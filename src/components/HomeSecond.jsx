@@ -41,13 +41,13 @@ const HomeSecond = () => {
 
   return (
     <div className="relative">
-      <div className="md:ml-[3rem] lg:ml-[4rem] xsm:ml-[6rem] absolute z-[-1] ">
+      <div className="xs:right-[50%] md:right-[unset] md:ml-[3rem] lg:ml-[4rem] xsm:ml-[6rem] absolute z-[-1] ">
         <div
           ref={targetRef}
           className={
             isVisible
-              ? "background-animation_H xs:w-[4rem] xs:h-[8rem] md:w-[7rem] md:h-[10rem] lg:w-[10rem] lg:h-[14rem] xm:w-[14rem] xm:h-[14rem]"
-              : "xs:w-[4rem] xs:h-[8rem] lg:w-[10rem] md:w-[7rem] md:h-[10rem] lg:h-[40vh] xm:w-[14rem] xm:h-[40vh]"
+              ? "background-animation_H xs:w-[13rem] xs:h-[8rem] md:w-[7rem] md:h-[10rem] lg:w-[10rem] lg:h-[14rem] xm:w-[14rem] xm:h-[14rem]"
+              : "xs:w-[13rem] xs:h-[8rem] lg:w-[10rem] md:w-[7rem] md:h-[10rem] lg:h-[40vh] xm:w-[14rem] xm:h-[40vh]"
           }
         >
           {""}

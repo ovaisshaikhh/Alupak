@@ -1,7 +1,8 @@
 import React, { useEffect, useState, useRef } from "react";
-import time from "../assets/Timer.png";
-import quality from "../assets/quality.png";
-import sustain from "../assets/Sustain.png";
+import time from "../assets/about/technical-support.png";
+import quality from "../assets/about/checklist.png";
+import sustain from "../assets/about/cost.png";
+import { Usps, AboutUspsCarousel } from "../components/index";
 
 const AboutUsps = () => {
   const targetRef = useRef(null);
@@ -38,61 +39,41 @@ const AboutUsps = () => {
   };
   return (
     <React.Fragment>
-      <div
-        ref={targetRef}
-        className={
-          isVisible
-            ? "fade-up-element show bg-[#1f1f1f] text-white mb-4 lg:px-[5rem] mt-20"
-            : "fade-up-element bg-[#1f1f1f] text-white mb-4 lg:px-[5rem] mt-20"
-        }
-      >
-        <div className="grid grid-cols-3 gap-8 relative top-[-2.2rem]">
-          {/* 1 */}
-          <div className="text-center">
-            <div className="">
-              <img className="m-auto md:w-[25%] xsm:w-[15%]" src={time} />
-            </div>
-            <div className="md:px-3 lg:px-8 xsm:px-10">
-              <h5 className="lg:text-base xsm:text-lg my-3">
-                Technical Expertise
-              </h5>
-              <p className="md:text-xs xsm:text-sm text-[#d4d4d8]">
-                We hold a diverse team of experts who specialize in knowledge of
-                what goes into creating Alupak’s products.
-              </p>
-            </div>
-          </div>
-          {/* 2 */}
-          <div className="text-center">
-            <div>
-              <img className="m-auto md:w-[25%] xsm:w-[15%]" src={quality} />
-            </div>
-            <div className="md:px-3 lg:px-8 xsm:px-10">
-              <h5 className="lg:text-base xsm:text-lg my-3">
-                Regulatory Compliance
-              </h5>
-              <p className="md:text-xs xsm:text-sm text-[#d4d4d8]">
-                We strictly follow all production and quality standards, laws,
-                and guidelines to ensure the safe manufacturing of goods.
-              </p>
-            </div>
-          </div>
-          {/* 3 */}
-          <div className="text-center">
-            <div>
-              <img className="m-auto md:w-[25%] xsm:w-[15%]" src={sustain} />
-            </div>
-            <div className="md:px-3 lg:px-8 xsm:px-10">
-              <h5 className="lg:text-base xsm:text-lg my-3">
-                Competitive Pricing
-              </h5>
-              <p className="md:text-xs xsm:text-sm text-[#d4d4d8]">
-                We offer good pricing points which are based on our quality
-                production standards as well as the market rate.
-              </p>
-            </div>
+      <div className="lg:block xs:hidden">
+        <div
+          ref={targetRef}
+          className={
+            isVisible
+              ? "fade-up-element show bg-[#1f1f1f] text-white mb-4 lg:px-[5rem] mt-20"
+              : "fade-up-element bg-[#1f1f1f] text-white mb-4 lg:px-[5rem] mt-20"
+          }
+        >
+          <div className="grid grid-cols-3 gap-8 relative top-[-2.2rem]">
+            <Usps
+              imageUrl={time}
+              title="Technical Expertise"
+              paragraph="We hold a diverse team of experts who specialize in knowledge of
+            what goes into creating Alupak’s products."
+            />
+            <Usps
+              imageUrl={quality}
+              title="Regulatory Compliance"
+              paragraph="We strictly follow all production and quality standards, laws,
+            and guidelines to ensure the safe manufacturing of goods."
+            />
+            <Usps
+              imageUrl={sustain}
+              title="Competitive Pricing"
+              paragraph="We offer good pricing points which are based on our quality
+            production standards as well as the market rate."
+            />
           </div>
         </div>
+      </div>
+
+      {/* ----------- */}
+      <div className="lg:hidden xs:block">
+        <AboutUspsCarousel />
       </div>
     </React.Fragment>
   );

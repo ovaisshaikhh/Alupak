@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Flickity from "react-flickity-component";
 import "../styles/flickity.css";
 import { DownloadCard } from "./index";
@@ -13,27 +13,27 @@ import d8 from "../assets/downloads/test.png";
 import d9 from "../assets/downloads/acrylic2.png";
 
 const flickityOptions = {
-    initialIndex: 0,
-    autoPlay: true,
-    prevNextButtons: true,
-    pageDots: false,
-    draggable: true,
-    pauseAutoPlayOnHover: false,
-    wrapAround: true,
-  };
+  initialIndex: 0,
+  autoPlay: true,
+  prevNextButtons: true,
+  pageDots: false,
+  draggable: true,
+  pauseAutoPlayOnHover: false,
+  wrapAround: true,
+};
 
 const DownloadsUsefulLinksCarousel = () => {
   return (
     <div className="mt-12">
-    <Flickity
-      className={"carousel HomeProductsCarousel"}
-      elementType={"div"}
-      options={flickityOptions}
-      disableImagesLoaded={false}
-      reloadOnUpdate
-      static
-      // groupCells={2}
-    >
+      <Flickity
+        className={"carousel DownloadsCarousel"}
+        elementType={"div"}
+        options={flickityOptions}
+        disableImagesLoaded={false}
+        reloadOnUpdate
+        static
+        // groupCells={2}
+      >
         <DownloadCard
           imageUrl={d1}
           title="Alucan Development"
@@ -85,10 +85,9 @@ const DownloadsUsefulLinksCarousel = () => {
           title="Collapsible Aluminium Tube"
           paragraph="Effortlessly package ointments and more with our collapsible aluminum tubes – the epitome of convenience and durability. Click here to download the manual!"
         />
-      
-    </Flickity>
-  </div>
-  )
-}
+      </Flickity>
+    </div>
+  );
+};
 
-export default DownloadsUsefulLinksCarousel
+export default DownloadsUsefulLinksCarousel;

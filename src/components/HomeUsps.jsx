@@ -12,7 +12,7 @@ const HomeUsps = () => {
     const options = {
       root: null,
       rootMargin: "0px",
-      threshold: 0.3, // Adjust this value to control the visibility threshold
+      threshold: 0, // Adjust this value to control the visibility threshold
     };
 
     const observer = new IntersectionObserver(handleIntersection, options);

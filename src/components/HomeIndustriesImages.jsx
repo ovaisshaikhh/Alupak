@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useRef } from "react";
-import HI1 from "../assets/home/HI1.png";
-import HI2 from "../assets/home/HI2-2.png";
-import HI3 from "../assets/home/HI3.png";
-import HI4 from "../assets/home/HI4-2.png";
+import HI1 from "../assets/home/Glue&adhesive.jpg";
+import HI2 from "../assets/home/Paint .jpg";
+import HI3 from "../assets/home/Pharmaceutical.jpg";
+import HI4 from "../assets/home/Dying Pigment.jpg";
 import HI11 from "../assets/home/Mask Group 32@2x.png";
 import HI12 from "../assets/home/Mask Group 33@2x.png";
 import HI13 from "../assets/home/Mask Group 34@2x.png";

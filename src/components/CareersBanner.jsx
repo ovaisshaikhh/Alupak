@@ -6,7 +6,8 @@ import "../styles/animate.css";
 
 const CareersBanner = () => {
   return (
-    <div className="bg-[#ffd303] relative">
+    // bg-[#ffd303]
+    <div className=" relative">
       <img
         className="w-[100vw] xs:hidden md:block"
         src={Productbanner}

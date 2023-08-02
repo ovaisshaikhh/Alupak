@@ -7,7 +7,7 @@ import {
   PageNotFound,
   Faqs,
   Contact,
-  Downloads
+  Downloads,
 } from "./components/pages";
 import { Route, Routes } from "react-router-dom";
 import "./styles/main.css";

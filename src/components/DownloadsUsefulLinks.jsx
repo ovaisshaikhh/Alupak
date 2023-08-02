@@ -12,12 +12,13 @@ import d9 from "../assets/downloads/acrylic2.png";
 
 const DownloadsUsefulLinks = () => {
   return (
-    <div className="my-8">
+    <div className="my-8 xs:mx-8">
       <div className="flex flex-col items-center mb-12">
         <h6 className="fontBoldAlupak text-[1.5rem]">USEFUL LINKS</h6>
         <span className="bg-[#ffd303] h-[.2rem] w-[7rem] mt-3 mb-2"></span>
         <p className="text-center">
-          Here are some of our significant links to unlock details of our <br />
+          Here are some of our significant links to unlock details of our{" "}
+          <br className="xs:hidden md:block" />
           certifications and materials.
         </p>
       </div>

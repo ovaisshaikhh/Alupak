@@ -10,7 +10,7 @@ const Downloads = () => {
     <div>
       <DownloadsBanner />
       <DownloadsUsefulLinks />
-      {/* <Downloadsbottom /> */}
+      <Downloadsbottom />
     </div>
   );
 };

@@ -4,7 +4,7 @@ import "../styles/modal.css";
 const Search = ({ closeModal }) => {
   return (
     <div className="flex justify-center items-center fixed top-0 left-0 w-full h-full modal-container">
-      <div className="bg-white p-5 rounded-lg md:max-w-md md:min-w-[70vw] lg:max-w-md lg:min-w-[50vw] min-h-[50vh] pt-0">
+      <div className="bg-white p-5 rounded-lg xs:w-[80%] md:max-w-md md:min-w-[70vw] lg:max-w-md lg:min-w-[50vw] min-h-[50vh] pt-0">
         {/* close button */}
         <div
           className="block text-right cursor-pointer text-xl relative top-[-17px] right-[-38px]"
@@ -39,7 +39,7 @@ const Search = ({ closeModal }) => {
             <input
               type="search"
               id="search"
-              className="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 outline-none"
+              className="block w-full xs:p-2 xs:pl-10 md:p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 outline-none"
               placeholder="Search documentation"
               required
             />

@@ -13,7 +13,6 @@ const ProductPageImageGrid = () => {
   const [showText2, setShowText2] = useState(false);
   const [showText3, setShowText3] = useState(false);
 
-
   const toggleText = () => {
     setShowText(!showText);
     setShowText2(false);
@@ -35,13 +34,13 @@ const ProductPageImageGrid = () => {
       <div className="absolute w-[100vw] bottom-[-200px]">
         <div className="grid grid-cols-3 gap-0 justify-items-center md:mx-60 h-[60vh]">
           {/* @1 */}
-          <div className="container ">
+          <div className="container">
             {/* visible */}
-            <div className="div1">
-              <img src={p1} />
+            <div className="div1 ">
+              <img src={p1} className="rounded-lg shadow-lg" />
               <div
                 onClick={toggleText}
-                className="bg-[#ffd303] flex items-center justify-between px-4 py-2 font-semibold text-[#334155] cursor-pointer arrow"
+                className="rounded-b-lg absolute left-0 right-0 bottom-0 bg-[#ffd303] flex items-center justify-between px-4 py-2 font-semibold text-[#334155] cursor-pointer arrow"
               >
                 <h6>Aluminum Cartridge</h6>
                 <i className="fas fa-angle-up"></i>
@@ -53,7 +52,7 @@ const ProductPageImageGrid = () => {
                 className={`hidden-text div2 ${showText ? "open" : "closed"}`}
                 onClick={toggleText}
               >
-                <div className="info text-center py-8 px-10 bg-[#ffd303] div2">
+                <div className="info text-center py-8 px-10 bg-[#ffd303] div2 rounded-lg">
                   <img className="w-[20%] m-auto" src={v1} />
                   <h1 className="font-bold my-3">Aluminum Cartridge</h1>
                   <p className="text-sm mb-2">
@@ -70,10 +69,10 @@ const ProductPageImageGrid = () => {
           <div className="container">
             {/* visible */}
             <div className="div1">
-              <img src={p2} />
+              <img src={p2} className="rounded-lg shadow-lg" />
               <div
                 onClick={toggleText2}
-                className="bg-[#ffd303] flex items-center justify-between px-4 py-2 font-semibold text-[#334155] cursor-pointer arrow"
+                className="rounded-b-lg absolute left-0 right-0 bottom-0 bg-[#ffd303] flex items-center justify-between px-4 py-2 font-semibold text-[#334155] cursor-pointer arrow"
               >
                 <h6>Collapsable Aluminum Tube</h6>
                 <i className="fas fa-angle-up"></i>
@@ -86,7 +85,7 @@ const ProductPageImageGrid = () => {
                 // className="hidden-text"
                 onClick={toggleText2}
               >
-                <div className="info text-center py-8 px-10 bg-[#ffd303] div2">
+                <div className="info text-center py-8 px-10 bg-[#ffd303] div2 rounded-lg">
                   <img className="w-[20%] m-auto" src={v2} />
                   <h1 className="font-bold my-3">Collapsable Aluminum Tube</h1>
                   <p className="text-sm mb-2">
@@ -103,10 +102,10 @@ const ProductPageImageGrid = () => {
           <div className="container">
             {/* visible */}
             <div className="div1">
-              <img src={p3} />
+              <img src={p3} className="rounded-lg shadow-lg" />
               <div
                 onClick={toggleText3}
-                className="bg-[#ffd303] flex items-center justify-between px-4 py-2 font-semibold text-[#334155] cursor-pointer arrow"
+                className="rounded-b-lg absolute left-0 right-0 bottom-0 bg-[#ffd303] flex items-center justify-between px-4 py-2 font-semibold text-[#334155] cursor-pointer arrow"
               >
                 <h6>Rigid Aluminium Tubes</h6>
                 <i className="fas fa-angle-up"></i>
@@ -116,10 +115,9 @@ const ProductPageImageGrid = () => {
             {showText3 && (
               <div
                 className={`hidden-text div2 ${showText3 ? "open" : "closed"}`}
-                // className="hidden-text"
-                onClick={toggleText2}
+                onClick={toggleText3}
               >
-                <div className="info text-center py-8 px-10 bg-[#ffd303] div2">
+                <div className="info text-center py-8 px-10 bg-[#ffd303] div2 rounded-lg">
                   <img className="w-[20%] m-auto" src={v3} />
                   <h1 className="font-bold my-3">Rigid Aluminium Tubes</h1>
                   <p className="text-sm mb-2">

@@ -4,7 +4,7 @@ const DownloadCard = ({ imageUrl, title, paragraph, link }) => {
   return (
     <div
       className="text-center border-2 border-[#ffd303] flex flex-col items-center p-6 hover:bg-[#ffd303] cursor-pointer
-    transform bg-white transition duration-500 justify-between"
+    transform xs:bg-[#ffd303] lg:bg-white transition duration-500 justify-between"
     >
       <div className="flex flex-col items-center">
         <div className="t4s-eff-border-run relative bg-[#F5F5F5] p-4 rounded-full w-[fit-content]">

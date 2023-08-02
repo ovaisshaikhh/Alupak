@@ -24,7 +24,7 @@ const CareersForm = () => {
             for="text"
             className="block mb-2 text-sm font-medium text-gray-900"
           >
-            Name<span className="text-red-600">*</span>
+            Name<span className="text-[#ffd303]">*</span>
           </label>
           <input
             type="text"
@@ -38,7 +38,7 @@ const CareersForm = () => {
             for="email"
             className="block mb-2 text-sm font-medium text-gray-900"
           >
-            Email<span className="text-red-600">*</span>
+            Email<span className="text-[#ffd303]">*</span>
           </label>
           <input
             type="email"
@@ -52,7 +52,7 @@ const CareersForm = () => {
             for="email"
             className="block mb-2 text-sm font-medium text-gray-900"
           >
-            Phone Number<span className="text-red-600">*</span>
+            Phone Number<span className="text-[#ffd303]">*</span>
           </label>
           <input
             type="telephone"
@@ -66,7 +66,7 @@ const CareersForm = () => {
             for="text"
             className="block mb-2 text-sm font-medium text-gray-900"
           >
-            Area of Expertise<span className="text-red-600">*</span>
+            Area of Expertise<span className="text-[#ffd303]">*</span>
           </label>
           <input
             type="text"
@@ -81,7 +81,7 @@ const CareersForm = () => {
             for="email"
             className="block mb-2 text-sm font-medium text-gray-900"
           >
-            Resume/CV (5mb max) <span className="text-red-600">*</span>
+            Resume/CV (5mb max) <span className="text-[#ffd303]">*</span>
           </label>
           <div className="pb-4 bg-white border border-gray-300 text-gray-900 text-sm outline-none w-full p-2.5 flex justify-center">
             <input

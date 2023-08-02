@@ -16,7 +16,6 @@ const Products = () => {
       <div className="xs:block md:hidden">
         <ProductPageImageGridCarousel />
       </div>
-
       <ProductIndustries />
     </div>
   );

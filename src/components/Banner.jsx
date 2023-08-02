@@ -15,12 +15,12 @@ const Banner = () => {
       />
       <img className="md:hidden xs:block" src={mobBanner} />
       <div className="banner-text absolute left-[-100%] top-[50%] text-white text-[24px] md:w-[70%] lg:w-[60%] xs:px-[2rem] md:px-[6rem] xs:text-center md:text-left ">
-        <h1 className="lg:text-[2rem] xm:text-[2.9rem] font-extrabold mb-4 fontBoldAlupak tracking-[.01rem]">
-          Keeping your product’s <br /> quality untapped and intact
+        <h1 className="xs:text-[1.2rem] lg:text-[2rem] xm:text-[2.9rem] font-extrabold mb-4 fontBoldAlupak tracking-[.01rem] xs:mt-[3rem]">
+          Keeping your product’s <br className="xs:hidden md:block" /> quality untapped and intact
         </h1>
-        <p className="text-[.9rem] xs:mb-12 md:mb-3">
+        <p className="md:text-[.9rem] xs:mb-12 md:mb-3 xs:text-[13px]">
           Our packaging materials are manufactured to keep your products safe,
-          secure and as they <br className="md:hidden xsm:block" /> have been
+          secure and as they <br className="xs:hidden lg:block" /> have been
           packed.
         </p>
         <div className="text-black">

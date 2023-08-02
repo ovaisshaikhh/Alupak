@@ -13,7 +13,7 @@ const HomeAbout = () => {
     const options = {
       root: null,
       rootMargin: "0px",
-      threshold: 0.3, // Adjust this value to control the visibility threshold
+      threshold: 0, // Adjust this value to control the visibility threshold
     };
 
     const observer = new IntersectionObserver(handleIntersection, options);
@@ -61,10 +61,10 @@ const HomeAbout = () => {
         />
         <div className="text-overlay text-white xs:px-[2rem] xs:py-[2rem] md:px-[3rem] lg:px-[7rem]">
           <div>
-            <h1 className="text-[#ffd303] xs:text-[2rem] lg:text-[3rem] font-black fontBoldAlupak xs:mb-4 md:mb-[unset]">
+            <h1 className="text-[#ffd303] xs:text-[2.5rem] lg:text-[3rem] font-black fontBoldAlupak xs:mb-4 md:mb-[unset]">
               About Us
             </h1>
-            <p className="md:mb-2 xs:mb-4 xs:text-sm lg:mb-4 md:text-xs lg:text-sm">
+            <p className="md:mb-2 xs:mb-4 xs:text-xs lg:mb-4 md:text-xs ssx:text-sm lg:text-sm">
               Alupak is Pakistan’s trusted aluminum collapsible tube supplier
               since 1983 based in Karachi, ISO 9001-2015 certified as well as
               proudly meeting European standards. For 40 years we have been

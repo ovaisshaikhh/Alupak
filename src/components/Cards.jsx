@@ -15,7 +15,7 @@ const Cards = ({ imageUrl, title, paragraph }) => {
       </div>
       <div className="xs:py-4 xs:px-8 md:py-2 md:px-2 lg:px-4 md:pt-2 xm:py-4 xm:px-8 xm:pt-8">
         <h6 className="font-bold xs:mb-2 text-lg md:mb-2 xm:mb-4">{title}</h6>
-        <p className="xs:text-sm md:text-xs xm:text-sm">{paragraph}</p>
+        <p className="xs:text-[13px] ssx:text-sm md:text-xs xm:text-sm">{paragraph}</p>
       </div>
     </div>
   );

@@ -90,20 +90,41 @@ https://flickity.metafizzy.co
 
 .flickity-prev-next-button {
   top: 50%;
-  width: 35px;
-  height: 35px;
+  /* width: 35px; */
+  /* height: 35px; */
   border-radius: 50%;
   /* vertically center */
   transform: translateY(-50%);
 }
 
-.flickity-prev-next-button.previous {
-  left: 10px;
-  background-color: #f3f4f6;
+@media (min-width: 350px) {
+  .flickity-prev-next-button.previous {
+    left: 0px;
+    background-color: #f3f4f6;
+  }
+  .flickity-prev-next-button.next {
+    right: 0px;
+    background-color: #f3f4f6;
+  }
+  .flickity-prev-next-button {
+    width: 35px;
+    height: 35px;
+  }
 }
-.flickity-prev-next-button.next {
-  right: 10px;
-  background-color: #f3f4f6;
+
+@media (max-width: 350px) {
+  .flickity-prev-next-button.previous {
+    left: 0px;
+    background-color: #f3f4f6;
+  }
+  .flickity-prev-next-button.next {
+    right: 0px;
+    background-color: #f3f4f6;
+  }
+  .flickity-prev-next-button {
+    width: 30px;
+    height: 30px;
+  }
 }
 /* right to left */
 .flickity-rtl .flickity-prev-next-button.previous {
@@ -183,12 +204,32 @@ https://flickity.metafizzy.co
 
 .upsCarousel button.flickity-button.flickity-prev-next-button.previous,
 .upsCarousel button.flickity-button.flickity-prev-next-button.next {
-  /* border:2px solid red; */
   top: 66%;
 }
-.HomeProductsCarousel button.flickity-button.flickity-prev-next-button.previous,
-.HomeProductsCarousel button.flickity-button.flickity-prev-next-button.next {
-  top: 74%;
+@media (max-width: 400px) {
+  .HomeProductsCarousel
+    button.flickity-button.flickity-prev-next-button.previous,
+  .HomeProductsCarousel button.flickity-button.flickity-prev-next-button.next {
+    top: 74%;
+  }
+}
+
+@media (min-width: 400px) {
+  .HomeProductsCarousel
+    button.flickity-button.flickity-prev-next-button.previous,
+  .HomeProductsCarousel button.flickity-button.flickity-prev-next-button.next {
+    top: 80%;
+  }
+}
+
+.DownloadsCarousel button.flickity-button.flickity-prev-next-button.next {
+  right: -1.2rem;
+}
+.DownloadsCarousel button.flickity-button.flickity-prev-next-button.previous {
+  left: -1.2rem;
+}
+.DownloadsCarousel .flickity-viewport {
+  margin: 1rem;
 }
 
 .ProductCarouselIndustries .text-center.w-\[33\.33\%\].flex.justify-center {
@@ -207,5 +248,5 @@ https://flickity.metafizzy.co
   .text-center.w-\[33\.33\%\].flex.justify-center.is-selected
   img {
   /* border:2px solid red; */
-  height: 30rem;
+  height: 25rem;
 }

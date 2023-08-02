@@ -34,7 +34,15 @@ import Usps from "./Usps";
 import ProductGridCard from "./ProductGridCard";
 import DownloadCard from "./DownloadCard";
 import Downloadsbottom from "./Downloadsbottom";
-import DownloadsUsefulLinksCarousel from "./DownloadsUsefulLinksCarousel"
+import DownloadsUsefulLinksCarousel from "./DownloadsUsefulLinksCarousel";
+import ProductIndustriesCard from "./ProductIndustriesCard";
+import AboutSecondTabs from "./AboutSecondTabs";
+import AboutSecondInnerTabs from "./AboutSecondInnerTabs";
+import AboutHistory from "./AboutHistory";
+import AboutCertificate from "./AboutCertificate";
+import MobileMenu from "./MobileMenu";
+import AboutUspsCarousel from "./AboutUspsCarousel";
+import AboutHistoryCarousel from "./AboutHistoryCarousel";
 
 export {
   Navbar,
@@ -73,5 +81,13 @@ export {
   ProductGridCard,
   DownloadCard,
   Downloadsbottom,
-  DownloadsUsefulLinksCarousel
+  DownloadsUsefulLinksCarousel,
+  ProductIndustriesCard,
+  AboutSecondTabs,
+  AboutSecondInnerTabs,
+  AboutHistory,
+  AboutCertificate,
+  MobileMenu,
+  AboutUspsCarousel,
+  AboutHistoryCarousel,
 };
