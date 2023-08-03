@@ -1,5 +1,5 @@
-import React from "react";
-import { FooterMenu, Socials } from "./index";
+import React, { useState } from "react";
+import { FooterMenu, Socials, ContactModal } from "./index";
 import { footerData } from "../data/data";
 import logo from "../assets/logo footer.png";
 import bg_logo from "../assets/Logo footer bg.png";
@@ -7,11 +7,21 @@ import mail from "../assets/iconmail.svg";
 import location from "../assets/iconlocation.svg";
 
 const Footer = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleContactClick = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <footer className="absolute w-full h-auto bg-[#1f1f1f] text-white xs:footerShadow lg:shadow-inner xm:px-12">
       {/* ----------------------------------------- */}
       <div className="">
-      {/* xs:hidden md:block */}
+        {/* xs:hidden md:block */}
         <img
           className="md:w-[34%] absolute top-0 md:bottom-0 md:h-[-webkit-fill-available] xs:h-[22rem]"
           src={bg_logo}
@@ -36,8 +46,14 @@ const Footer = () => {
           </div>
           {/* -- */}
           {footerData.map(({ title, content }) => (
-            <FooterMenu title={title} content={content} />
+            <FooterMenu
+              key={title}
+              title={title}
+              content={content}
+              onContactClick={handleContactClick}
+            />
           ))}
+          {isModalOpen && <ContactModal onClose={handleCloseModal} />}
           {/* -- */}
           <div className="text-sm col-span-2 xs:mt-4 md:mt-0">
             <div className="flex items-center gap-3 mb-4">

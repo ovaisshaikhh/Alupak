@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
-import time from "../assets/about/technical-support.png";
-import quality from "../assets/about/checklist.png";
-import sustain from "../assets/about/cost.png";
+import time from "../assets/about/Group 151.png";
+import quality from "../assets/about/Group 152.png";
+import sustain from "../assets/about/Group 153.png";
 import { Usps, AboutUspsCarousel } from "../components/index";
 
 const AboutUsps = () => {
@@ -12,7 +12,7 @@ const AboutUsps = () => {
     const options = {
       root: null,
       rootMargin: "0px",
-      threshold: 0.3, // Adjust this value to control the visibility threshold
+      threshold: 0.2, // Adjust this value to control the visibility threshold
     };
 
     const observer = new IntersectionObserver(handleIntersection, options);
@@ -39,7 +39,7 @@ const AboutUsps = () => {
   };
   return (
     <React.Fragment>
-      <div className="lg:block xs:hidden">
+      <div className="lg:block xs:hidden mt-40">
         <div
           ref={targetRef}
           className={

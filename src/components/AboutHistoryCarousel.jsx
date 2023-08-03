@@ -37,7 +37,7 @@ const AboutHistoryCarousel = () => {
           <div className="bg-[#FBD404] text-white p-6 h-[18rem] flex flex-col justify-center w-[100%] mx-4">
             <h1 className="text-[2rem]">
               <span> Presence of</span> <br />{" "}
-              <span className="fontBoldAlupak text-[2.2rem]">35 YEARS</span>
+              <span className="fontBoldAlupak text-[2.2rem]">18 YEARS</span>
             </h1>
           </div>
           {/* 3 */}

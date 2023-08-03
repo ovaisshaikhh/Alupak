@@ -3,16 +3,16 @@ export const footerData = [
     title: "About the Brand",
     content: [
       {
-        li: "FAQs",
-        link: "/faqs",
+        li: "About Us",
+        link: "/about-us",
       },
       {
-        li2: "About Us",
-        link2: "/about-us",
+        li2: "Products",
+        link2: "/products",
       },
       {
-        li3: "Products",
-        link3: "/products",
+        li3: "",
+        link3: "",
       },
     ],
   },
@@ -21,7 +21,9 @@ export const footerData = [
     content: [
       {
         li: "Contact",
-        link: "/contact",
+        // link: "/contact",
+        link: "",
+        // onClick: openContactModal
       },
       {
         li2: "Careers",
@@ -38,7 +40,7 @@ export const footerData = [
     content: [
       {
         li: "Certificates",
-        link: "/contact",
+        link: "/downloads",
       },
       {
         li2: "Download PDF",
@@ -46,7 +48,7 @@ export const footerData = [
       },
       {
         li3: "Development",
-        link3: "/careers",
+        link3: "/downloads",
       },
     ],
   },

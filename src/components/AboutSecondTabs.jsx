@@ -4,14 +4,14 @@ import A1 from "../assets/about/Placement Area.png";
 import "../styles/main.css";
 
 const AboutSecondTabs = () => {
-  const [activeTab, setActiveTab] = useState(1);
+  // const [activeTab, setActiveTab] = useState(1);
 
   const handleTabClick = (tabIndex) => {
     setActiveTab(tabIndex);
   };
   return (
-    <div className="xs:mx-4 lg:mx-40 my-8">
-      <div className="tabs flex justify-around xs:hidden lg:flex">
+    <div className="xs:mx-4 lg:mx-20 xm:mx-40 my-8">
+      {/* <div className="tabs flex justify-around xs:hidden lg:flex">
         <button
           className={
             activeTab === 1
@@ -52,7 +52,7 @@ const AboutSecondTabs = () => {
         >
           Vision & Misssion
         </button>
-      </div>
+      </div> */}
       {/* <div className="tab-content">
         {activeTab === 1 && (
           <AboutSecondInnerTabs

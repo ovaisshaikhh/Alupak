@@ -38,26 +38,27 @@ const AboutSecondInnerTabs = ({ title1, title2, paragraph, imageUrl }) => {
   return (
     <div className="relative">
       {/* ------------------ */}
-      <div className="xs:flex xs:flex-col-reverse lg:grid grid-cols-2 items-center my-8 mt-12 lg:gap-12">
+      <div className="xs:flex xs:flex-col-reverse md:grid grid-cols-5 items-center my-8 mt-12 lg:gap-12">
         {/* @1 */}
-        <div className="text-center relative">
-          <div className="banner-textWajiha  lg:absolute lg:left-[-100%] lg:top-[50%] lg:w-[90%]">
+        <div className="text-center relative col-span-2">
+          {/* <div className="banner-textWajiha lg:absolute lg:left-[-100%] lg:top-[50%]"> */}
+          <div>
             <h1 className="fontBoldAlupak text-[1.5rem] mb-4">
               <span>{title1}</span>{" "}
               <span className="text-[#FBD404]">{title2}</span>
             </h1>
-            <p>{paragraph}</p>
+            <p className="md:text-sm lg:text-base">{paragraph}</p>
           </div>
         </div>
         {/* @2 */}
-        <div className="flex flex-row-reverse">
-          <div className="absolute z-[-1] xs:mt-[-.5rem] lg:mt-[-2rem]">
+        <div className="flex flex-row-reverse col-span-3">
+          <div className="absolute z-[-1] xs:mt-[-.5rem] xm:mt-[-2rem]">
             <div
               ref={targetRef}
               className={
                 isVisible
-                  ? "lg:background-animation_H bg-yellow-400 xs:w-[5rem] xs:h-[7rem] lg:w-[15rem] lg:h-[15rem]"
-                  : "bg-yellow-400 lg:w-[15rem] xs:w-[5rem] xs:h-[7rem] lg:h-[15rem]"
+                  ? "background-animation_HA bg-yellow-400 xs:w-[5rem] xs:h-[7rem] lg:w-[9rem] lg:h-[5rem] xm:w-[15rem] xm:h-[15rem]"
+                  : "bg-yellow-400 xs:w-[5rem] xs:h-[7rem] lg:w-[9rem] lg:h-[5rem] xm:w-[15rem] xm:h-[15rem]"
               }
             >
               {""}
@@ -66,8 +67,8 @@ const AboutSecondInnerTabs = ({ title1, title2, paragraph, imageUrl }) => {
               ref={targetRef}
               className={
                 isVisible
-                  ? "lg:background-animation_H bg-yellow-400 xs:w-[2rem] xs:h-[9rem] lg:w-[5rem] lg:h-[32rem] float-right"
-                  : "bg-yellow-400 xs:w-[2rem] xs:h-[9rem] lg:w-[5rem] lg:h-[25rem] float-right"
+                  ? "background-animation_HA bg-yellow-400 xs:w-[2rem] xs:h-[9rem] md:h-[15rem] lg:w-[4rem] lg:h-[20rem] xm:w-[5rem] xm:h-[28rem] float-right sf:h-[15rem]"
+                  : "bg-yellow-400 xs:w-[2rem] xs:h-[9rem] md:h-[15rem] lg:w-[4rem] lg:h-[20rem] xm:w-[5rem] xm:h-[28rem] float-right"
               }
             >
               {""}

@@ -43,6 +43,9 @@ import AboutCertificate from "./AboutCertificate";
 import MobileMenu from "./MobileMenu";
 import AboutUspsCarousel from "./AboutUspsCarousel";
 import AboutHistoryCarousel from "./AboutHistoryCarousel";
+import Tabs from "./Tabs";
+import ContentSection from "./ContentSection";
+import ContactModal from "./ContactModal";
 
 export {
   Navbar,
@@ -90,4 +93,7 @@ export {
   MobileMenu,
   AboutUspsCarousel,
   AboutHistoryCarousel,
+  Tabs,
+  ContentSection,
+  ContactModal,
 };

@@ -1,8 +1,9 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { Button } from "../components/index";
 
 const CareersForm = () => {
   const inputRef = useRef(null);
+  const [selectedFileName, setSelectedFileName] = useState("");
 
   const handleButtonClick = () => {
     inputRef.current.click();
@@ -10,6 +11,10 @@ const CareersForm = () => {
 
   const handleFileInputChange = (e) => {
     const file = e.target.files[0];
+    console.log(file);
+    if (file) {
+      setSelectedFileName(file.name);
+    }
   };
   return (
     <div className="xs:mx-2 md:mx-20 my-8">
@@ -49,7 +54,7 @@ const CareersForm = () => {
         {/* 3 */}
         <div className="mb-2 col-span-2">
           <label
-            for="email"
+            for="phone"
             className="block mb-2 text-sm font-medium text-gray-900"
           >
             Phone Number<span className="text-[#ffd303]">*</span>
@@ -78,7 +83,7 @@ const CareersForm = () => {
         {/* 5 */}
         <div className="mb-0 col-span-2">
           <label
-            for="email"
+            for="file"
             className="block mb-2 text-sm font-medium text-gray-900"
           >
             Resume/CV (5mb max) <span className="text-[#ffd303]">*</span>
@@ -92,6 +97,7 @@ const CareersForm = () => {
               required
               style={{ display: "none" }}
             />
+            {/* <p>{file}</p> */}
 
             <button
               onClick={handleButtonClick}
@@ -99,7 +105,12 @@ const CareersForm = () => {
             >
               <i className="far fa-arrow-alt-circle-up text-gray-400 text-xl"></i>{" "}
               <br />
-              <span className="text-center">Drop file here</span>
+              <span className="text-center">
+                {/* Drop file here */}
+                {selectedFileName
+                  ? `Selected file: ${selectedFileName}`
+                  : "Drop file here"}
+              </span>
               <br /> or <span className="underline">Select file</span>
             </button>
           </div>

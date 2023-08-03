@@ -214,6 +214,11 @@ https://flickity.metafizzy.co
   }
 }
 
+.aboutuspsCarousel button.flickity-button.flickity-prev-next-button.previous,
+.aboutuspsCarousel button.flickity-button.flickity-prev-next-button.next{
+  top: 67%;
+}
+
 @media (min-width: 400px) {
   .HomeProductsCarousel
     button.flickity-button.flickity-prev-next-button.previous,

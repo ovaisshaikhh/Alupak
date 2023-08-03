@@ -39,7 +39,7 @@ const Search = ({ closeModal }) => {
             <input
               type="search"
               id="search"
-              className="block w-full xs:p-2 xs:pl-10 md:p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 outline-none"
+              className="block w-full xs:p-2 xs:pl-10 md:p-4 lg:pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 outline-none"
               placeholder="Search documentation"
               required
             />
