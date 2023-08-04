@@ -42,21 +42,10 @@
 .t4s-eff-border-run:hover::before,
 .t4s-eff-border-run:hover::after {
   opacity: 1;
+  /* opacity: .9; */
   width: calc(100% - 30px);
   height: calc(100% - 30px);
 }
-/* .t4s-eff-border-run img {
-  object-fit: cover;
-  transition-duration: 500ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.t4s-eff-border-run:hover img {
-  --tw-scale-x: 1.1;
-  --tw-scale-y: 1.1;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
-    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
-    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-} */
 /* ----------------------------------- */
 /* @-Home About */
 .image-container {

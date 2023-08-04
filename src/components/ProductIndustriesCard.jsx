@@ -1,8 +1,9 @@
 import React from "react";
+import "../styles/flickity.css"
 
 const ProductIndustriesCard = ({ imageUrl, title, paragraph }) => {
   return (
-    <div className="text-center w-[33.33%] flex justify-center flex-col">
+    <div className="carousel-cells text-center w-[33.33%] flex justify-center flex-col">
       <img className="h-[40vh]" src={imageUrl} />
 
       <div className="xs:py-4 xs:px-8">

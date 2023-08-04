@@ -4,6 +4,7 @@ import {
   ProductPageImageGrid,
   ProductIndustries,
   ProductPageImageGridCarousel,
+  ProductGridCard,
 } from "../index";
 
 const Products = () => {
@@ -13,6 +14,8 @@ const Products = () => {
       <div className="xs:hidden md:block">
         <ProductPageImageGrid />
       </div>
+      {/* ---- */}
+      {/* <ProductGridCard /> */}
       <div className="xs:block md:hidden">
         <ProductPageImageGridCarousel />
       </div>

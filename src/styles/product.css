@@ -1,62 +1,7 @@
-.hidden-text {
-  /* display: none; */
-  /* transition: height 0.3s ease; */
-  /* height: 0; */
-}
-
-.hidden-text {
-  max-height: 0;
-  /* overflow: hidden; */
-  transition: max-height 0.3s ease;
-}
-
-.hidden-text.open {
-  /* max-height: 300px; */
-  transition: max-height 0.3s ease forward;
-}
-
-/* .hidden-text.open {
-  width: 300px;
-  height: 10px;
-  background: red;
-  transition: height 2s;
-} */
-/* .hidden-text.div2 {
-  width: 300px;
-  height: 10px;
-  background: red;
-  transition: height 2s;
-}
-
-.hidden-text.div2.open{
-  background: blue;
-  height: 300px;
-} */
-
-.hidden-text.open {
-  /* display: block; */
-  /* height: 300px;
-  transition: w; */
-  /* transform: translateY(-100%); */
-  /* animation: myAnim 1s ease 0s 1 normal forwards; */
-}
-
-/* .hidden-text.closed {
-  display: block;
-  transform: scaleY(0);
-}
-@keyframes myAnim {
-  0% {
-    transform: translateY(90%);
-  }
-
-  100% {
-    transform: translateY(-100%);
-  }
-} */
 /* ------------------- */
 .container {
   position: relative;
+  overflow: hidden;
 }
 .div1,
 .div2 {
@@ -64,9 +9,44 @@
 }
 
 .MobProductCarouselIndustries .flickity-viewport {
-  height: 50vh !important;
+  height: 46vh !important;
 }
-@media (min-width: 768px) {
+
+@media (max-width: 768px) {
+  .container {
+    /* height: 300px; */
+    height: 350px;
+  }
+  .div1 img,
+  .div2 {
+    /* width: 300px;
+    height: 300px; */
+    width: 100%;
+    height: 350px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    height: 220px;
+  }
+  .div1,
+  .div2 {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1370px) {
+  .container {
+    height: 270px;
+  }
+  .div1,
+  .div2 {
+    width: 270px;
+    height: 270px;
+  }
+}
+@media (min-width: 1370px) {
   .container {
     height: 300px;
   }
@@ -76,20 +56,30 @@
     height: 300px;
   }
 }
-
+/* 
 @media (max-width: 768px) {
   .div1,
   .div2 {
     margin: 0 1rem;
   }
   .hidden-text.div2.open {
-    /* border: 2px solid red; */
-  }
-  .hidden-text.div2.open{
     width: 100%;
     margin: 0;
   }
   .hidden-text.div2.open .info {
     height: 320px;
   }
+} */
+
+/* -------------------- */
+
+.hidden-texts {
+  transform-origin: bottom;
+  transform: scaleY(-1);
+  transition: transform 0.7s ease;
 }
+
+.hidden-texts.open {
+  transform: scaleY(1);
+}
+

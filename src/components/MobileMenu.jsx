@@ -7,6 +7,11 @@ import "../styles/main.css";
 
 const MobileMenu = ({ isOpen, onClose }) => {
   const navigate = useNavigate();
+
+  const handleClickNav = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div
       className={`${
@@ -27,17 +32,17 @@ const MobileMenu = ({ isOpen, onClose }) => {
 
         <div className="p-4 text-center">
           <ul className="flex flex-col gap-4">
-            <li className="">
+            <li className="md:px-2 lg:px-4 tracking-wider" onClick={handleClickNav}>
               <NavLink exact to="/products" className="text-[#64748b]">
                 Products
               </NavLink>
             </li>
-            <li className="md:px-2 lg:px-4 tracking-wider">
+            <li className="md:px-2 lg:px-4 tracking-wider" onClick={handleClickNav}>
               <NavLink exact to="about-us" className="text-[#64748b]">
                 About Us
               </NavLink>
             </li>
-            <li className="md:px-2 lg:px-4 tracking-wider">
+            <li className="md:px-2 lg:px-4 tracking-wider" onClick={handleClickNav}>
               <NavLink exact to="/careers" className="text-[#64748b]">
                 Careers
               </NavLink>

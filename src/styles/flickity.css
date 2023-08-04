@@ -213,9 +213,14 @@ https://flickity.metafizzy.co
     top: 74%;
   }
 }
-
+.MobProductCarouselIndustries
+  button.flickity-button.flickity-prev-next-button.previous,
+.MobProductCarouselIndustries
+  button.flickity-button.flickity-prev-next-button.next {
+  top: 45%;
+}
 .aboutuspsCarousel button.flickity-button.flickity-prev-next-button.previous,
-.aboutuspsCarousel button.flickity-button.flickity-prev-next-button.next{
+.aboutuspsCarousel button.flickity-button.flickity-prev-next-button.next {
   top: 67%;
 }
 
@@ -237,6 +242,7 @@ https://flickity.metafizzy.co
   margin: 1rem;
 }
 
+/* -------------------------- */
 .ProductCarouselIndustries .text-center.w-\[33\.33\%\].flex.justify-center {
   opacity: 0.4;
   /* height: -webkit-fill-available; */
@@ -252,6 +258,31 @@ https://flickity.metafizzy.co
 .ProductCarouselIndustries
   .text-center.w-\[33\.33\%\].flex.justify-center.is-selected
   img {
-  /* border:2px solid red; */
   height: 25rem;
 }
+/* -- */
+.ProductCarouselIndustriesMob li.dot {
+  background-color: #ffd303 !important ;
+}
+.ProductCarouselIndustriesMob li.dot.is-selected {
+  background-color: #393937 !important;
+}
+
+/* ------------------------- */
+/* flickity.css (or your custom styles) */
+/* .carousel.ProductCarouselIndustries {
+  perspective: 1000px; 
+}
+
+.carousel-cells {
+  transform-style: preserve-3d; 
+  transition: transform 0.5s; 
+}
+
+.is-selected .carousel-cells {
+  transform: rotateY(0deg); 
+}
+
+.carousel-cells {
+  transform: rotateY(90deg);
+} */

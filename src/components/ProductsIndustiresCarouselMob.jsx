@@ -18,7 +18,7 @@ const flickityOptions = {
 const ProductsIndustiresCarouselMob = () => {
   return (
     <div>
-      <div className="mt-12">
+      <div className="mt-4">
         <Flickity
           className={"carousel ProductCarouselIndustriesMob"}
           elementType={"div"}

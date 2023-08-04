@@ -23,7 +23,7 @@ const FooterMenu = ({
             <li
               className="mb-2 hover:text-[#919191]"
               // onClick={handleClickNav}
-              onClick={() => { onContactClick(); handleClickNav(); }}
+              onClick={() => {  handleClickNav(); onContactClick(); }}
               // onClick={() => handleClickNav(onClick)}
             >
               <Link to={link}>{li}</Link>

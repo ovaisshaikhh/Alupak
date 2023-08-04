@@ -2,13 +2,15 @@ import React, { useState, useEffect, useRef } from "react";
 import logo from "../assets/Alupak logo.svg";
 import blackLogo from "../assets/logoalu.png";
 import { Link, NavLink, useNavigate } from "react-router-dom";
-import { Button, Search, MobileMenu } from "./index";
+import { Button, Search, MobileMenu, ContactModal } from "./index";
 import "../styles/main.css";
 
 const Navbar = () => {
   const navigate = useNavigate();
   const headerRef = useRef(null);
   const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [modalIsContactOpen, setModalIsContactOpen] = useState(false);
+
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolledMob, setIsScrolledMob] = useState(false);
@@ -50,6 +52,18 @@ const Navbar = () => {
     setModalIsOpen(false);
   };
 
+  // Contact Modal Function
+  const openModalContact = () => {
+    setModalIsContactOpen(true);
+  };
+  const CloseContact = () => {
+    setModalIsContactOpen(false);
+  };
+
+  const handleClickNav = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <React.Fragment>
       <header className="">
@@ -62,7 +76,10 @@ const Navbar = () => {
               : "bg-transparent z-50 py-4 px-6 lg:py-8 lg:px-12"
           } xs:hidden md:flex justify-between items-center navbar fixed top-0 left-0 w-full transition-all`}
         >
-          <div className={`${isScrolled ? "w-[10%]" : ""} `}>
+          <div
+            className={`${isScrolled ? "w-[10%]" : ""} `}
+            onClick={handleClickNav}
+          >
             <Link to="/">
               <img
                 // className="md:w-[60%] lg:w-[85%]"
@@ -84,7 +101,10 @@ const Navbar = () => {
 
           <div>
             <ul className="flex gap-4">
-              <li className="md:px-2 lg:px-4 tracking-wider">
+              <li
+                className="md:px-2 lg:px-4 tracking-wider"
+                onClick={handleClickNav}
+              >
                 <NavLink
                   exact
                   to="/products"
@@ -96,7 +116,10 @@ const Navbar = () => {
                   Products
                 </NavLink>
               </li>
-              <li className="md:px-2 lg:px-4 tracking-wider">
+              <li
+                className="md:px-2 lg:px-4 tracking-wider"
+                onClick={handleClickNav}
+              >
                 <NavLink
                   exact
                   to="about-us"
@@ -108,7 +131,10 @@ const Navbar = () => {
                   About Us
                 </NavLink>
               </li>
-              <li className="md:px-2 lg:px-4 tracking-wider">
+              <li
+                className="md:px-2 lg:px-4 tracking-wider"
+                onClick={handleClickNav}
+              >
                 <NavLink
                   exact
                   to="/careers"
@@ -123,20 +149,43 @@ const Navbar = () => {
             </ul>
           </div>
           {/* ----------------------------------- */}
-          <div>
+          <div className="flex">
             <button className="px-8" onClick={openModal}>
-              <i
-                // className="fa fa-search text-white hover:text-[#ffd303]"
+              {/* <i
                 className={`${
                   isScrolled ? "text-black" : "text-white"
                 }  fa fa-search hover:text-[#ffd303]`}
-              ></i>
+              ></i> */}
+
+              <svg
+                className={`${
+                  isScrolled ? "text-black" : "text-white"
+                } w-4 h-4 hover:text-[#ffd303]`}
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                />
+              </svg>
               {/* <img src={search}/> */}
               {/* <i className="pegk pe-7s-search text-white"></i> */}
             </button>
-            <Button value={"Contact Us"} onClick={() => navigate("/careers")} />
+            <Button
+              value={"Contact Us"}
+              // onClick={() => navigate("/careers")}
+              onClick={openModalContact}
+            />
           </div>
           {/* ----------------------------------- */}
+          {/* Contact Form */}
+          {modalIsContactOpen && <ContactModal CloseContact={CloseContact} />}
           {/* Search box */}
           {modalIsOpen && <Search closeModal={closeModal} />}
         </nav>
@@ -162,7 +211,11 @@ const Navbar = () => {
             <MobileMenu isOpen={isMenuOpen} onClose={handleMenuToggle} />
           </div>
 
-          <div ref={headerRef} className={`${isScrolledMob ? "w-[30%]" : ""} `}>
+          <div
+            ref={headerRef}
+            className={`${isScrolledMob ? "w-[30%]" : ""} `}
+            onClick={handleClickNav}
+          >
             <Link to="/">
               <img
                 ref={headerRef}
@@ -182,13 +235,31 @@ const Navbar = () => {
 
           <div>
             <button className="border-none" onClick={openModal}>
-              <i
-                // className="fa fa-search text-white"
+              {/* <i
                 ref={headerRef}
                 className={`${
                   isScrolledMob ? "text-black" : "text-white"
                 } fa fa-search`}
-              ></i>
+              ></i> */}
+
+              <svg
+                ref={headerRef}
+                className={`${
+                  isScrolledMob ? "text-black" : "text-white"
+                } w-4 h-4 hover:text-[#ffd303]`}
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                />
+              </svg>
             </button>
             {/* Search box */}
             {modalIsOpen && <Search closeModal={closeModal} />}

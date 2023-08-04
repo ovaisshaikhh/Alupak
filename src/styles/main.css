@@ -59,9 +59,9 @@ body,
 }
 /* ------------ */
 
-.DownloadCardHover{
+.DownloadCardHover {
   opacity: 1;
-transition: opacity 1s ease 0s;
+  transition: opacity 1s ease 0s;
 }
 .DownloadCardHover:hover {
   opacity: 0.86;
@@ -72,4 +72,16 @@ transition: opacity 1s ease 0s;
     rgba(255, 211, 3, 1) 34%,
     rgba(255, 234, 78, 1) 100%
   );
+}
+
+.ProductCard {
+  /* background: rgb(255, 211, 3);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 211, 3, 1) 18%,
+    rgba(255, 211, 3, 1) 34%,
+    rgba(255, 234, 78, 1) 100%
+  ); */
+  background: rgb(246,185,26);
+  background: linear-gradient(0deg, rgba(246,185,26,1) 25%, rgba(255,211,3,1) 62%);
 }

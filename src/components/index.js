@@ -46,6 +46,7 @@ import AboutHistoryCarousel from "./AboutHistoryCarousel";
 import Tabs from "./Tabs";
 import ContentSection from "./ContentSection";
 import ContactModal from "./ContactModal";
+import Product3dCarousel from "./Product3dCarousel";
 
 export {
   Navbar,
@@ -96,4 +97,5 @@ export {
   Tabs,
   ContentSection,
   ContactModal,
+  Product3dCarousel,
 };
