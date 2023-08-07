@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/flickity.css"
+import "../styles/flickity.css";
 
 const ProductIndustriesCard = ({ imageUrl, title, paragraph }) => {
   return (

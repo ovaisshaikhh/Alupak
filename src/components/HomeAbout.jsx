@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
+import { useNavigate } from "react-router-dom";
 import AbputBanner2 from "../assets/home/aboutb.png";
 import mobBanner from "../assets/home/Mask Group 10@2x.png";
 import stamp from "../assets/isocertified.png";
@@ -6,6 +7,7 @@ import "../styles/banner.css";
 import { Button } from "../components/index";
 
 const HomeAbout = () => {
+  const navigate = useNavigate();
   const targetRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -66,15 +68,17 @@ const HomeAbout = () => {
             </h1>
             <p className="md:mb-2 xs:mb-4 xs:text-xs lg:mb-4 md:text-xs ssx:text-sm lg:text-sm">
               Alupak is Pakistan’s trusted aluminum collapsible tube supplier
-              since 1983 based in Karachi, ISO 9001-2015 certified as well as
-              proudly meeting European standards. For 40 years we have been
+              since 2005 based in Karachi, ISO 9001-2015 certified as well as
+              proudly meeting European standards. For 18 years, we have been
               manufacturing high-quality packaging materials via aluminum
               collapsible tubes, rigid containers, marker barrels, and capacitor
-              cans serving different industries like Pharmaceuticals, Cosmetics
-              & Toiletries, Food, Industrial Products, and Household Goods.
+              cans.
             </p>
             <div className="text-black relative z-50">
-              <Button value={"Read More"} />
+              <Button
+                value={"Read More"}
+                onClick={() => navigate("/about-us")}
+              />
             </div>
           </div>
           {/*  */}

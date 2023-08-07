@@ -1,8 +1,6 @@
 import React from "react";
-import logo from "../assets/Alupak logo.svg";
-import blackLogo from "../assets/logoalu.png";
-import { Link, NavLink, useNavigate } from "react-router-dom";
-import { Socials } from "./index";
+// import blackLogo from "../assets/logoalu.png";
+import { NavLink, useNavigate } from "react-router-dom";
 import "../styles/main.css";
 
 const MobileMenu = ({ isOpen, onClose }) => {
@@ -32,17 +30,26 @@ const MobileMenu = ({ isOpen, onClose }) => {
 
         <div className="p-4 text-center">
           <ul className="flex flex-col gap-4">
-            <li className="md:px-2 lg:px-4 tracking-wider" onClick={handleClickNav}>
+            <li
+              className="md:px-2 lg:px-4 tracking-wider"
+              onClick={handleClickNav}
+            >
               <NavLink exact to="/products" className="text-[#64748b]">
                 Products
               </NavLink>
             </li>
-            <li className="md:px-2 lg:px-4 tracking-wider" onClick={handleClickNav}>
+            <li
+              className="md:px-2 lg:px-4 tracking-wider"
+              onClick={handleClickNav}
+            >
               <NavLink exact to="about-us" className="text-[#64748b]">
                 About Us
               </NavLink>
             </li>
-            <li className="md:px-2 lg:px-4 tracking-wider" onClick={handleClickNav}>
+            <li
+              className="md:px-2 lg:px-4 tracking-wider"
+              onClick={handleClickNav}
+            >
               <NavLink exact to="/careers" className="text-[#64748b]">
                 Careers
               </NavLink>
@@ -50,10 +57,6 @@ const MobileMenu = ({ isOpen, onClose }) => {
           </ul>
         </div>
         <hr />
-
-        {/* <div className="mob_socials">
-          <Socials />
-        </div> */}
       </div>
     </div>
   );

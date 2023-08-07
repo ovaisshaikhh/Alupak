@@ -8,7 +8,7 @@ const DownloadCard = ({ imageUrl, title, paragraph, link }) => {
 
     const anchor = document.createElement("a");
     anchor.href = pdfUrl;
-    anchor.download = link; 
+    anchor.download = link;
     anchor.target = "_blank";
     anchor.click();
   };
@@ -39,11 +39,7 @@ const DownloadCard = ({ imageUrl, title, paragraph, link }) => {
         <div className="">
           <a
             className="mt-6 text-xs underline flex gap-1 p-4"
-            // href={link}
-            // target="_blank"
-            // rel="noreferrer"
             onClick={handleDownload}
-            // href="#"
           >
             <spn className="font-black">Downloads</spn>
             <img src={DownloadIcons} />

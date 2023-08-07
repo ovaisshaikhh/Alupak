@@ -1,18 +1,20 @@
 import React from "react";
 import "../styles/modal.css";
 import img from "../assets/contact.png";
+import mobimg from "../assets/home/mob.png";
 import { ButtonBlack } from "./index";
 
 const ContactModal = ({ CloseContact }) => {
   return (
-    <div className="flex justify-center items-center fixed top-0 left-0 w-full h-full modal-container">
+    <div className="flex justify-center items-center fixed top-0 left-0 w-full h-full modal-container z-50">
       <div className="relative bg-white rounded-lg xs:w-[80%] md:max-w-md md:min-w-[70vw] lg:max-w-md lg:min-w-[50vw] min-h-[50vh]">
         {/* @-content */}
-        <div className="grid grid-cols-6 relative">
-          <div className="col-span-4 p-5">
-
-            <h1 className="md:text-[1.5rem] lg:text-[2rem] fontBoldAlupak md:mb-4 lg:mb-6">Contact Us</h1>
-            <div className="grid grid-cols-2 md:gap-2 lg:gap-4">
+        <div className="xs:flex flex-col-reverse md:grid grid-cols-6 relative">
+          <div className="col-span-4 p-5 xs:text-left">
+            <h1 className="xs:text-[1.2rem] md:text-[1.5rem] lg:text-[2rem] fontBoldAlupak md:mb-4 lg:mb-6 xs:mb-4">
+              Contact Us
+            </h1>
+            <div className="md:grid grid-cols-1 lg:grid-cols-2 md:gap-2 lg:gap-4">
               {/* 1 */}
               <div className="mb-2">
                 <label
@@ -67,17 +69,23 @@ const ContactModal = ({ CloseContact }) => {
                   type="text"
                   className="bg-white border border-gray-300 text-gray-900 text-sm outline-none block w-full p-2.5"
                   required
-                  
                 />
               </div>
             </div>
             <div className="mt-8 float-right">
-            <ButtonBlack value={"Submit"}/>
+              <ButtonBlack value={"Submit"} />
             </div>
           </div>
           {/* ------------------------------------------- */}
           <div className="col-span-2">
-            <img src={img} className="md:h-[100%] rounded-br-lg rounded-tr-lg " />
+            <img
+              src={img}
+              className="md:h-[100%] rounded-br-lg rounded-tr-lg md:block xs:hidden "
+            />
+            <img
+              src={mobimg}
+              className="rounded-t-lg xs:block md:hidden w-full h-[10rem] object-cover"
+            />
           </div>
         </div>
         {/* @-close button */}

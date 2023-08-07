@@ -8,6 +8,7 @@ import "../styles/main.css";
 const Navbar = () => {
   const navigate = useNavigate();
   const headerRef = useRef(null);
+  const [activeLink, setActiveLink] = useState(""); // Set the initial active link
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [modalIsContactOpen, setModalIsContactOpen] = useState(false);
 
@@ -44,6 +45,11 @@ const Navbar = () => {
     };
   }, []);
 
+  // active link
+  const handleLinkClick = (link) => {
+    setActiveLink(link);
+  };
+
   // Search Modal Function
   const openModal = () => {
     setModalIsOpen(true);
@@ -67,9 +73,8 @@ const Navbar = () => {
   return (
     <React.Fragment>
       <header className="">
-        {/* Desktop */}
+        {/* @-Desktop */}
         <nav
-          // className="xs:hidden md:flex justify-between items-center navbar absolute z-50 left-0 right-0 md:py-5 md:px-6 lg:py-8 lg:px-12 xm:px-24"
           className={`${
             isScrolled
               ? "bg-white z-50 py-2 px-6 lg:py-4 lg:px-12 shadow-lg"
@@ -82,7 +87,6 @@ const Navbar = () => {
           >
             <Link to="/">
               <img
-                // className="md:w-[60%] lg:w-[85%]"
                 className={`${
                   isScrolled ? "hidden" : ""
                 } md:w-[60%] lg:w-[85%]`}
@@ -91,7 +95,6 @@ const Navbar = () => {
               />
 
               <img
-                // className="md:w-[60%] lg:w-[85%]"
                 className={`${isScrolled ? "" : "hidden"} `}
                 src={blackLogo}
                 alt="logo"
@@ -108,10 +111,16 @@ const Navbar = () => {
                 <NavLink
                   exact
                   to="/products"
-                  // className="text-white md:text-xs lg:text-sm xl:text-[.9rem] hover-underline-animation hover:text-[#ffd303]"
                   className={`${
                     isScrolled ? "text-black" : "text-white"
                   }  md:text-xs lg:text-sm xl:text-[.9rem] hover-underline-animation hover:text-[#ffd303]`}
+
+                  // className={`${
+                  //   activeLink === "products" ? "text-[#ffd303]" : "text-white"
+                  // } md:text-xs lg:text-sm xl:text-[.9rem] hover-underline-animation hover:text-[#ffd303] ${
+                  //   isScrolled ? "text-black" : "text-white"
+                  // }`}
+                  // onClick={() => handleLinkClick("products")}
                 >
                   Products
                 </NavLink>
@@ -123,7 +132,6 @@ const Navbar = () => {
                 <NavLink
                   exact
                   to="about-us"
-                  // className="text-white md:text-xs lg:text-sm xl:text-[.9rem] hover-underline-animation hover:text-[#ffd303]"
                   className={`${
                     isScrolled ? "text-black" : "text-white"
                   }  md:text-xs lg:text-sm xl:text-[.9rem] hover-underline-animation hover:text-[#ffd303]`}
@@ -138,7 +146,6 @@ const Navbar = () => {
                 <NavLink
                   exact
                   to="/careers"
-                  // className="text-white md:text-xs lg:text-sm xl:text-[.9rem] hover-underline-animation hover:text-[#ffd303]"
                   className={`${
                     isScrolled ? "text-black" : "text-white"
                   }  md:text-xs lg:text-sm xl:text-[.9rem] hover-underline-animation hover:text-[#ffd303]`}
@@ -151,12 +158,6 @@ const Navbar = () => {
           {/* ----------------------------------- */}
           <div className="flex">
             <button className="px-8" onClick={openModal}>
-              {/* <i
-                className={`${
-                  isScrolled ? "text-black" : "text-white"
-                }  fa fa-search hover:text-[#ffd303]`}
-              ></i> */}
-
               <svg
                 className={`${
                   isScrolled ? "text-black" : "text-white"
@@ -174,14 +175,8 @@ const Navbar = () => {
                   d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
                 />
               </svg>
-              {/* <img src={search}/> */}
-              {/* <i className="pegk pe-7s-search text-white"></i> */}
             </button>
-            <Button
-              value={"Contact Us"}
-              // onClick={() => navigate("/careers")}
-              onClick={openModalContact}
-            />
+            <Button value={"Contact Us"} onClick={openModalContact} />
           </div>
           {/* ----------------------------------- */}
           {/* Contact Form */}
@@ -190,9 +185,8 @@ const Navbar = () => {
           {modalIsOpen && <Search closeModal={closeModal} />}
         </nav>
         {/* -------------------------------------- */}
-        {/* Mobile */}
+        {/* @-Mobile */}
         <nav
-          // className="xs:flex md:hidden items-center py-4 navbar absolute z-50 left-0 right-0 justify-around"
           ref={headerRef}
           className={`${
             isScrolledMob ? "bg-white  shadow-lg" : "bg-transparent"
@@ -201,7 +195,6 @@ const Navbar = () => {
           <div>
             <button onClick={handleMenuToggle} className="border-none">
               <i
-                // className="fa-solid fa-bars text-[1.25rem] text-white"
                 ref={headerRef}
                 className={`${
                   isScrolledMob ? "text-black" : "text-white"
@@ -235,13 +228,6 @@ const Navbar = () => {
 
           <div>
             <button className="border-none" onClick={openModal}>
-              {/* <i
-                ref={headerRef}
-                className={`${
-                  isScrolledMob ? "text-black" : "text-white"
-                } fa fa-search`}
-              ></i> */}
-
               <svg
                 ref={headerRef}
                 className={`${

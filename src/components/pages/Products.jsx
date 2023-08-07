@@ -4,23 +4,20 @@ import {
   ProductPageImageGrid,
   ProductIndustries,
   ProductPageImageGridCarousel,
-  ProductGridCard,
 } from "../index";
 
 const Products = () => {
   return (
-    <div>
+    <React.Fragment>
       <ProductBanner />
       <div className="xs:hidden md:block">
         <ProductPageImageGrid />
       </div>
-      {/* ---- */}
-      {/* <ProductGridCard /> */}
       <div className="xs:block md:hidden">
         <ProductPageImageGridCarousel />
       </div>
       <ProductIndustries />
-    </div>
+    </React.Fragment>
   );
 };
 

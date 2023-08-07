@@ -38,7 +38,6 @@ const DownloadsUsefulLinks = () => {
           imageUrl={d1}
           title="Alucan Development"
           paragraph="Our local business unit has covered a journey of expansions to produce and deliver the best final products to all clients till date."
-          // link="https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Alupak_Development.pdf?v=1691043956"
           link={l1}
         />
 
@@ -46,7 +45,6 @@ const DownloadsUsefulLinks = () => {
           imageUrl={d2}
           title="Alucan ISO Certificate"
           paragraph="ISO 9001:2015 certified by the Bureau Veritas Certification Holding SAS – UK Branch"
-          // link="https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Alupak_ISO_Certificate.pdf?v=1691044074"
           link={l2}
         />
 
@@ -54,7 +52,6 @@ const DownloadsUsefulLinks = () => {
           imageUrl={d3}
           title="Aluminium Cartridge"
           paragraph="Manufacturing single-use containers for packaging primarily made of aluminum."
-          // link="https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Aluminium_Can_apk.pdf?v=1691044529"
           link={l3}
         />
 
@@ -62,7 +59,6 @@ const DownloadsUsefulLinks = () => {
           imageUrl={d4}
           title="Aluminium Information"
           paragraph="Using aluminum is an effective solution for packaging as it is lightweight, magnetizable, stable, and transport energy-saving."
-          // link="https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Aluminium_Information_apk.pdf?v=1691044474"
           link={l4}
         />
 
@@ -70,7 +66,6 @@ const DownloadsUsefulLinks = () => {
           imageUrl={d5}
           title="Certificate of Compliance"
           paragraph="Certified by high authorities as being within raw material production standards and does not come in direct contact with animal-origin materials."
-          // link="https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Certificate_of_Compliance_apk.pdf?v=1691044426"
           link={l5}
         />
 
@@ -78,7 +73,6 @@ const DownloadsUsefulLinks = () => {
           imageUrl={d6}
           title="Internal Lacquer Ammonia"
           paragraph="The quality of our aluminum collapsible is thoroughly checked which abides by the chemical resistance of internal protective coating."
-          // link="https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Internal_Lacquer_apk.pdf?v=1691044383"
           link={l6}
         />
 
@@ -86,21 +80,18 @@ const DownloadsUsefulLinks = () => {
           imageUrl={d7}
           title="Basecoat"
           paragraph="Discover the secrets of our premium basecoat – click here to find out more!"
-          // link="https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Basecoat_apk.pdf?v=1691044347"
           link={l7}
         />
         <DownloadCard
           imageUrl={d8}
           title="Latex sealing compound"
           paragraph="Easy processing and high proceedings security. Good Latex - cyclization also by using internal lacquers with slip agent. Very good all-round properties and resistant for various fillings."
-          // link="https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Latex_Sealing_Compound_apk.pdf?v=1691044314"
           link={l8}
         />
         <DownloadCard
           imageUrl={d9}
           title="Collapsible Aluminium Tube"
           paragraph="Effortlessly package ointments and more with our collapsible aluminum tubes – the epitome of convenience and durability. Click here to download the manual!"
-          // link="https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Collapsibles_Aluminium_Tubes_apk.pdf?v=1691044222"
           link={l9}
         />
       </div>

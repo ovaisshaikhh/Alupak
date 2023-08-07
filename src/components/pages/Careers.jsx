@@ -3,10 +3,10 @@ import { CareersBanner, CareersForm } from "../index";
 
 const Careers = () => {
   return (
-    <div>
+    <React.Fragment>
       <CareersBanner />
       <CareersForm />
-    </div>
+    </React.Fragment>
   );
 };
 

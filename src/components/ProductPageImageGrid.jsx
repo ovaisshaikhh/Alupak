@@ -34,11 +34,8 @@ const ProductPageImageGrid = () => {
   };
   return (
     <>
-      {/* <div className="h-[50vh]"> */}
-      {/* <div className="absolute w-[100vw] bottom-[-200px]"> */}
       <div className="relative md:h-[15rem] lg:h-[20rem]">
         <div className="absolute w-[100vw] md:top-[-9%] lg:top-[-16%] xm:top-[-30%]">
-          {/* <div className="grid grid-cols-3 gap-0 justify-items-center md:mx-60 h-[60vh]"> */}
           <div className="grid grid-cols-3 gap-0 justify-items-center md:mx-8 lg:mx-20 xm:mx-60">
             {/* @1 */}
             <div className="container">
@@ -49,7 +46,9 @@ const ProductPageImageGrid = () => {
                   onClick={toggleText}
                   className="z-10 absolute left-0 right-0 bottom-0 bg-[#ffd303] flex items-center justify-between md:px-2 md:py-2 lg:px-4 lg:py-2 font-semibold text-[#334155] cursor-pointer"
                 >
-                  <span className="md:text-[13px] lg:text-sm">Aluminum Cartridge</span>
+                  <span className="md:text-[13px] lg:text-sm">
+                    Aluminum Cartridge
+                  </span>
                   <i className="fas fa-angle-up text-sm"></i>
                 </button>
               </div>
@@ -84,7 +83,9 @@ const ProductPageImageGrid = () => {
                   onClick={toggleText2}
                   className="z-10 absolute left-0 right-0 bottom-0 bg-[#ffd303] flex items-center justify-between md:px-2 md:py-2 lg:px-4 lg:py-2 font-semibold text-[#334155] cursor-pointer"
                 >
-                  <span className="md:text-[13px] lg:text-sm">Collapsable Aluminum Tube</span>
+                  <span className="md:text-[13px] lg:text-sm">
+                    Collapsable Aluminum Tube
+                  </span>
                   <i className="fas fa-angle-up text-sm"></i>
                 </button>
               </div>
@@ -116,7 +117,9 @@ const ProductPageImageGrid = () => {
                   onClick={toggleText3}
                   className="z-10 absolute left-0 right-0 bottom-0 bg-[#ffd303] flex items-center justify-between  md:px-2 md:py-2 lg:px-4 lg:py-2 font-semibold text-[#334155] cursor-pointer arrow"
                 >
-                  <span className="md:text-[13px] lg:text-sm">Rigid Aluminium Tubes</span>
+                  <span className="md:text-[13px] lg:text-sm">
+                    Rigid Aluminium Tubes
+                  </span>
                   <i className="fas fa-angle-up text-sm"></i>
                 </button>
               </div>

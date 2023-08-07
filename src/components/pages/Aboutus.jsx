@@ -7,7 +7,6 @@ import {
   AboutHistory,
   AboutCertificate,
   Tabs,
-  ContentSection,
 } from "../index";
 
 const Aboutus = () => {
@@ -26,8 +25,8 @@ const Aboutus = () => {
     if (section) {
       const windowHeight = window.innerHeight;
       const sectionTop = section.getBoundingClientRect().top;
-      const scrollOffset = sectionTop - (windowHeight / 4);
-  
+      const scrollOffset = sectionTop - windowHeight / 4;
+
       window.scrollTo({
         top: scrollOffset,
         behavior: "smooth",
@@ -36,7 +35,7 @@ const Aboutus = () => {
   };
 
   return (
-    <div>
+    <React.Fragment>
       <AboutBanner />
 
       <div className="app">
@@ -69,7 +68,7 @@ const Aboutus = () => {
       {/* <AboutUsps /> */}
       {/* <AboutCertificate /> */}
       {/* <AboutMission /> */}
-    </div>
+    </React.Fragment>
   );
 };
 

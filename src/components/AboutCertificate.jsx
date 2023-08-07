@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import aboitMission from "../assets/about/ab-w.png";
-import aboutMobMission from "../assets/about/ab-m.png"
-
+import mobcert from "../assets/about/cer.png";
 const AboutCertificate = () => {
   const targetRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
@@ -36,18 +35,14 @@ const AboutCertificate = () => {
     });
   };
   return (
-    <div 
-    // className="my-12"
-    ref={targetRef}
-    className={
-      isVisible
-        ? "fade-up-element show my-12"
-        : "fade-up-element my-12"
-    }
- 
+    <div
+      ref={targetRef}
+      className={
+        isVisible ? "fade-up-element show my-12" : "fade-up-element my-12"
+      }
     >
       <img className="xs:hidden lg:block" src={aboitMission} />
-      <img className="xs:block lg:hidden w-[90%]" src={aboutMobMission} />
+      <img className="xs:block lg:hidden w-[90%]" src={mobcert} />
     </div>
   );
 };

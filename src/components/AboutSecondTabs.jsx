@@ -92,7 +92,7 @@ const AboutSecondTabs = () => {
         <AboutSecondInnerTabs
           title1="Alupak"
           title2="Foundation"
-          paragraph="We started our journey of manufacturing aluminum collapsible tubes in 1983. Since our inception, we have been making a significant contribution to industries within Pakistan as well as internationally with high-standard packaging solutions, customized for every need."
+          paragraph="We started our journey of manufacturing aluminum collapsible tubes in 2005. Since our inception, we have been making a significant contribution to industries within Pakistan as well as internationally with high-standard packaging solutions, customized for every need."
           imageUrl={A1}
         />
       </div>

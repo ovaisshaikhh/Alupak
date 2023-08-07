@@ -71,8 +71,8 @@ const AboutHistory = () => {
       <div className="xs:mx-4 lg:mx-40 xs:mb-[6rem]">
         <div className="text-center">
           <h1 className="text-[1.5rem] font-black mb-[-1.5rem] md:hidden">
-          Entered the business in 2005
-        </h1>
+            Entered the business in 2005
+          </h1>
 
           {/* -- */}
           <div className="md:grid grid-cols-12 xs:hidden">
@@ -83,7 +83,6 @@ const AboutHistory = () => {
               </h1>
               {/* ---- */}
               <div
-                // className="grid grid-cols-3 items-center xs:mx-12 md:mx-[unset]"
                 ref={componentRef}
                 className={`grid grid-cols-3 items-center xs:mx-12 md:mx-[unset] relative md:left-[36%] lg:left-[31%] xl:left-[33%] xm:left-[36%] top-[50%] ${
                   showAnimation ? "animate" : ""

@@ -97,7 +97,6 @@ const CareersForm = () => {
               required
               style={{ display: "none" }}
             />
-            {/* <p>{file}</p> */}
 
             <button
               onClick={handleButtonClick}
@@ -120,7 +119,6 @@ const CareersForm = () => {
           <Button value={"Submit Application"} />
         </div>
       </div>
-      {/* <div className="col-start-2 grid justify-end contact-btn mb-10 xll:mx-[20rem] lg:mx-[10rem] xs:mx-[2rem]"> */}
     </div>
   );
 };

@@ -3,7 +3,6 @@ import {
   ProductsIndustiresCarousel,
   ButtonBlack,
   ProductsIndustiresCarouselMob,
-  Product3dCarousel
 } from "../components/index";
 
 const ProductIndustries = () => {
@@ -14,7 +13,6 @@ const ProductIndustries = () => {
       </h1>
       <div className="xs:hidden md:block">
         <ProductsIndustiresCarousel />
-        {/* <Product3dCarousel /> */}
       </div>
       <div className="xs:block md:hidden">
         <ProductsIndustiresCarouselMob />

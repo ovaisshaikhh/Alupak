@@ -40,7 +40,7 @@ const Footer = () => {
             />
             <p className="xs:text-[12px] lg:text-[13px] text-center mb-4 text-[#d4d4d8]">
               Manufacturing high-quality aluminum collapsible tubes and more
-              similar packaging materials since 1983.
+              similar packaging materials since 2005.
             </p>
             <Socials />
           </div>
@@ -74,13 +74,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        {/* ----------------------------------------- */}
-        {/* @-till 768 */}
-        {/* <div className="md:hidden ml-12 mr-12 mt-6">
-          {footerData.map(({ title, content }) => (
-            <FooterMenu title={title} content={content} />
-          ))}
-        </div> */}
         {/* ----------------------------------------- */}
       </div>
     </footer>

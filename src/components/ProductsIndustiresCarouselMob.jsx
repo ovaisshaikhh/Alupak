@@ -34,8 +34,8 @@ const ProductsIndustiresCarouselMob = () => {
             <div className="xs:py-4 xs:px-8">
               <h6 className="font-bold xs:mb-2 text-lg">Pharmaceutical</h6>
               <p className="xs:text-sm">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod.
+                Creating secure packaging for most crucial products such as that
+                from pharmaceuticals is our utmost priority and expertise.
               </p>
             </div>
           </div>
@@ -46,8 +46,8 @@ const ProductsIndustiresCarouselMob = () => {
             <div className="xs:py-4 xs:px-8">
               <h6 className="font-bold xs:mb-2 text-lg">Paint</h6>
               <p className="xs:text-sm">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod.
+                Creating packaging that could let the end customer use paints to
+                their fullest quality and quantity for viable results.
               </p>
             </div>
           </div>
@@ -58,8 +58,8 @@ const ProductsIndustiresCarouselMob = () => {
             <div className="xs:py-4 xs:px-8">
               <h6 className="font-bold xs:mb-2 text-lg">Dying Pigments</h6>
               <p className="xs:text-sm">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod.
+                Making the use of dying pigments easy and efficient as we offer
+                secure packaging to lock the true quality of products.
               </p>
             </div>
           </div>

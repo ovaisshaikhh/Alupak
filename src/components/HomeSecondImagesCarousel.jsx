@@ -30,8 +30,7 @@ const HomeSecondImagesCarousel = () => {
         <Cards
           imageUrl={A1}
           title="Aluminium Cartridge"
-          paragraph="Widely used in the beverage industry for packaging carbonated
-            drinks, juices, energy drinks, and more."
+          paragraph="We specialize in designing and manufacturing the necessities for filling and packing silicon and polyurethane sealants in aluminum cartridges."
         />
         <Cards
           imageUrl={A2}

@@ -1,4 +1,3 @@
-/* ------------------- */
 .container {
   position: relative;
   overflow: hidden;
@@ -56,21 +55,6 @@
     height: 300px;
   }
 }
-/* 
-@media (max-width: 768px) {
-  .div1,
-  .div2 {
-    margin: 0 1rem;
-  }
-  .hidden-text.div2.open {
-    width: 100%;
-    margin: 0;
-  }
-  .hidden-text.div2.open .info {
-    height: 320px;
-  }
-} */
-
 /* -------------------- */
 
 .hidden-texts {
@@ -82,4 +66,3 @@
 .hidden-texts.open {
   transform: scaleY(1);
 }
-

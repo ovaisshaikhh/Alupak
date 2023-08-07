@@ -21,9 +21,7 @@ export const footerData = [
     content: [
       {
         li: "Contact",
-        // link: "/contact",
         link: "",
-        // onClick: openContactModal
       },
       {
         li2: "Careers",

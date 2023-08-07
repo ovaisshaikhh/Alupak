@@ -7,11 +7,11 @@ import {
 
 const Downloads = () => {
   return (
-    <div>
+    <React.Fragment>
       <DownloadsBanner />
       <DownloadsUsefulLinks />
       <Downloadsbottom />
-    </div>
+    </React.Fragment>
   );
 };
 

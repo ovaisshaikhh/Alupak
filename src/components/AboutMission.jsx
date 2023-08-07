@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import aboitMission from "../assets/about/Mask Group 39.png";
+import mobabout from "../assets/about/Mask Group 45.png";
 
 const AboutMission = () => {
   const targetRef = useRef(null);
@@ -40,6 +41,7 @@ const AboutMission = () => {
       className={isVisible ? "fade-up-element show" : "fade-up-element"}
     >
       <img className="xs:hidden lg:block" src={aboitMission} />
+      <img className="xs:block lg:hidden" src={mobabout} />
     </div>
   );
 };

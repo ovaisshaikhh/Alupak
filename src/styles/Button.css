@@ -1,4 +1,3 @@
-/* ----------------------------- */
 .draw-border {
   position: relative;
   border-radius: 9999px;
@@ -22,9 +21,6 @@
 .draw-border::after {
   border-top-width: 2px;
   border-right-width: 2px;
-}
-.draw-border:hover {
-  /* color: #ffe593; */
 }
 .draw-border:hover::before,
 .draw-border:hover::after {

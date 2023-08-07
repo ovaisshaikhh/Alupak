@@ -44,9 +44,10 @@ import MobileMenu from "./MobileMenu";
 import AboutUspsCarousel from "./AboutUspsCarousel";
 import AboutHistoryCarousel from "./AboutHistoryCarousel";
 import Tabs from "./Tabs";
-import ContentSection from "./ContentSection";
+
 import ContactModal from "./ContactModal";
-import Product3dCarousel from "./Product3dCarousel";
+// import Product3dCarousel from "./Product3dCarousel";
+import Pg404 from "./Pg404";
 
 export {
   Navbar,
@@ -95,7 +96,8 @@ export {
   AboutUspsCarousel,
   AboutHistoryCarousel,
   Tabs,
-  ContentSection,
+
   ContactModal,
-  Product3dCarousel,
+  // Product3dCarousel,
+  Pg404
 };

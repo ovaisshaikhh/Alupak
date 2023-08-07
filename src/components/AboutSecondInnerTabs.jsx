@@ -41,7 +41,6 @@ const AboutSecondInnerTabs = ({ title1, title2, paragraph, imageUrl }) => {
       <div className="xs:flex xs:flex-col-reverse md:grid grid-cols-5 items-center my-8 mt-12 lg:gap-12">
         {/* @1 */}
         <div className="text-center relative col-span-2">
-          {/* <div className="banner-textWajiha lg:absolute lg:left-[-100%] lg:top-[50%]"> */}
           <div>
             <h1 className="fontBoldAlupak text-[1.5rem] mb-4">
               <span>{title1}</span>{" "}

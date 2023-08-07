@@ -30,39 +30,33 @@ const ProductsIndustiresCarousel = () => {
         <ProductIndustriesCard
           imageUrl={P1}
           title="Pharmaceutical"
-          paragraph=" Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod."
+          paragraph="Creating secure packaging for most crucial products such as that from pharmaceuticals is our utmost priority and expertise."
         />
         <ProductIndustriesCard
           imageUrl={P2}
           title="Paint"
-          paragraph=" Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod."
+          paragraph="Creating packaging that could let the end customer use paints to their fullest quality and quantity for viable results."
         />
         <ProductIndustriesCard
           imageUrl={P3}
           title="Dying Pigments"
-          paragraph=" Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod."
+          paragraph="Making the use of dying pigments easy and efficient as we offer secure packaging to lock the true quality of products."
         />
 
         <ProductIndustriesCard
           imageUrl={P1}
           title="Pharmaceutical"
-          paragraph=" Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod."
+          paragraph="Creating secure packaging for most crucial products such as that from pharmaceuticals is our utmost priority and expertise."
         />
         <ProductIndustriesCard
           imageUrl={P2}
           title="Paint"
-          paragraph=" Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod."
+          paragraph="Creating packaging that could let the end customer use paints to their fullest quality and quantity for viable results."
         />
         <ProductIndustriesCard
           imageUrl={P3}
           title="Dying Pigments"
-          paragraph=" Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod."
+          paragraph="Making the use of dying pigments easy and efficient as we offer secure packaging to lock the true quality of products."
         />
       </Flickity>
     </div>

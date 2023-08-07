@@ -1,10 +1,8 @@
 import Homepage from "./Homepage";
-import Aboutus from "./Aboutus";
 import Products from "./Products";
+import Aboutus from "./Aboutus";
 import Careers from "./Careers";
-import PageNotFound from "./PageNotFound";
-import Faqs from "./Faqs";
-import Contact from "./Contact";
 import Downloads from "./Downloads";
+import PageNotFound from "./PageNotFound";
 
-export { Homepage, Aboutus, Products, Careers, PageNotFound, Faqs, Contact, Downloads };
+export { Homepage, Products, Aboutus, Careers, Downloads, PageNotFound };

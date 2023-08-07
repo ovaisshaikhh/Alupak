@@ -50,7 +50,6 @@ const AboutUspsCarousel = () => {
   };
   return (
     <div
-      // className="mt-12 bg-[#1f1f1f] text-white"
       ref={targetRef}
       className={
         isVisible
