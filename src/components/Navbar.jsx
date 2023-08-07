@@ -189,8 +189,8 @@ const Navbar = () => {
         <nav
           ref={headerRef}
           className={`${
-            isScrolledMob ? "bg-white  shadow-lg" : "bg-transparent"
-          } xs:flex md:hidden items-center py-4 navbar fixed top-0 w-full z-50 left-0 right-0 justify-around transition-all`}
+            isScrolledMob ? "bg-white shadow-lg justify-between px-4" : "bg-transparent justify-around "
+          } xs:flex md:hidden items-center py-4 navbar fixed top-0 w-full z-50 left-0 right-0 transition-all`}
         >
           <div>
             <button onClick={handleMenuToggle} className="border-none">
@@ -212,7 +212,7 @@ const Navbar = () => {
             <Link to="/">
               <img
                 ref={headerRef}
-                className={`${isScrolledMob ? "hidden" : ""} xs:w-[50%] m-auto`}
+                className={`${isScrolledMob ? "hidden" : ""} xs:w-[62%] m-auto`}
                 src={logo}
                 alt="logo"
               />
