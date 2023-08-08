@@ -7,7 +7,7 @@ import { ButtonBlack } from "./index";
 const ContactModal = ({ CloseContact }) => {
   return (
     <div className="flex justify-center items-center fixed top-0 left-0 w-full h-full modal-container z-50">
-      <div className="relative bg-white rounded-lg xs:w-[80%] md:max-w-md md:min-w-[70vw] lg:max-w-md lg:min-w-[50vw] min-h-[50vh]">
+      <div className="relative bg-white rounded-lg xs:w-[80%] md:max-w-md md:min-w-[70vw] lg:max-w-md lg:min-w-[50vw] max-h-[85vh] min-h-[50vh]">
         {/* @-content */}
         <div className="xs:flex flex-col-reverse md:grid grid-cols-6 relative">
           <div className="col-span-4 p-5 xs:text-left">
@@ -72,7 +72,7 @@ const ContactModal = ({ CloseContact }) => {
                 />
               </div>
             </div>
-            <div className="mt-8 float-right">
+            <div className="xs:mt-4 lg:mt-8 float-right">
               <ButtonBlack value={"Submit"} />
             </div>
           </div>
@@ -84,7 +84,7 @@ const ContactModal = ({ CloseContact }) => {
             />
             <img
               src={mobimg}
-              className="rounded-t-lg xs:block md:hidden w-full h-[10rem] object-cover"
+              className="rounded-t-lg xs:block md:hidden w-full h-[8rem] object-cover"
             />
           </div>
         </div>

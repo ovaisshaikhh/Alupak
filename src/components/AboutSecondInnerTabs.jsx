@@ -66,8 +66,8 @@ const AboutSecondInnerTabs = ({ title1, title2, paragraph, imageUrl }) => {
               ref={targetRef}
               className={
                 isVisible
-                  ? "background-animation_HA bg-yellow-400 xs:w-[2rem] xs:h-[9rem] md:h-[15rem] lg:w-[4rem] lg:h-[20rem] xm:w-[5rem] xm:h-[28rem] float-right sf:h-[15rem]"
-                  : "bg-yellow-400 xs:w-[2rem] xs:h-[9rem] md:h-[15rem] lg:w-[4rem] lg:h-[20rem] xm:w-[5rem] xm:h-[28rem] float-right"
+                  ? "background-animation_HA bg-yellow-400 xs:w-[2rem] xs:h-[8rem] md:h-[15rem] lg:w-[4rem] lg:h-[20rem] xm:w-[5rem] xm:h-[28rem] float-right sf:h-[15rem]"
+                  : "bg-yellow-400 xs:w-[2rem] xs:h-[8rem] md:h-[15rem] lg:w-[4rem] lg:h-[20rem] xm:w-[5rem] xm:h-[28rem] float-right"
               }
             >
               {""}

@@ -62,7 +62,7 @@ const HomeIndustries = () => {
         </div>
       </div>
       {/* ------- */}
-      <div className="grid md:grid-cols-5 md:pt-8 lg:pt-12 lg:mx-0 xm:mx-12 md:ml-[4rem] lg:ml-[5rem] xm:ml-[10rem]">
+      <div className="grid md:grid-cols-5 md:pt-8 lg:pt-[1.8rem] lg:mx-0 xm:mx-12 md:ml-[4rem] lg:ml-[5rem] xm:ml-[10rem]">
         {/* mobile */}
         <div className="xs:block md:hidden">
           <h2
@@ -86,8 +86,8 @@ const HomeIndustries = () => {
             ref={targetRef}
             className={
               isVisible
-                ? "tracking-in-expand vertical-text md:text-[2.5rem] lg:text-[3rem] xm:text-[5rem] font-black text-[#475569] pt-4 tracking-wider"
-                : "vertical-text md:text-[2.5rem] lg:text-[3rem] xm:text-[5rem] font-black text-[#475569] pt-4 tracking-wider"
+                ? "tracking-in-expand vertical-text md:text-[2.5rem] lg:text-[3rem] xm:text-[4rem] font-black text-[#475569] pt-4 tracking-wider"
+                : "vertical-text md:text-[2.5rem] lg:text-[3rem] xm:text-[4rem] font-black text-[#475569] pt-4 tracking-wider"
             }
           >
             Industries
