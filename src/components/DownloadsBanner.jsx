@@ -20,10 +20,10 @@ const DownloadsBanner = () => {
         alt="banner"
       />
       <div className="pageBannerH1 absolute xs:top-[45%] ssx:top-[47%] sg:top-[48%] md:top-[43%] ep:top-[45%] lg:top-[44%] xl:top-[48%] xm:top-[44%] xll:top-[45%] 2xl:top-[47%] text-white text-[24px] w-[100%] xs:px-[1rem] ssx:px-[2rem] md:px-[6rem] xs:text-center">
-        <h1 className="tracking-in-expand xs:text-[2rem] xm:text-[2.9rem] font-extrabold mb-4 fontBoldAlupak tracking-[.01rem]">
+        <h1 className="tracking-in-expand xs:text-[2.2rem] xm:text-[2.9rem] font-extrabold mb-4 fontBoldAlupak tracking-[.01rem]">
           Downloads
         </h1>
-        <p className="xs:text-[.7rem] ss:text-[.9rem] xs:mb-12 md:mb-3">
+        <p className="xs:text-[.9rem] ss:text-[.9rem] xs:mb-12 md:mb-3">
           We are proudly certified aluminum manufacturers operating within
           standardized <br className="xs:hidden md:block" /> safety and
           environmental conditions.
