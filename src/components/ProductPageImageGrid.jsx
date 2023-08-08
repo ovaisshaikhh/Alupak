@@ -63,14 +63,10 @@ const ProductPageImageGrid = () => {
                   <img className="md:w-[12%] lg:w-[20%] m-auto" src={v1} />
                   <h1 className="font-bold my-3">Aluminum Cartridge</h1>
                   <p className="md:text-xs lg:text-sm mb-2">
-                    Aluminium tubes are unbreakable, clean, lightweight and
-                    compact. Valuable materials are dosed sparingly and
-                    hygienically.…appealing.
+                    We specialize in designing and manufacturing the necessities
+                    for filling and packing silicon and polyurethane sealants in
+                    aluminum cartridges.
                   </p>
-                  <ButtonBlack
-                    value={"Read More"}
-                    onClick={() => navigate("/careers")}
-                  />
                 </div>
               </div>
             </div>
@@ -96,15 +92,13 @@ const ProductPageImageGrid = () => {
                 }`}
                 onClick={toggleText2}
               >
-                <div className="text-center md:py-2 md:px-2 lg:py-4 lg:px-4 xsm:py-8 xsm:px-10">
-                  <img className="md:w-[12%] lg:w-[20%] m-auto" src={v2} />
+                <div className="text-center md:py-2 md:px-2 lg:py-10 lg:px-4 xsm:py-8 xsm:px-10">
+                  <img className="md:w-[15%] lg:w-[20%] m-auto mb-4" src={v2} />
                   <h1 className="font-bold my-3">Collapsable Aluminum Tube</h1>
                   <p className="md:text-xs lg:text-sm mb-2">
-                    Aluminium tubes are unbreakable, clean, lightweight and
-                    compact. Valuable materials are dosed sparingly and
-                    hygienically.…appealing.
+                    Widely used for packaging various products such as creams,
+                    oinment, gels and pastes.
                   </p>
-                  <ButtonBlack value={"Read More"} />
                 </div>
               </div>
             </div>
@@ -134,11 +128,9 @@ const ProductPageImageGrid = () => {
                   <img className="md:w-[12%] lg:w-[20%] m-auto" src={v3} />
                   <h1 className="font-bold my-3">Rigid Aluminium Tubes</h1>
                   <p className="md:text-xs lg:text-sm mb-2">
-                    Aluminium tubes are unbreakable, clean, lightweight and
-                    compact. Valuable materials are dosed sparingly and
-                    hygienically.…appealing.
+                    Commonly used for packaging and dispensing products such as
+                    adhesives, pharmaceuticals, cosmetics, and food items.
                   </p>
-                  <ButtonBlack value={"Read More"} />
                 </div>
               </div>
             </div>

@@ -13,8 +13,8 @@ const Tabs = ({ tabs, setActiveTab, scrollToSection, activeTab }) => {
           key={index}
           className={
             activeTab === index
-              ? "active px-4 text-[#FBD404] font-black tabsUnderline"
-              : "px-4 text-[#4b5563] font-black"
+              ? "active px-4 text-[#FBD404] font-bold tabsUnderline"
+              : "px-4 text-[#4b5563] font-bold"
           }
           onClick={() => handleTabClick(index)}
         >

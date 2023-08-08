@@ -27,25 +27,47 @@
   height: 0;
   transition: all 0.8s ease;
 }
-.t4s-eff-border-run::before {
-  border-top: 1px solid #fff;
-  border-left: 1px solid #fff;
-  top: 15px;
-  left: 15px;
+@media (max-width: 1024px) {
+  .t4s-eff-border-run::before {
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    top: 9px;
+    left: 9px;
+  }
+  .t4s-eff-border-run::after {
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    right: 9px;
+    bottom: 9px;
+  }
+  .t4s-eff-border-run:hover::before,
+  .t4s-eff-border-run:hover::after {
+    opacity: 1;
+    width: calc(100% - 18px);
+    height: calc(100% - 18px);
+  }
 }
-.t4s-eff-border-run::after {
-  border-right: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-  right: 15px;
-  bottom: 15px;
+@media (min-width: 1024px) {
+  .t4s-eff-border-run::before {
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    top: 15px;
+    left: 15px;
+  }
+  .t4s-eff-border-run::after {
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    right: 15px;
+    bottom: 15px;
+  }
+  .t4s-eff-border-run:hover::before,
+  .t4s-eff-border-run:hover::after {
+    opacity: 1;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+  }
 }
-.t4s-eff-border-run:hover::before,
-.t4s-eff-border-run:hover::after {
-  opacity: 1;
-  /* opacity: .9; */
-  width: calc(100% - 30px);
-  height: calc(100% - 30px);
-}
+
 /* ----------------------------------- */
 /* @-Home About */
 .image-container {
@@ -69,7 +91,7 @@
     flex-direction: column-reverse;
   }
 }
-@media (min-width:400px) and (max-width: 768px) {
+@media (min-width: 400px) and (max-width: 768px) {
   .text-overlay {
     bottom: 0;
     width: 100%;
@@ -115,10 +137,7 @@
     rgba(3, 18, 64, 1) 105%
   ); */
 
-  background-image: linear-gradient(
-    rgb(0 21 86 / 48%) 60%,
-    rgb(0 12 48) 125%
-  );
+  background-image: linear-gradient(rgb(0 21 86 / 48%) 60%, rgb(0 12 48) 125%);
   color: #fff;
   width: 100%;
   height: 100%;
@@ -133,7 +152,7 @@
     rgba(3, 18, 64, 0.6) 60%,
     rgba(3, 18, 64, 1) 105%
   ); */
-    background-image: linear-gradient(
+  background-image: linear-gradient(
     rgba(3, 18, 64, 0) 60%,
     rgb(103 104 105) 105%
   );

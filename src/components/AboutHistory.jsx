@@ -78,7 +78,7 @@ const AboutHistory = () => {
           <div className="md:grid grid-cols-12 xs:hidden">
             {/* @1 */}
             <div className="col-span-11">
-              <h1 className="xs:text-[1.3rem] lg:text-[1.1rem] xl:text-[1.5rem] font-black mb-8">
+              <h1 className="xs:text-[1.3rem] lg:text-[1.1rem] xl:text-[1.5rem] font-bold mb-8">
                 Entered the business in 2005
               </h1>
               {/* ---- */}
@@ -94,7 +94,7 @@ const AboutHistory = () => {
                     showAnimation ? "left" : ""
                   }`}
                 >
-                  <h6 className="font-black text-[1.2rem]">Work</h6>
+                  <h6 className="font-bold text-[1.2rem]">Work</h6>
                   <p className="md:text-[13px] xm:text-sm">
                     Pharmaceutical, Cosmetics & Toiletries, Food Items,
                     Industrial Products, Household Goods.
@@ -107,7 +107,7 @@ const AboutHistory = () => {
                     showAnimation ? "right" : ""
                   }`}
                 >
-                  <h6 className="font-black text-[1.2rem]">Promises</h6>
+                  <h6 className="font-bold text-[1.2rem]">Promises</h6>
                   <p className="md:text-[13px] xm:text-sm">
                     Aluminium keeps its promises. The collapsible aluminium tube
                     is still an unbeatable packaging.

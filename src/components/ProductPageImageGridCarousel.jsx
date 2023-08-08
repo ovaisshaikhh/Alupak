@@ -79,15 +79,14 @@ const ProductPageImageGridCarousel = () => {
             }`}
             onClick={toggleText}
           >
-            <div className="text-center py-8 px-10">
-              <img className="w-[20%] m-auto" src={v1} />
+            <div className="text-center py-8 px-10 flex flex-col h-full">
+              <img className="w-[28%] mx-auto mb-4" src={v1} />
               <h1 className="font-bold my-3">Aluminum Cartridge</h1>
               <p className="text-sm mb-2">
-                Aluminium tubes are unbreakable, clean, lightweight and compact.
-                Valuable materials are dosed sparingly and
-                hygienically.…appealing.
+                We specialize in designing and manufacturing the necessities for
+                filling and packing silicon and polyurethane sealants in
+                aluminum cartridges.
               </p>
-              <ButtonBlack value={"Read More"} />
             </div>
           </div>
         </div>
@@ -111,15 +110,14 @@ const ProductPageImageGridCarousel = () => {
             }`}
             onClick={toggleText2}
           >
-            <div className="text-center py-8 px-10">
-              <img className="w-[20%] m-auto" src={v2} />
+            <div className="text-center py-8 px-10 flex flex-col h-full">
+              <img className="w-[28%] mx-auto mb-4" src={v2} />
               <h1 className="font-bold my-3">Collapsable Aluminum Tube</h1>
               <p className="text-sm mb-2">
-                Aluminium tubes are unbreakable, clean, lightweight and compact.
-                Valuable materials are dosed sparingly and
-                hygienically.…appealing.
+                Widely used for packaging various products such as creams,
+                oinment, gels and pastes.
               </p>
-              <ButtonBlack value={"Read More"} />
+              {/* <ButtonBlack value={"Read More"} /> */}
             </div>
           </div>
         </div>
@@ -143,15 +141,13 @@ const ProductPageImageGridCarousel = () => {
             }`}
             onClick={toggleText3}
           >
-            <div className="info text-center py-8 px-10">
-              <img className="w-[20%] m-auto" src={v3} />
+            <div className="info text-center py-8 px-10 flex flex-col h-full">
+              <img className="w-[28%] mx-auto mb-4" src={v3} />
               <h1 className="font-bold my-3">Rigid Aluminium Tubes</h1>
               <p className="text-sm mb-2">
-                Aluminium tubes are unbreakable, clean, lightweight and compact.
-                Valuable materials are dosed sparingly and
-                hygienically.…appealing.
+                Commonly used for packaging and dispensing products such as
+                adhesives, pharmaceuticals, cosmetics, and food items.
               </p>
-              <ButtonBlack value={"Read More"} />
             </div>
           </div>
         </div>

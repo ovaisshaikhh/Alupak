@@ -45,7 +45,7 @@ const HomeIndustriesImages = () => {
 
   return (
     <React.Fragment>
-      <div className="grid xs:grid-cols-2 xs:gap-2 md:gap-0 md:grid-cols-4 ">
+      <div className="grid xs:grid-cols-2 xs:gap-1 md:gap-0 md:grid-cols-4 ">
         {/* 1 */}
         <div
           ref={targetRef}
@@ -58,7 +58,7 @@ const HomeIndustriesImages = () => {
         >
           <img src={HI1} className="deskimg xs:hidden md:block" />
           <img src={HI11} className="deskimg md:hidden xs:block" />
-          <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
+          <div className="text-overlay-HI xs:p-2 md:p-3 lg:p-4 xm:p-8">
             <p className="xs:text-[12px] md:text-sm xm:text-base">
               glue & adhesive
             </p>

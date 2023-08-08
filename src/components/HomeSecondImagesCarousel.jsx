@@ -35,14 +35,12 @@ const HomeSecondImagesCarousel = () => {
         <Cards
           imageUrl={A2}
           title="Collapsable Aluminium Tubes"
-          paragraph="Widely used in the beverage industry for packaging carbonated
-        drinks, juices, energy drinks, and more."
+          paragraph="Widely used for packaging various products such as creams, oinment, gels and pastes."
         />
         <Cards
           imageUrl={A3}
           title="Rigid Aluminium Tubes"
-          paragraph="Widely used in the beverage industry for packaging carbonated
-            drinks, juices, energy drinks, and more."
+          paragraph="Commonly used for packaging and dispensing products such as adhesives, pharmaceuticals, cosmetics, and food items."
         />
       </Flickity>
     </div>
