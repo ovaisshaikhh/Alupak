@@ -40,11 +40,11 @@ const ProductPageImageGrid = () => {
             {/* @1 */}
             <div className="container">
               {/* visible */}
-              <div className="div1 shadow-lg t4s-eff-border-run">
+              <div className="div1 shadow-lg t4s-eff-border-run hoverPrductImg">
                 <img src={p1} className="ImgOpacityHover" />
                 <button
                   onClick={toggleText}
-                  className="z-10 absolute left-0 right-0 bottom-0 bg-[#ffd303] flex items-center justify-between md:px-2 md:py-2 lg:px-4 lg:py-2 font-semibold text-[#334155] cursor-pointer"
+                  className="hoverPrduct z-10 absolute left-0 right-0 bottom-0 bg-[#ffd303] flex items-center justify-between md:px-2 md:py-2 lg:px-4 lg:py-2 font-semibold text-[#334155] cursor-pointer"
                 >
                   <span className="md:text-[13px] lg:text-sm">
                     Aluminum Cartridge

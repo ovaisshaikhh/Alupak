@@ -73,3 +73,8 @@
 .hidden-texts.open {
   transform: scaleY(1);
 }
+/* ---- */
+
+.hoverPrductImg:hover{
+  /* border:2px solid red; */
+}

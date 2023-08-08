@@ -105,9 +105,19 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     rgba(3, 18, 64, 0) 60%,
     rgb(103 104 105) 105%
+  ); */
+
+  /* background-image: linear-gradient(
+    rgba(3, 18, 64, 0.6) 60%,
+    rgba(3, 18, 64, 1) 105%
+  ); */
+
+  background-image: linear-gradient(
+    rgb(0 21 86 / 48%) 60%,
+    rgb(0 12 48) 125%
   );
   color: #fff;
   width: 100%;
@@ -119,9 +129,13 @@
   transition: 1s !important;
 }
 .text-overlay-HI:hover {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     rgba(3, 18, 64, 0.6) 60%,
     rgba(3, 18, 64, 1) 105%
+  ); */
+    background-image: linear-gradient(
+    rgba(3, 18, 64, 0) 60%,
+    rgb(103 104 105) 105%
   );
   transition: 1s !important;
 }

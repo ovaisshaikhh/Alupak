@@ -110,6 +110,20 @@ const Navbar = () => {
               >
                 <NavLink
                   exact
+                  to="/"
+                  className={`${
+                    isScrolled ? "text-black" : "text-white"
+                  }  md:text-xs lg:text-sm xl:text-[.9rem] hover-underline-animation hover:text-[#ffd303]`}
+                >
+                  Home
+                </NavLink>
+              </li>
+              <li
+                className="md:px-2 lg:px-4 tracking-wider"
+                onClick={handleClickNav}
+              >
+                <NavLink
+                  exact
                   to="/products"
                   className={`${
                     isScrolled ? "text-black" : "text-white"
@@ -123,6 +137,20 @@ const Navbar = () => {
                   // onClick={() => handleLinkClick("products")}
                 >
                   Products
+                </NavLink>
+              </li>
+              <li
+                className="md:px-2 lg:px-4 tracking-wider"
+                onClick={handleClickNav}
+              >
+                <NavLink
+                  exact
+                  to="/downloads"
+                  className={`${
+                    isScrolled ? "text-black" : "text-white"
+                  }  md:text-xs lg:text-sm xl:text-[.9rem] hover-underline-animation hover:text-[#ffd303]`}
+                >
+                  Downloads
                 </NavLink>
               </li>
               <li
@@ -189,7 +217,9 @@ const Navbar = () => {
         <nav
           ref={headerRef}
           className={`${
-            isScrolledMob ? "bg-white shadow-lg justify-between px-4" : "bg-transparent justify-around "
+            isScrolledMob
+              ? "bg-white shadow-lg justify-between px-4"
+              : "bg-transparent justify-around "
           } xs:flex md:hidden items-center py-4 navbar fixed top-0 w-full left-0 right-0 transition-all z-10`}
         >
           <div>

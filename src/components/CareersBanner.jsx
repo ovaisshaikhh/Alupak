@@ -24,8 +24,11 @@ const CareersBanner = () => {
           Careers
         </h1>
         <p className="xs:text-[.9rem] ss:text-[.9rem] text-[.9rem] xs:mb-12 md:mb-3">
-          Explore exciting career opportunities and grow with us in the dynamic
-          world <br className="xs:hidden md:block" /> of aluminum manufacturing.
+          {/* Explore exciting career opportunities and grow with us in the dynamic
+          world <br className="xs:hidden md:block" /> of aluminum manufacturing. */}
+          Are you interested to uplift your career with Alupak, Pakistan’s most
+          trusted  <br className="xs:hidden md:block" />  aluminum collapsible tube supplier? <br/> Fill out the form below
+          and let us reach out to you!
         </p>
       </div>
     </div>

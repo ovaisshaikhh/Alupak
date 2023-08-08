@@ -34,6 +34,14 @@ const MobileMenu = ({ isOpen, onClose }) => {
               className="md:px-2 lg:px-4 tracking-wider"
               onClick={handleClickNav}
             >
+              <NavLink exact to="/" className="text-[#64748b]">
+                Home
+              </NavLink>
+            </li>
+            <li
+              className="md:px-2 lg:px-4 tracking-wider"
+              onClick={handleClickNav}
+            >
               <NavLink exact to="/products" className="text-[#64748b]">
                 Products
               </NavLink>
@@ -42,7 +50,15 @@ const MobileMenu = ({ isOpen, onClose }) => {
               className="md:px-2 lg:px-4 tracking-wider"
               onClick={handleClickNav}
             >
-              <NavLink exact to="about-us" className="text-[#64748b]">
+              <NavLink exact to="/downloads" className="text-[#64748b]">
+                Downloads
+              </NavLink>
+            </li>
+            <li
+              className="md:px-2 lg:px-4 tracking-wider"
+              onClick={handleClickNav}
+            >
+              <NavLink exact to="/about-us" className="text-[#64748b]">
                 About Us
               </NavLink>
             </li>
