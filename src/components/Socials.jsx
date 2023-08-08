@@ -33,7 +33,7 @@ const Socials = () => {
       {/* @Linkedin */}
       <p className=" rounded-full social-icon hover:animate-bounce">
         <a
-          href=""
+          href="https://www.linkedin.com/company/alupak-alluminium-private-limited/"
           target="_blank"
           rel="noreferrer"
         >
