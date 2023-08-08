@@ -1,10 +1,12 @@
 import React, { useRef, useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { HomeIndustriesImages, Button } from "./index";
 import "../styles/banner.css";
 import "../styles/font.css";
 import "../styles/animate.css";
 
 const HomeIndustries = () => {
+  const navigate = useNavigate();
   const targetRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -101,7 +103,7 @@ const HomeIndustries = () => {
           is an integral quest of major industries. Alupak promises to secure
           the true essence of products with quality packaging materials.
         </p>
-        <Button value={"Read More"} />
+        <Button value={"Read More"} onClick={() => navigate("products")} />
       </div>
     </div>
   );

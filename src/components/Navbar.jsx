@@ -78,7 +78,7 @@ const Navbar = () => {
           className={`${
             isScrolled
               ? "bg-white z-50 py-2 px-6 lg:py-4 lg:px-12 shadow-lg"
-              : "bg-transparent z-50 py-4 px-6 lg:py-8 lg:px-12"
+              : "bg-transparent py-4 px-6 lg:py-8 lg:px-12  z-10"
           } xs:hidden md:flex justify-between items-center navbar fixed top-0 left-0 w-full transition-all`}
         >
           <div
@@ -190,7 +190,7 @@ const Navbar = () => {
           ref={headerRef}
           className={`${
             isScrolledMob ? "bg-white shadow-lg justify-between px-4" : "bg-transparent justify-around "
-          } xs:flex md:hidden items-center py-4 navbar fixed top-0 w-full z-50 left-0 right-0 transition-all`}
+          } xs:flex md:hidden items-center py-4 navbar fixed top-0 w-full left-0 right-0 transition-all z-10`}
         >
           <div>
             <button onClick={handleMenuToggle} className="border-none">
