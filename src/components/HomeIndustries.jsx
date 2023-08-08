@@ -86,7 +86,7 @@ const HomeIndustries = () => {
             ref={targetRef}
             className={
               isVisible
-                ? "tracking-in-expand vertical-text md:text-[2.5rem] lg:text-[3rem] xm:text-[4rem] font-black text-[#475569] pt-4 tracking-wider"
+                ? "xll:tracking-in-expand vertical-text md:text-[2.5rem] lg:text-[3rem] xm:text-[4rem] font-black text-[#475569] pt-4 tracking-wider"
                 : "vertical-text md:text-[2.5rem] lg:text-[3rem] xm:text-[4rem] font-black text-[#475569] pt-4 tracking-wider"
             }
           >

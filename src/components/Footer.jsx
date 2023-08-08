@@ -60,7 +60,7 @@ const Footer = () => {
               <img className="md:w-[6%] lg:w-[4%]" src={mail} alt="mail" />
 
               <div className="md:text-[12px] lg:text-[13px]">
-                <a href="mailto:exmaple@gmail.com">exmaple@gmail.com</a>
+                <a href="mailto:info@alu-pak.com">info@alu-pak.com</a>
               </div>
             </div>
 

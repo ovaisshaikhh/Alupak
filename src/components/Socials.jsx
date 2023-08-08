@@ -7,11 +7,11 @@ import call from "../assets/iconcall.svg";
 
 const Socials = () => {
   return (
-    <div className="mobMenu grid grid-cols-5 xs:gap-2 sg:gap-4 xll:gap-[0rem] justify-items-center items-center sx:my-6 md:mt-6 lg:mt-0 text-white">
+    <div className="mobMenu grid grid-cols-4 xs:gap-2 sg:gap-4 xll:gap-[0rem] justify-items-center items-center sx:my-6 md:mt-6 lg:mt-0 text-white">
       {/* @Facebook */}
       <p className=" rounded-full social-icon hover:animate-bounce">
         <a
-          href="https://www.facebook.com/image.est1993/"
+          href="https://www.facebook.com/people/Alupak-Limited/100064038663586/?mibextid=ZbWKwL"
           target="_blank"
           rel="noreferrer"
         >
@@ -22,7 +22,7 @@ const Socials = () => {
       {/* @Twitter */}
       <p className="rounded-full social-icon hover:animate-bounce">
         <a
-          href="https://twitter.com/image_est1993?lang=en"
+          href="https://twitter.com/i/flow/login?redirect_after_login=%2FAlupak_Limited"
           target="_blank"
           rel="noreferrer"
         >
@@ -33,7 +33,7 @@ const Socials = () => {
       {/* @Linkedin */}
       <p className=" rounded-full social-icon hover:animate-bounce">
         <a
-          href="https://pk.linkedin.com/company/image-pakistan-ltd"
+          href=""
           target="_blank"
           rel="noreferrer"
         >
@@ -42,12 +42,12 @@ const Socials = () => {
         </a>
       </p>
       {/* @Youtube */}
-      <p className="rounded-full social-icon hover:animate-bounce">
-        <a href="https://www.w3schools.com/" target="_blank" rel="noreferrer">
+      {/* <p className="rounded-full social-icon hover:animate-bounce">
+        <a href="https://www.w3schools.com/" target="_blank" rel="noreferrer"> */}
           {/* <i class="fa-brands fa-youtube sx:text-sm sm:text-lg md:text-sm xl:text-lg p-2 flex justify-center"></i> */}
-          <img className="w-4" src={yt} alt="yt" />
+          {/* <img className="w-4" src={yt} alt="yt" />
         </a>
-      </p>
+      </p> */}
       {/* @Call */}
       <p className=" rounded-full social-icon hover:animate-bounce">
         <a type="email" href="mailto:info@image.net.pk" rel="noreferrer">
