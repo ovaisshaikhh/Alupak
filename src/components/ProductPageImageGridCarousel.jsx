@@ -19,7 +19,7 @@ const flickityOptions = {
   pageDots: false,
   draggable: true,
   pauseAutoPlayOnHover: false,
-  wrapAround: false,
+  wrapAround: true,
 };
 
 const ProductPageImageGridCarousel = () => {

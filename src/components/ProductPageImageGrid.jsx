@@ -40,11 +40,11 @@ const ProductPageImageGrid = () => {
             {/* @1 */}
             <div className="container">
               {/* visible */}
-              <div className="div1 shadow-lg t4s-eff-border-run hoverPrductImg">
-                <img src={p1} className="ImgOpacityHover" />
+              <div className="div1 shadow-lg image-container">
+                <img src={p1} className="" />
                 <button
                   onClick={toggleText}
-                  className="hoverPrduct z-10 absolute left-0 right-0 bottom-0 bg-[#ffd303] flex items-center justify-between md:px-2 md:py-2 lg:px-4 lg:py-2 font-semibold text-[#334155] cursor-pointer"
+                  className="z-10 absolute left-0 right-0 bottom-0 bg-[#ffd303] flex items-center justify-between md:px-2 md:py-2 lg:px-4 lg:py-2 font-semibold text-[#334155] cursor-pointer"
                 >
                   <span className="md:text-[13px] lg:text-sm">
                     Aluminum Cartridge
@@ -54,13 +54,14 @@ const ProductPageImageGrid = () => {
               </div>
               {/* collapsable yellow */}
               <div
-                className={`hidden-texts div2 z-20 ProductCard ${
-                  showText ? "open" : "closed"
-                }`}
-                onClick={toggleText}
+                className="div2 ProductCard z-20 overlay t4s-eff-border-run "
+                // className={`hidden-texts div2 z-20 ProductCard ${
+                //   showText ? "open" : "closed"
+                // }`}
+                // onClick={toggleText}
               >
-                <div className="text-center md:py-2 md:px-2 lg:py-4 lg:px-4 xsm:py-8 xsm:px-10">
-                  <img className="md:w-[12%] lg:w-[20%] m-auto" src={v1} />
+                <div className="h-full flex flex-col text-center md:py-2 md:px-2 lg:py-4 lg:px-4 xsm:py-8 xsm:px-10">
+                  <img className="md:w-[12%] lg:w-[25%] mx-auto mb-4" src={v1} />
                   <h1 className="font-bold my-3">Aluminum Cartridge</h1>
                   <p className="md:text-xs lg:text-sm mb-2">
                     We specialize in designing and manufacturing the necessities
@@ -73,7 +74,7 @@ const ProductPageImageGrid = () => {
             {/* @2 */}
             <div className="container">
               {/* visible */}
-              <div className="div1 shadow-lg t4s-eff-border-run">
+              <div className="div1 shadow-lg image-container">
                 <img src={p2} className=" " />
                 <button
                   onClick={toggleText2}
@@ -87,13 +88,14 @@ const ProductPageImageGrid = () => {
               </div>
               {/* collapsable yellow */}
               <div
-                className={`hidden-texts div2 z-20 ProductCard ${
-                  showText2 ? "open" : "closed"
-                }`}
-                onClick={toggleText2}
+                className="div2 ProductCard z-20 overlay t4s-eff-border-run"
+                // className={`hidden-texts div2 z-20 ProductCard ${
+                //   showText2 ? "open" : "closed"
+                // }`}
+                // onClick={toggleText2}
               >
-                <div className="text-center md:py-2 md:px-2 lg:py-10 lg:px-4 xsm:py-8 xsm:px-10">
-                  <img className="md:w-[15%] lg:w-[20%] m-auto mb-4" src={v2} />
+                <div className="h-full flex flex-col text-center md:py-2 md:px-2 lg:py-10 lg:px-4 xsm:py-8 xsm:px-10">
+                  <img className="md:w-[15%] lg:w-[25%] mx-auto mb-4" src={v2} />
                   <h1 className="font-bold my-3">Collapsable Aluminum Tube</h1>
                   <p className="md:text-xs lg:text-sm mb-2">
                     Widely used for packaging various products such as creams,
@@ -105,7 +107,7 @@ const ProductPageImageGrid = () => {
             {/* @3 */}
             <div className="container">
               {/* visible */}
-              <div className="div1 shadow-lg t4s-eff-border-run">
+              <div className="div1 shadow-lg image-container">
                 <img src={p3} className="" />
                 <button
                   onClick={toggleText3}
@@ -119,13 +121,14 @@ const ProductPageImageGrid = () => {
               </div>
               {/* collapsable yellow */}
               <div
-                className={`hidden-texts div2 z-20 ProductCard ${
-                  showText3 ? "open" : "closed"
-                }`}
-                onClick={toggleText3}
+                className="div2 ProductCard z-20 overlay t4s-eff-border-run"
+                // className={`hidden-texts div2 z-20 ProductCard ${
+                //   showText3 ? "open" : "closed"
+                // }`}
+                // onClick={toggleText3}
               >
-                <div className="text-center md:py-2 md:px-2 lg:py-4 lg:px-4 xsm:py-8 xsm:px-10">
-                  <img className="md:w-[12%] lg:w-[20%] m-auto" src={v3} />
+                <div className="h-full flex flex-col text-center md:py-2 md:px-2 lg:py-4 lg:px-4 xsm:py-8 xsm:px-10">
+                  <img className="md:w-[12%] lg:w-[25%] mx-auto mb-4" src={v3} />
                   <h1 className="font-bold my-3">Rigid Aluminium Tubes</h1>
                   <p className="md:text-xs lg:text-sm mb-2">
                     Commonly used for packaging and dispensing products such as

@@ -10,12 +10,12 @@
 .MobProductCarouselIndustries .flickity-viewport {
   height: 46vh !important;
 }
-@media (max-width:350px){
+@media (max-width: 350px) {
   .MobProductCarouselIndustries .flickity-viewport {
     height: 47vh !important;
   }
 }
-@media  (min-width:350px) and (max-width:400px){
+@media (min-width: 350px) and (max-width: 400px) {
   .MobProductCarouselIndustries .flickity-viewport {
     height: 54vh !important;
   }
@@ -75,6 +75,12 @@
 }
 /* ---- */
 
-.hoverPrductImg:hover{
-  /* border:2px solid red; */
+.overlay {
+  transform-origin: bottom;
+  transform: scaleY(-1);
+  transition: transform 0.7s ease;
+}
+
+.container:hover .overlay {
+  transform: scaleY(1);
 }

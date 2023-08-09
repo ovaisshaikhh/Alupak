@@ -67,9 +67,11 @@ const Footer = () => {
             <div className="flex gap-3 items-start">
               <img className="md:w-[6%] lg:w-[4%]" src={location} alt="loc" />
               <div className="md:text-[12px] lg:text-[13px]">
-                Plot 1&2 Sector B-VII, Export Processing Zone, Landhi Industrial
-                Area, Sector B Karachi Export Processing Zone (KEPZ) Landhi
-                Town, Karachi, Karachi City, Sindh.
+                <a href="https://goo.gl/maps/R9fAvz8xVMbT3PXg8" target="_blank">
+                  Plot 1&2 Sector B-VII, Export Processing Zone, Landhi
+                  Industrial Area, Sector B Karachi Export Processing Zone
+                  (KEPZ) Landhi Town, Karachi, Karachi City, Sindh.
+                </a>
               </div>
             </div>
           </div>
