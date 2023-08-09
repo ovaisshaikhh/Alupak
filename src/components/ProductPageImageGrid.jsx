@@ -54,7 +54,7 @@ const ProductPageImageGrid = () => {
               </div>
               {/* collapsable yellow */}
               <div
-                className="div2 ProductCard z-20 overlay t4s-eff-border-run "
+                className="div2 ProductCard z-20 overlay t4s-eff-border-run"
                 // className={`hidden-texts div2 z-20 ProductCard ${
                 //   showText ? "open" : "closed"
                 // }`}

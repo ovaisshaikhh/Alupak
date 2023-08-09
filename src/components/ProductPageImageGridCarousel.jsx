@@ -62,7 +62,7 @@ const ProductPageImageGridCarousel = () => {
         {/* @1 */}
         <div className="container mx-4">
           {/* visible */}
-          <div className="div1 shadow-lg">
+          <div className="div1 shadow-lg t4s-eff-border-run ">
             <img src={p1} />
             <button
               onClick={toggleText}
@@ -75,7 +75,7 @@ const ProductPageImageGridCarousel = () => {
           {/* collapsable yellow */}
           <div
             className={`hidden-texts div2 z-20 ProductCard ${
-              showText ? "open" : "closed"
+              showText ? "open t4s-eff-border-run" : "closed"
             }`}
             onClick={toggleText}
           >
@@ -93,7 +93,7 @@ const ProductPageImageGridCarousel = () => {
         {/* @2 */}
         <div className="container mx-4">
           {/* visible */}
-          <div className="div1 shadow-lg">
+          <div className="div1 shadow-lg t4s-eff-border-run">
             <img src={p2} />
             <button
               onClick={toggleText2}
@@ -106,7 +106,7 @@ const ProductPageImageGridCarousel = () => {
           {/* collapsable yellow */}
           <div
             className={`hidden-texts div2 z-20 ProductCard ${
-              showText2 ? "open" : "closed"
+              showText2 ? "open t4s-eff-border-run" : "closed"
             }`}
             onClick={toggleText2}
           >
@@ -124,7 +124,7 @@ const ProductPageImageGridCarousel = () => {
         {/* @3 */}
         <div className="container mx-4">
           {/* visible */}
-          <div className="div1 shadow-lg">
+          <div className="div1 shadow-lg t4s-eff-border-run">
             <img src={p3} />
             <button
               onClick={toggleText3}
@@ -137,11 +137,11 @@ const ProductPageImageGridCarousel = () => {
           {/* collapsable yellow */}
           <div
             className={`hidden-texts div2 z-20 ProductCard ${
-              showText3 ? "open" : "closed"
+              showText3 ? "open t4s-eff-border-run" : "closed"
             }`}
             onClick={toggleText3}
           >
-            <div className="info text-center py-8 px-10 flex flex-col h-full">
+            <div className="text-center py-8 px-10 flex flex-col h-full">
               <img className="w-[28%] mx-auto mb-4" src={v3} />
               <h1 className="font-bold my-3">Rigid Aluminium Tubes</h1>
               <p className="text-sm mb-2">
