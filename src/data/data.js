@@ -17,10 +17,10 @@ export const footerData = [
     ],
   },
   {
-    title: "Customer Care",
+    title: "Connect With Us",
     content: [
       {
-        li: "Contact",
+        li: "Contact Us",
         link: "",
       },
       {
@@ -45,8 +45,8 @@ export const footerData = [
         link2: "/downloads",
       },
       {
-        li3: "Development",
-        link3: "/downloads",
+        li3: "",
+        link3: "",
       },
     ],
   },

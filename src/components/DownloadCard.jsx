@@ -15,15 +15,16 @@ const DownloadCard = ({ imageUrl, title, paragraph, link }) => {
 
   return (
     <div
-      className="DownloadCardHover text-center border-2 border-[#ffd303] p-6 hover:bg-[#ffd303] cursor-pointer
-    transform xs:bg-[#ffd303] lg:bg-white transition duration-500 justify-between xs:mx-2 md:mx-[unset]"
+      className="DownloadCardHover text-center border-2 border-[#ffd303]  hover:bg-[#ffd303] cursor-pointer
+    transform xs:bg-[#ffd303] lg:bg-white transition duration-500 justify-between xs:mx-2 md:mx-[unset] xs:h-[300px] lg:h-[unset]"
     >
       <a
-        className="flex flex-col items-center "
+        className="items-center h-full grid content-between xs:p-6 lg:p-4 lg:pt-6"
         href={link}
         target="_blank"
         rel="noreferrer"
       >
+        {/* @1 */}
         <div className="flex flex-col items-center">
           <div className="t4s-eff-border-run relative bg-[#F5F5F5] p-4 rounded-full w-[fit-content]">
             <img className="w-[2rem]" src={imageUrl} alt={title} />
@@ -35,10 +36,10 @@ const DownloadCard = ({ imageUrl, title, paragraph, link }) => {
             <p className="xs:text-sm md:text-xs xm:text-sm">{paragraph}</p>
           </div>
         </div>
-
+        {/* @2 */}
         <div className="">
           <a
-            className="mt-6 text-xs underline flex gap-1 p-4"
+            className="text-xs underline flex items-center justify-center gap-1 p-4"
             onClick={handleDownload}
           >
             <spn className="font-black">Downloads</spn>

@@ -36,14 +36,14 @@ const DownloadsUsefulLinks = () => {
       <div className="grid grid-cols-3 md:gap-4 lg:gap-12 lg:mx-16 xm:mx-40 sx:hidden md:grid">
         <DownloadCard
           imageUrl={d1}
-          title="Alucan Development"
+          title="Alupak Development"
           paragraph="Our local business unit has covered a journey of expansions to produce and deliver the best final products to all clients till date."
           link={l1}
         />
 
         <DownloadCard
           imageUrl={d2}
-          title="Alucan ISO Certificate"
+          title="Alupak ISO Certificate"
           paragraph="ISO 9001:2015 certified by the Bureau Veritas Certification Holding SAS – UK Branch"
           link={l2}
         />

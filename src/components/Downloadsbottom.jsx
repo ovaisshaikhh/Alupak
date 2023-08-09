@@ -27,9 +27,6 @@ const Downloadsbottom = () => {
             Hence, we are pledged to manufacture aluminum products customized
             for every need, and every industry and secure the quality and
             properties of each produced goods.
-            <br /> If you are looking for such a customized solution, please
-            feel free to email us your requirements at{" "}
-            <a href="mailto:info@alu-pak.com">info@alu-pak.com</a>.
           </p>
 
           <Button value={"GET IN TOUCH WITH US"} onClick={openModalContacts} />

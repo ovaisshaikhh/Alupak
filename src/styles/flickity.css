@@ -240,8 +240,6 @@ https://flickity.metafizzy.co
 /* -------------------------- */
 .ProductCarouselIndustries .text-center.w-\[33\.33\%\].flex.justify-center {
   opacity: 0.4;
-  height: 85vh;
-  /* height: 80vh; */
   align-items: center;
 }
 
@@ -249,10 +247,27 @@ https://flickity.metafizzy.co
   .text-center.w-\[33\.33\%\].flex.justify-center.is-selected {
   opacity: 1;
 }
-.ProductCarouselIndustries
-  .text-center.w-\[33\.33\%\].flex.justify-center.is-selected
-  img {
-  height: 25rem;
+@media (max-width: 1000px) {
+  .ProductCarouselIndustries
+    .text-center.w-\[33\.33\%\].flex.justify-center.is-selected
+    img {
+    height: 18rem;
+  }
+  .ProductCarouselIndustries .text-center.w-\[33\.33\%\].flex.justify-center {
+    height: 70vh;
+    /* height: 15rem; */
+  }
+}
+
+@media (min-width: 1200px) {
+  .ProductCarouselIndustries
+    .text-center.w-\[33\.33\%\].flex.justify-center.is-selected
+    img {
+    height: 25rem;
+  }
+  .ProductCarouselIndustries .text-center.w-\[33\.33\%\].flex.justify-center {
+    height: 80vh;
+  }
 }
 /* -- */
 .ProductCarouselIndustriesMob li.dot {

@@ -28,7 +28,7 @@ const FooterMenu = ({
           </h6>
           <ul className="xs:text-xs md:text-xs lg:text-sm xll:text-[0.7rem] font-normal">
             {/* ----- */}
-            {li == "Contact" ? (
+            {li == "Contact Us" ? (
               <li
                 className="mb-2 hover:text-[#919191]"
                 onClick={handleClickNav}

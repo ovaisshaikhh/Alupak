@@ -11,7 +11,7 @@ const ContactModal = ({ CloseContact }) => {
         {/* @-content */}
         <div className="xs:flex flex-col-reverse md:grid grid-cols-6 relative">
           <div className="col-span-4 p-5 xs:text-left">
-            <h1 className="xs:text-[1.2rem] md:text-[1.5rem] lg:text-[2rem] fontBoldAlupak md:mb-4 lg:mb-6 xs:mb-4">
+            <h1 className="xs:text-[1.2rem] md:text-[1.5rem] lg:text-[2rem] fontBoldAlupak md:mb-4 lg:mb-6 xs:mb-4 text-gray-800 lg:mt-4">
               Contact Us
             </h1>
             <div className="md:grid grid-cols-1 lg:grid-cols-2 md:gap-2 lg:gap-4">

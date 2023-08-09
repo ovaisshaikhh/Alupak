@@ -4,6 +4,7 @@ import twitter from "../assets/icontwitter.svg";
 import linkedin from "../assets/iconlinkedin.svg";
 import yt from "../assets/iconyoutube.svg";
 import call from "../assets/iconcall.svg";
+import whatsapp from "../assets/whatsapp-01.svg";
 
 const Socials = () => {
   return (
@@ -44,16 +45,25 @@ const Socials = () => {
       {/* @Youtube */}
       {/* <p className="rounded-full social-icon hover:animate-bounce">
         <a href="https://www.w3schools.com/" target="_blank" rel="noreferrer"> */}
-          {/* <i class="fa-brands fa-youtube sx:text-sm sm:text-lg md:text-sm xl:text-lg p-2 flex justify-center"></i> */}
-          {/* <img className="w-4" src={yt} alt="yt" />
+      {/* <i class="fa-brands fa-youtube sx:text-sm sm:text-lg md:text-sm xl:text-lg p-2 flex justify-center"></i> */}
+      {/* <img className="w-4" src={yt} alt="yt" />
         </a>
       </p> */}
       {/* @Call */}
-      <p className=" rounded-full social-icon hover:animate-bounce">
+      {/* <p className=" rounded-full social-icon hover:animate-bounce">
         <a type="email" href="mailto:info@image.net.pk" rel="noreferrer">
-          {/* <i class="fa fa-phone sx:text-sm sm:text-lg md:text-sm xl:text-lg p-2 flex justify-center"></i> */}
-          {/* <i class="fa fa-phone fa-light "></i> */}
           <img className="w-4" src={call} alt="call" />
+        </a>
+      </p> */}
+      {/* @whatsapp */}
+      <p className=" rounded-full social-icon hover:animate-bounce">
+        <a
+          type="email"
+          href="https://api.whatsapp.com/send?phone=923218204162"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img className="w-4" src={whatsapp} alt="call" />
         </a>
       </p>
       {/* @Email */}

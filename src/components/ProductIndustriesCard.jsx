@@ -8,7 +8,7 @@ const ProductIndustriesCard = ({ imageUrl, title, paragraph }) => {
 
       <div className="xs:py-4 xs:px-8">
         <h6 className="font-bold xs:mb-2 text-lg">{title}</h6>
-        <p className="xs:text-sm lg:mx-8">{paragraph}</p>
+        <p className="xs:text-sm lg:mx-8 md:text-[13px] xl:text-sm">{paragraph}</p>
       </div>
     </div>
   );

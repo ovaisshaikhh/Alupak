@@ -1,11 +1,13 @@
 import { Button } from "../components/index";
 import banner2 from "../assets/home/bannerHome.png";
 import mobBanner from "../assets/home/Mask Group 44@2x.png";
+import { useNavigate } from "react-router-dom";
 import "../styles/banner.css";
 import "../styles/font.css";
 import "../styles/animate.css";
 
 const Banner = () => {
+  const navigate = useNavigate();
   return (
     <div className="relative">
       <img
@@ -25,7 +27,7 @@ const Banner = () => {
           packed.
         </p>
         <div className="text-black">
-          <Button value={"Read More"} />
+          <Button value={"Read More"} onClick={() => navigate("/products")} />
         </div>
       </div>
     </div>
