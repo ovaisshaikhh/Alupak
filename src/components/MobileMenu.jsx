@@ -1,7 +1,7 @@
 import React from "react";
-// import blackLogo from "../assets/logoalu.png";
 import { NavLink, useNavigate } from "react-router-dom";
 import "../styles/main.css";
+import Socials from "./Socials";
 
 const MobileMenu = ({ isOpen, onClose }) => {
   const navigate = useNavigate();
@@ -17,10 +17,14 @@ const MobileMenu = ({ isOpen, onClose }) => {
       } fixed inset-0 bg-black bg-opacity-50 z-50 shadow-lg`}
       onClick={onClose}
     >
-      <div className="fixed top-0 left-0 bottom-0 w-[80%] bg-[#f8fafc] rounded-r-lg  shadow-lg transform translate-x-0 transition-transform ease-in-out duration-300">
-        <div className="flex justify-center p-4">
-          {/* <img src={logo} alt="logo" /> */}
-          <h1 className="text-[#475569] text-[1.5rem] font-black">MENU</h1>
+      <div
+        // className="fixed top-0 left-0 bottom-0 w-[70%] bg-black opacity-80 z-20 rounded-r-[2rem] shadow-lg transform translate-x-0 transition-transform ease-in-out duration-300"
+        className={`fixed top-0 left-0 bottom-0 w-[70%] bg-black opacity-80 z-20 rounded-r-[2rem] shadow-lg ${
+          isOpen ? "drawer-enter-active" : "drawer-exit-active"
+        }`}
+      >
+        <div className="p-4">
+          <h1 className="text-white text-[1.5rem] font-black">MENU</h1>
           <span className="text-gray-600 px-3 py-2 text-[2rem] absolute top-0 right-0">
             {" "}
             &times;
@@ -28,13 +32,13 @@ const MobileMenu = ({ isOpen, onClose }) => {
         </div>
         <hr />
 
-        <div className="p-4 text-center">
+        <div className="p-4 ">
           <ul className="flex flex-col gap-4">
             <li
               className="md:px-2 lg:px-4 tracking-wider"
               onClick={handleClickNav}
             >
-              <NavLink exact to="/" className="text-[#64748b]">
+              <NavLink exact to="/" className="text-white">
                 Home
               </NavLink>
             </li>
@@ -42,7 +46,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
               className="md:px-2 lg:px-4 tracking-wider"
               onClick={handleClickNav}
             >
-              <NavLink exact to="/products" className="text-[#64748b]">
+              <NavLink exact to="/products" className="text-white">
                 Products
               </NavLink>
             </li>
@@ -50,7 +54,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
               className="md:px-2 lg:px-4 tracking-wider"
               onClick={handleClickNav}
             >
-              <NavLink exact to="/downloads" className="text-[#64748b]">
+              <NavLink exact to="/downloads" className="text-white">
                 Downloads
               </NavLink>
             </li>
@@ -58,7 +62,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
               className="md:px-2 lg:px-4 tracking-wider"
               onClick={handleClickNav}
             >
-              <NavLink exact to="/about-us" className="text-[#64748b]">
+              <NavLink exact to="/about-us" className="text-white">
                 About Us
               </NavLink>
             </li>
@@ -66,13 +70,17 @@ const MobileMenu = ({ isOpen, onClose }) => {
               className="md:px-2 lg:px-4 tracking-wider"
               onClick={handleClickNav}
             >
-              <NavLink exact to="/careers" className="text-[#64748b]">
+              <NavLink exact to="/careers" className="text-white">
                 Careers
               </NavLink>
             </li>
           </ul>
         </div>
-        <hr />
+
+        <div className="absolute w-full bottom-[1%]">
+          <hr />
+          <Socials />
+        </div>
       </div>
     </div>
   );

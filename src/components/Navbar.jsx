@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import logo from "../assets/Alupak logo.svg";
 import blackLogo from "../assets/logoalu.png";
+import whiteLogo from "../assets/Logo White.png";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { Button, Search, MobileMenu, ContactModal } from "./index";
 import "../styles/main.css";
@@ -217,10 +218,8 @@ const Navbar = () => {
         <nav
           ref={headerRef}
           className={`${
-            isScrolledMob
-              ? "bg-white shadow-lg justify-between px-4"
-              : "bg-transparent justify-around "
-          } xs:flex md:hidden items-center py-4 navbar fixed top-0 w-full left-0 right-0 transition-all z-10`}
+            isScrolledMob ? "bg-white shadow-lg" : "bg-transparent"
+          } justify-between px-4 xs:flex md:hidden items-center py-4 navbar fixed top-0 w-full left-0 right-0 transition-all z-10`}
         >
           <div>
             <button onClick={handleMenuToggle} className="border-none">
@@ -236,14 +235,14 @@ const Navbar = () => {
 
           <div
             ref={headerRef}
-            className={`${isScrolledMob ? "w-[30%]" : ""} `}
+            className={`${isScrolledMob ? "w-[30%]" : "w-[35%]"} `}
             onClick={handleClickNav}
           >
             <Link to="/">
               <img
                 ref={headerRef}
-                className={`${isScrolledMob ? "hidden" : ""} xs:w-[62%] m-auto`}
-                src={logo}
+                className={`${isScrolledMob ? "hidden" : ""} xs:w-[] m-auto`}
+                src={whiteLogo}
                 alt="logo"
               />
 

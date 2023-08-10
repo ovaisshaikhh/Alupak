@@ -1,12 +1,14 @@
 import React from "react";
 
-const ButtonBlack = ({ value, onClick }) => {
+const ButtonBlack = ({ value, onClick, linkTo }) => {
   return (
     <button
       onClick={(event) => onClick(event)}
       className=" bg-[#393937] text-white rounded-full font-bold md:text-xs leading-5 lg:px-[1.6rem] lg:py-[.6rem] lg:pb-[.5rem] md:px-[20px] md:py-[8px] sx:px-[20px] sx:py-[7px] sx:text-xs"
     >
-      <span> {value}</span>
+      <a href={linkTo} traget="_blank">
+        <span> {value}</span>
+      </a>
     </button>
   );
 };

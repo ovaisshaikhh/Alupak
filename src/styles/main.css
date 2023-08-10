@@ -81,3 +81,22 @@ body,
     rgba(255, 211, 3, 1) 62%
   );
 }
+/* ---------------------------- */
+/* Add this class to the drawer that you want to animate */
+.drawer-enter {
+  transform: translateX(-100%);
+}
+
+.drawer-enter-active {
+  transform: translateX(0);
+  transition: transform 2s ease-in-out;
+}
+
+.drawer-exit {
+  transform: translateX(0);
+}
+
+.drawer-exit-active {
+  transform: translateX(-100%);
+  transition: transform 2s ease-in-out;
+}

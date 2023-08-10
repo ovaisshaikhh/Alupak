@@ -40,8 +40,8 @@ const AboutMission = () => {
       ref={targetRef}
       className={isVisible ? "fade-up-element show" : "fade-up-element"}
     >
-      <img className="xs:hidden lg:block" src={aboitMission} />
-      <img className="xs:block lg:hidden" src={mobabout} />
+      <img className="xs:hidden md:block w-full" src={aboitMission} />
+      <img className="xs:block md:hidden w-full" src={mobabout} />
     </div>
   );
 };
