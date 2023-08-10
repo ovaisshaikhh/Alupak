@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import "../styles/main.css";
 import Socials from "./Socials";
+import "../styles/modal.css";
 
 const MobileMenu = ({ isOpen, onClose }) => {
   const navigate = useNavigate();
@@ -12,19 +13,21 @@ const MobileMenu = ({ isOpen, onClose }) => {
 
   return (
     <div
-      className={`${
-        isOpen ? "block" : "hidden"
-      } fixed inset-0 bg-black bg-opacity-50 z-50 shadow-lg`}
+      // className={`${
+      //   isOpen ? "drawer-enter-active" : "drawer-exit-active"
+      // } fixed inset-0 bg-black bg-opacity-50 z-50 shadow-lg`}
+      className={` ${isOpen ? "fixed inset-0 bg-black bg-opacity-50 z-50 shadow-lg modal-container" : ""
+     }  `}
       onClick={onClose}
     >
       <div
         // className="fixed top-0 left-0 bottom-0 w-[70%] bg-black opacity-80 z-20 rounded-r-[2rem] shadow-lg transform translate-x-0 transition-transform ease-in-out duration-300"
-        className={`fixed top-0 left-0 bottom-0 w-[70%] bg-black opacity-80 z-20 rounded-r-[2rem] shadow-lg ${
+        className={`drawer-enter fixed top-0 left-0 bottom-0 w-[70%] bg-black opacity-80 z-20 rounded-r-[2rem] shadow-lg ${
           isOpen ? "drawer-enter-active" : "drawer-exit-active"
         }`}
       >
         <div className="p-4">
-          <h1 className="text-white text-[1.5rem] font-black">MENU</h1>
+          <h1 className="text-white text-[1.5rem] font-bold">MENU</h1>
           <span className="text-gray-600 px-3 py-2 text-[2rem] absolute top-0 right-0">
             {" "}
             &times;
