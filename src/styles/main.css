@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Avenir&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Avenir&display=swap"); */
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 
 body,
 .font {
-  font-family: "Avenir", sans-serif;
+  /* font-family: "Avenir", sans-serif; */
 }
 /* @--menu items of navbar */
 .hover-underline-animation {
