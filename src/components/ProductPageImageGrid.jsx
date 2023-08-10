@@ -7,7 +7,6 @@ import v2 from "../assets/v2.png";
 import v3 from "../assets/v3.png";
 import "../styles/product.css";
 import "../styles/banner.css";
-import { ButtonBlack } from "../components/index";
 import { useNavigate } from "react-router-dom";
 
 const ProductPageImageGrid = () => {
@@ -55,10 +54,6 @@ const ProductPageImageGrid = () => {
               {/* collapsable yellow */}
               <div
                 className="div2 ProductCard z-20 overlay t4s-eff-border-run"
-                // className={`hidden-texts div2 z-20 ProductCard ${
-                //   showText ? "open" : "closed"
-                // }`}
-                // onClick={toggleText}
               >
                 <div className="h-full flex flex-col text-center md:py-2 md:px-2 lg:py-4 lg:px-4 xsm:py-8 xsm:px-10">
                   <img className="md:w-[12%] lg:w-[25%] mx-auto mb-4" src={v1} />
@@ -89,10 +84,6 @@ const ProductPageImageGrid = () => {
               {/* collapsable yellow */}
               <div
                 className="div2 ProductCard z-20 overlay t4s-eff-border-run"
-                // className={`hidden-texts div2 z-20 ProductCard ${
-                //   showText2 ? "open" : "closed"
-                // }`}
-                // onClick={toggleText2}
               >
                 <div className="h-full flex flex-col text-center md:py-2 md:px-2 lg:py-10 lg:px-4 xsm:py-8 xsm:px-10">
                   <img className="md:w-[15%] lg:w-[25%] mx-auto mb-4" src={v2} />
@@ -122,10 +113,6 @@ const ProductPageImageGrid = () => {
               {/* collapsable yellow */}
               <div
                 className="div2 ProductCard z-20 overlay t4s-eff-border-run"
-                // className={`hidden-texts div2 z-20 ProductCard ${
-                //   showText3 ? "open" : "closed"
-                // }`}
-                // onClick={toggleText3}
               >
                 <div className="h-full flex flex-col text-center md:py-2 md:px-2 lg:py-4 lg:px-4 xsm:py-8 xsm:px-10">
                   <img className="md:w-[12%] lg:w-[25%] mx-auto mb-4" src={v3} />

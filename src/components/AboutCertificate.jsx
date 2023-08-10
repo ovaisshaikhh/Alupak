@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import aboitMission from "../assets/about/ab-w.png";
 import mobcert from "../assets/about/cer.png";
-import { ButtonBlack } from "./index";
 import l2 from "../assets/alupak download/Alupak ISO Certificate.pdf";
 
 const AboutCertificate = () => {

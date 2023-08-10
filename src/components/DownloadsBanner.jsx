@@ -7,7 +7,6 @@ import "../styles/animate.css";
 
 const DownloadsBanner = () => {
   return (
-    // bg-[#ffd303]
     <div className="relative">
       <img
         className="w-[100vw] xs:hidden md:block opacity-90"

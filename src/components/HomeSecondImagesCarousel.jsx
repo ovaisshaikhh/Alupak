@@ -1,10 +1,9 @@
 import React from "react";
 import Flickity from "react-flickity-component";
 import "../styles/flickity.css";
-import A1 from "../assets/home/Alumunium-product1.png";
 import A2 from "../assets/home/Alumunium-product2.png";
 import A3 from "../assets/home/Alumunium-product3.png";
-import A11 from "../assets/home/Mask Group 37.png"
+import A1 from "../assets/home/Mask Group 37.png";
 import { Cards } from "../components/index";
 
 const flickityOptions = {
@@ -29,7 +28,7 @@ const HomeSecondImagesCarousel = () => {
         static
       >
         <Cards
-          imageUrl={A11}
+          imageUrl={A1}
           title="Aluminium Cartridge"
           paragraph="We specialize in designing and manufacturing the necessities for filling and packing silicon and polyurethane sealants in aluminum cartridges."
         />

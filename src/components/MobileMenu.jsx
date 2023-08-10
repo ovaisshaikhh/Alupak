@@ -13,15 +13,14 @@ const MobileMenu = ({ isOpen, onClose }) => {
 
   return (
     <div
-      // className={`${
-      //   isOpen ? "drawer-enter-active" : "drawer-exit-active"
-      // } fixed inset-0 bg-black bg-opacity-50 z-50 shadow-lg`}
-      className={` ${isOpen ? "fixed inset-0 bg-black bg-opacity-50 z-50 shadow-lg modal-container" : ""
-     }  `}
+      className={` ${
+        isOpen
+          ? "fixed inset-0 bg-black bg-opacity-50 z-50 shadow-lg modal-container"
+          : ""
+      }  `}
       onClick={onClose}
     >
       <div
-        // className="fixed top-0 left-0 bottom-0 w-[70%] bg-black opacity-80 z-20 rounded-r-[2rem] shadow-lg transform translate-x-0 transition-transform ease-in-out duration-300"
         className={`drawer-enter fixed top-0 left-0 bottom-0 w-[70%] bg-black opacity-80 z-20 rounded-r-[2rem] shadow-lg ${
           isOpen ? "drawer-enter-active" : "drawer-exit-active"
         }`}

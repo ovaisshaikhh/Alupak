@@ -5,7 +5,6 @@ import DownloadIcons from "../assets/downloads/Icon ionic-md-code-download.svg";
 const DownloadCard = ({ imageUrl, title, paragraph, link }) => {
   const handleDownload = () => {
     const pdfUrl = link;
-
     const anchor = document.createElement("a");
     anchor.href = pdfUrl;
     anchor.download = link;

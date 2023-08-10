@@ -73,7 +73,7 @@
 .hidden-texts.open {
   transform: scaleY(1);
 }
-/* ---- */
+/* -------------------- */
 
 .overlay {
   transform-origin: bottom;
@@ -84,3 +84,4 @@
 .container:hover .overlay {
   transform: scaleY(1);
 }
+/* -------------------- */

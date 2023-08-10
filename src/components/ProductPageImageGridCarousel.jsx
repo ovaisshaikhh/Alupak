@@ -9,7 +9,6 @@ import v2 from "../assets/v2.png";
 import v3 from "../assets/v3.png";
 import "../styles/product.css";
 import "../styles/banner.css";
-import { ButtonBlack } from "../components/index";
 import { useNavigate } from "react-router-dom";
 
 const flickityOptions = {

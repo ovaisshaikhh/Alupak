@@ -5,14 +5,12 @@ import Search from "./Search";
 import Footer from "./Footer";
 import FooterMenu from "./FooterMenu";
 import Socials from "./Socials";
-import ButtonIcon from "./ButtonIcon";
 import HomeSecond from "./HomeSecond";
 import HomeSecondImages from "./HomeSecondImages";
 import HomeAbout from "./HomeAbout";
 import HomeUsps from "./HomeUsps";
 import HomeIndustries from "./HomeIndustries";
 import HomeIndustriesImages from "./HomeIndustriesImages";
-import VisibilityComponent from "./VisibilityComponent";
 import HomeUspsCarousel from "./HomeUspsCarousel";
 import HomeSecondImagesCarousel from "./HomeSecondImagesCarousel";
 import ProductBanner from "./ProductBanner";
@@ -44,9 +42,7 @@ import MobileMenu from "./MobileMenu";
 import AboutUspsCarousel from "./AboutUspsCarousel";
 import AboutHistoryCarousel from "./AboutHistoryCarousel";
 import Tabs from "./Tabs";
-
 import ContactModal from "./ContactModal";
-// import Product3dCarousel from "./Product3dCarousel";
 import Pg404 from "./Pg404";
 
 export {
@@ -57,14 +53,12 @@ export {
   Footer,
   FooterMenu,
   Socials,
-  ButtonIcon,
   HomeSecond,
   HomeSecondImages,
   HomeAbout,
   HomeUsps,
   HomeIndustries,
   HomeIndustriesImages,
-  VisibilityComponent,
   HomeUspsCarousel,
   HomeSecondImagesCarousel,
   ProductBanner,
@@ -96,8 +90,6 @@ export {
   AboutUspsCarousel,
   AboutHistoryCarousel,
   Tabs,
-
   ContactModal,
-  // Product3dCarousel,
-  Pg404
+  Pg404,
 };
