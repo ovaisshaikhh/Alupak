@@ -110,7 +110,7 @@ const Search = ({ closeModal }) => {
           className="block text-right cursor-pointer text-xl relative top-[-17px] right-[-38px]"
           onClick={closeModal}
         >
-          <span className="text-white bg-[#3f3f46] rounded-full px-3 py-2">
+          <span className="text-white bg-[#3f3f46] rounded-full xs:px-[.6rem] xs:py-[6px] lg:px-3 lg:py-[.4rem]">
             {" "}
             &times;
           </span>

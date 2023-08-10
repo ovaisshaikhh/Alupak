@@ -55,18 +55,18 @@ const Footer = () => {
           ))}
           {isModalOpen && <ContactModal onClose={handleCloseModal} />}
           {/* -- */}
-          <div className="text-sm col-span-2 xs:mt-4 md:mt-0">
-            <div className="flex items-center gap-3 mb-4">
-              <img className="md:w-[6%] lg:w-[4%]" src={mail} alt="mail" />
+          <div className="text-sm col-span-2 xs:mt-6 md:mt-0">
+            <div className="flex items-center gap-3 xs:mb-4 md:mb-4">
+              <img className="xs:w-[5%] md:w-[6%] lg:w-[4%]" src={mail} alt="mail" />
 
-              <div className="md:text-[12px] lg:text-[13px]">
+              <div className="xs:text-[13px] md:text-[12px] lg:text-[13px]">
                 <a href="mailto:info@alu-pak.com">info@alu-pak.com</a>
               </div>
             </div>
 
             <div className="flex gap-3 items-start">
-              <img className="md:w-[6%] lg:w-[4%]" src={location} alt="loc" />
-              <div className="md:text-[12px] lg:text-[13px]">
+              <img className="xs:w-[5%] md:w-[6%] lg:w-[4%]" src={location} alt="loc" />
+              <div className="xs:text-[13px] md:text-[12px] lg:text-[13px]">
                 <a href="https://goo.gl/maps/R9fAvz8xVMbT3PXg8" target="_blank">
                   Plot 1&2 Sector B-VII, Export Processing Zone, Landhi
                   Industrial Area, Sector B Karachi Export Processing Zone

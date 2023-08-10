@@ -17,7 +17,7 @@ const ProductIndustries = () => {
   };
   return (
     <div className="xs:mx-2 md:mx-10 xl:mx-20 lg:mt-[-5rem]">
-      <h1 className="fontBoldAlupak xs:text-[2rem] md:text-[2.5rem] xs:mb-2 lg:mb-[-4rem] font-black text-center">
+      <h1 className="fontBoldAlupak xs:text-[2rem] md:text-[2.5rem] xs:mb-2 lg:mb-[-2rem] font-black text-center">
         Industries We Serve
       </h1>
       <div className="xs:hidden md:block">

@@ -56,7 +56,7 @@ const ProductPageImageGridCarousel = () => {
         options={flickityOptions}
         disableImagesLoaded={false}
         // reloadOnUpdate
-        static
+        // static
       >
         {/* @1 */}
         <div className="container mx-4">

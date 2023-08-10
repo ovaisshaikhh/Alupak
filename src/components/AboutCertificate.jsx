@@ -7,6 +7,15 @@ const AboutCertificate = () => {
   const targetRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
 
+  const handleDownload = () => {
+    const pdfUrl = l2;
+    const anchor = document.createElement("a");
+    anchor.href = pdfUrl;
+    anchor.download = pdfUrl;
+    anchor.target = "_blank";
+    anchor.click();
+  };
+
   useEffect(() => {
     const options = {
       root: null,
@@ -46,9 +55,12 @@ const AboutCertificate = () => {
       <img className="xs:hidden lg:block relative" src={aboitMission} />
       <img className="xs:block lg:hidden w-[90%]" src={mobcert} />
       <div className="xs:flex xs:justify-center lg:absolute lg:top-[80%] lg:left-[57%]">
-        <a href={l2} target="_blank">
+        <a
+          // href={l2}
+          onClick={handleDownload}
+        >
           <button className=" bg-[#393937] text-white rounded-full font-bold md:text-xs leading-5 lg:px-[1.6rem] lg:py-[.6rem] lg:pb-[.5rem] md:px-[20px] md:py-[8px] sx:px-[20px] sx:py-[7px] sx:text-xs">
-            <span> Read More</span>
+            <span>Download Cerificate</span>
           </button>
         </a>
       </div>

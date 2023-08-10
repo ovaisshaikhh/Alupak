@@ -227,7 +227,7 @@ const Navbar = () => {
                 ref={headerRef}
                 className={`${
                   isScrolledMob ? "text-black" : "text-white"
-                } fa-solid fa-bars text-[1.25rem]`}
+                } fa-solid fa-bars text-[1.25rem] `}
               ></i>
             </button>
             <MobileMenu isOpen={isMenuOpen} onClose={handleMenuToggle} />

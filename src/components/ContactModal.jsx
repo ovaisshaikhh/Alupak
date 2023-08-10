@@ -6,8 +6,8 @@ import { ButtonBlack } from "./index";
 
 const ContactModal = ({ CloseContact }) => {
   return (
-    <div className="flex justify-center items-center fixed top-0 left-0 w-full h-full modal-container z-50">
-      <div className="relative bg-white rounded-lg xs:w-[80%] md:max-w-md md:min-w-[70vw] lg:max-w-md lg:min-w-[50vw] max-h-[85vh] min-h-[50vh]">
+    <div className="flex justify-center items-center fixed top-0 left-0 w-full h-full modal-container z-[70]">
+      <div className=" relative bg-white rounded-lg xs:w-[80%] md:max-w-md md:min-w-[70vw] lg:max-w-md lg:min-w-[50vw] max-h-[85vh] min-h-[50vh]">
         {/* @-content */}
         <div className="xs:flex flex-col-reverse md:grid grid-cols-6 relative">
           <div className="col-span-4 p-5 xs:text-left">
@@ -93,7 +93,7 @@ const ContactModal = ({ CloseContact }) => {
           className="block text-right cursor-pointer text-xl absolute top-[-3%] right-[-3%]"
           onClick={CloseContact}
         >
-          <span className="text-white bg-[#3f3f46] rounded-full px-3 py-2">
+          <span className="text-white bg-[#3f3f46] rounded-full xs:px-[.6rem] xs:py-[6px] lg:px-3 lg:py-[.4rem]">
             {" "}
             &times;
           </span>
