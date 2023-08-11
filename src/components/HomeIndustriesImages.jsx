@@ -44,6 +44,10 @@ const HomeIndustriesImages = () => {
     });
   };
 
+  const handleClickNav = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <React.Fragment>
       <div className="grid xs:grid-cols-2 xs:gap-1 md:gap-0 md:grid-cols-4 ">
@@ -57,7 +61,7 @@ const HomeIndustriesImages = () => {
           }
           id="fade-up-element"
         >
-          <Link to="/products">
+          <Link onClick={handleClickNav} to="/products">
             <img src={HI1} className="deskimg xs:hidden md:block" />
             <img src={HI11} className="deskimg md:hidden xs:block" />
             <div className="text-overlay-HI xs:p-2 md:p-3 lg:p-4 xm:p-8">
@@ -77,7 +81,7 @@ const HomeIndustriesImages = () => {
           }
           id="fade-up-element"
         >
-          <Link to="/products">
+          <Link onClick={handleClickNav} to="/products">
             <img src={HI2} className="deskimg xs:hidden md:block" />
             <img src={HI12} className="deskimg md:hidden xs:block" />
             <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
@@ -95,7 +99,7 @@ const HomeIndustriesImages = () => {
           }
           id="fade-up-element"
         >
-          <Link to="/products">
+          <Link onClick={handleClickNav} to="/products">
             <img src={HI3} className="deskimg xs:hidden md:block" />
             <img src={HI13} className="deskimg md:hidden xs:block" />
 
@@ -116,7 +120,7 @@ const HomeIndustriesImages = () => {
           }
           id="fade-up-element"
         >
-          <Link to="/products">
+          <Link onClick={handleClickNav} to="/products">
             <img src={HI4} className="deskimg xs:hidden md:block" />
             <img src={HI14} className="deskimg md:hidden xs:block" />
             <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
