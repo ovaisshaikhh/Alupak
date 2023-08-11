@@ -45,8 +45,8 @@ const HomeIndustriesImages = () => {
   };
 
   const handleClickNav = () => {
-    // window.scrollTo(0, 0);
-    const halfPageHeight = window.innerHeight / 1.09;
+    // const halfPageHeight = window.innerHeight / 1.09;
+    const halfPageHeight = window.innerHeight / 0.9;
     window.scrollTo(0, halfPageHeight);
   };
 
