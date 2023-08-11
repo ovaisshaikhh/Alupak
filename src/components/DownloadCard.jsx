@@ -24,8 +24,8 @@ const DownloadCard = ({ imageUrl, title, paragraph, link }) => {
         rel="noreferrer"
       >
         {/* @1 */}
-        <div className="flex flex-col items-center">
-          <div className="t4s-eff-border-run relative bg-[#F5F5F5] p-4 rounded-full w-[fit-content]">
+        <div className="flex flex-col items-center t4s-eff-border-run">
+          <div className="relative bg-[#F5F5F5] p-4 rounded-full w-[fit-content]">
             <img className="w-[2rem]" src={imageUrl} alt={title} />
           </div>
           <div className="xs:py-4 xs:px-2 sg:px-4 md:py-2 md:px-2 lg:px-4 md:pt-2 xm:py-4 xm:px-8 xm:pt-8">
