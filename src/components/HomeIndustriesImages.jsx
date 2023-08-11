@@ -8,6 +8,7 @@ import HI12 from "../assets/home/Mask Group 33@2x.png";
 import HI13 from "../assets/home/Mask Group 34@2x.png";
 import HI14 from "../assets/home/Mask Group 35@2x.png";
 import "../styles/banner.css";
+import { Link } from "react-router-dom";
 
 const HomeIndustriesImages = () => {
   const targetRef = useRef(null);
@@ -56,13 +57,15 @@ const HomeIndustriesImages = () => {
           }
           id="fade-up-element"
         >
-          <img src={HI1} className="deskimg xs:hidden md:block" />
-          <img src={HI11} className="deskimg md:hidden xs:block" />
-          <div className="text-overlay-HI xs:p-2 md:p-3 lg:p-4 xm:p-8">
-            <p className="xs:text-[12px] md:text-sm xm:text-base">
-              glue & adhesive
-            </p>
-          </div>
+          <Link to="/products">
+            <img src={HI1} className="deskimg xs:hidden md:block" />
+            <img src={HI11} className="deskimg md:hidden xs:block" />
+            <div className="text-overlay-HI xs:p-2 md:p-3 lg:p-4 xm:p-8">
+              <p className="xs:text-[12px] md:text-sm xm:text-base">
+                glue & adhesive
+              </p>
+            </div>
+          </Link>
         </div>
         {/* 2 */}
         <div
@@ -74,11 +77,13 @@ const HomeIndustriesImages = () => {
           }
           id="fade-up-element"
         >
-          <img src={HI2} className="deskimg xs:hidden md:block" />
-          <img src={HI12} className="deskimg md:hidden xs:block" />
-          <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
-            <p className="xs:text-[12px] md:text-sm xm:text-base">paint</p>
-          </div>
+          <Link to="/products">
+            <img src={HI2} className="deskimg xs:hidden md:block" />
+            <img src={HI12} className="deskimg md:hidden xs:block" />
+            <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
+              <p className="xs:text-[12px] md:text-sm xm:text-base">paint</p>
+            </div>
+          </Link>
         </div>
         {/* 3 */}
         <div
@@ -90,14 +95,16 @@ const HomeIndustriesImages = () => {
           }
           id="fade-up-element"
         >
-          <img src={HI3} className="deskimg xs:hidden md:block" />
-          <img src={HI13} className="deskimg md:hidden xs:block" />
+          <Link to="/products">
+            <img src={HI3} className="deskimg xs:hidden md:block" />
+            <img src={HI13} className="deskimg md:hidden xs:block" />
 
-          <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
-            <p className="xs:text-[12px] md:text-sm xm:text-base">
-              pharmaceutical
-            </p>
-          </div>
+            <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
+              <p className="xs:text-[12px] md:text-sm xm:text-base">
+                pharmaceutical
+              </p>
+            </div>
+          </Link>
         </div>
         {/* 4 */}
         <div
@@ -109,13 +116,15 @@ const HomeIndustriesImages = () => {
           }
           id="fade-up-element"
         >
-          <img src={HI4} className="deskimg xs:hidden md:block" />
-          <img src={HI14} className="deskimg md:hidden xs:block" />
-          <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
-            <p className="xs:text-[12px] md:text-sm xm:text-base">
-              dying pigment
-            </p>
-          </div>
+          <Link to="/products">
+            <img src={HI4} className="deskimg xs:hidden md:block" />
+            <img src={HI14} className="deskimg md:hidden xs:block" />
+            <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
+              <p className="xs:text-[12px] md:text-sm xm:text-base">
+                dying pigment
+              </p>
+            </div>
+          </Link>
         </div>
       </div>
     </React.Fragment>
