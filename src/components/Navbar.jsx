@@ -88,10 +88,14 @@ const Navbar = () => {
           >
             <Link to="/">
               <img
+                // className={`${
+                //   isScrolled ? "hidden" : ""
+                // } md:w-[60%] lg:w-[85%]`}
                 className={`${
                   isScrolled ? "hidden" : ""
                 } md:w-[60%] lg:w-[85%]`}
                 src={logo}
+                // src={whiteLogo}
                 alt="logo"
               />
 

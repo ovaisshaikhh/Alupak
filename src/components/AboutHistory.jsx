@@ -97,7 +97,7 @@ const AboutHistory = () => {
                   <h6 className="font-bold text-[1.2rem]">Work</h6>
                   <p className="md:text-[13px] xm:text-sm">
                     Pharmaceutical, Cosmetics & Toiletries, Food Items,
-                    Industrial Products, Household Goods.
+                    Industrial Products & household goods.
                   </p>
                 </div>
 
@@ -109,8 +109,8 @@ const AboutHistory = () => {
                 >
                   <h6 className="font-bold text-[1.2rem]">Promises</h6>
                   <p className="md:text-[13px] xm:text-sm">
-                    Aluminium keeps its promises. The collapsible aluminium tube
-                    is still an unbeatable packaging.
+                    Alupak keeps its promises. The collapsible aluminium tube is
+                    still an unbeatable packaging.
                   </p>
                 </div>
                 {/* 2 */}

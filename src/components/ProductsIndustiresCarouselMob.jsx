@@ -7,7 +7,8 @@ import P3 from "../assets/Vector Smart Object/p3m.png";
 
 const flickityOptions = {
   initialIndex: 1,
-  autoPlay: true,
+  // autoPlay: true,
+  autoPlay:4000,
   prevNextButtons: false,
   pageDots: true,
   draggable: true,

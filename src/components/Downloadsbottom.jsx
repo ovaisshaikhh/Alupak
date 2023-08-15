@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import db from "../assets/downloads/Downloads page.png";
 import { Button, ContactModal } from "./index";
 import { useNavigate } from "react-router-dom";
+import "../styles/Button.css"
 
 const Downloadsbottom = () => {
   const navigate = useNavigate();
@@ -29,7 +30,12 @@ const Downloadsbottom = () => {
             properties of each produced goods.
           </p>
 
-          <Button value={"GET IN TOUCH WITH US"} onClick={openModalContacts} />
+          <div className="text-center lg:mt-8 download-bottom">
+            <Button
+              value={"GET IN TOUCH WITH US"}
+              onClick={openModalContacts}
+            />
+          </div>
 
           {/* ----------------------------------- */}
           {/* Contact Form */}

@@ -30,7 +30,7 @@ const AboutHistoryCarousel = () => {
             <h6 className="font-black text-[1.2rem]">Work</h6>
             <p className="text-sm">
               Pharmaceutical, Cosmetics & Toiletries, Food Items, Industrial
-              Products, Household Goods.
+              Products & household goods.
             </p>
           </div>
           {/* 2 */}
@@ -44,7 +44,7 @@ const AboutHistoryCarousel = () => {
           <div className="bg-[#F8F7F5] p-6 h-[15rem] flex flex-col justify-center w-[100%] mx-4">
             <h6 className="font-black text-[1.2rem]">Promises</h6>
             <p className="text-sm">
-              Aluminium keeps its promises. The collapsible aluminium tube is
+              Alupak keeps its promises. The collapsible aluminium tube is
               still an unbeatable packaging.
             </p>
           </div>

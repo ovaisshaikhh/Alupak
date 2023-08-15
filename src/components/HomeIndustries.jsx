@@ -8,6 +8,7 @@ import "../styles/animate.css";
 const HomeIndustries = () => {
   const navigate = useNavigate();
   const targetRef = useRef(null);
+  const targetRef2 = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -22,12 +23,21 @@ const HomeIndustries = () => {
     if (targetRef.current) {
       observer.observe(targetRef.current);
     }
+    if(targetRef2.current){
+      observer.observe(targetRef2.current);
+    }
 
     return () => {
       if (targetRef.current) {
         observer.unobserve(targetRef.current);
       }
+
+      if (targetRef2.current) {
+        observer.unobserve(targetRef2.current);
+      }
     };
+
+
   }, []);
 
   const handleIntersection = (entries) => {
@@ -46,8 +56,8 @@ const HomeIndustries = () => {
           ref={targetRef}
           className={
             isVisible
-              ? "xs:bg-[#ffd303] md:bg-transparent xs:w-[calc(100vw-4rem)] xs:h-[2.5rem] md:w-[calc(100vw-4rem)] lg:w-[calc(100vw-7.1rem)] md:h-[4rem] lg:h-[5rem] background-animation"
-              : "xs:bg-[#ffd303] md:bg-transparent xs:w-[calc(100vw-4rem)] xs:h-[2.5rem] md:w-[calc(100vw-4rem)] lg:w-[calc(100vw-7.1rem)] md:h-[4rem] lg:h-[5rem]"
+              ? "xs:bg-transparent md:bg-transparent xs:w-[calc(100vw-4rem)] xs:h-[3.9rem] md:w-[calc(100vw-4rem)] lg:w-[calc(100vw-7.1rem)] md:h-[4rem] lg:h-[5rem] background-animation"
+              : "xs:bg-transparent md:bg-transparent xs:w-[calc(100vw-4rem)] xs:h-[3.9rem] md:w-[calc(100vw-4rem)] lg:w-[calc(100vw-7.1rem)] md:h-[4rem] lg:h-[5rem]"
           }
         >
           {""}
@@ -56,8 +66,8 @@ const HomeIndustries = () => {
           ref={targetRef}
           className={
             isVisible
-              ? "xs:bg-[#ffd303] md:bg-transparent xs:w-[13%] md:w-[50%] xs:h-[5rem] md:h-[13rem] lg:h-[20rem] absolute right-0 background-animationV"
-              : "xs:bg-[#ffd303] md:bg-transparent xs:w-[13%] md:w-[50%] xs:h-[5rem] md:h-[13rem] lg:h-[20rem] absolute right-0"
+              ? "xs:bg-transparent md:bg-transparent xs:w-[13%] md:w-[50%] xs:h-[5rem] md:h-[13rem] lg:h-[20rem] absolute right-0 background-animationV"
+              : "xs:bg-transparent md:bg-transparent xs:w-[13%] md:w-[50%] xs:h-[5rem] md:h-[13rem] lg:h-[20rem] absolute right-0"
           }
         >
           {""}
@@ -68,11 +78,11 @@ const HomeIndustries = () => {
         {/* mobile */}
         <div className="xs:block md:hidden">
           <h2
-            ref={targetRef}
+            ref={targetRef2}
             className={
               isVisible
-                ? "tracking-in-expand fontBoldAlupak xs:text-[2rem] font-black text-[#475569] pt-4 tracking-wider text-center"
-                : "fontBoldAlupak xs:text-[2rem] font-black text-[#475569] pt-4 tracking-wider text-center"
+                ? "tracking-in-expander fontBoldAlupak xs:text-[2.5rem] font-black text-[#475569] pt-2 tracking-wider text-center"
+                : "fontBoldAlupak xs:text-[2.5rem] font-black text-[#475569] pt-2 tracking-wider text-center"
             }
           >
             Industries

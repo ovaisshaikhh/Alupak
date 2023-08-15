@@ -1,13 +1,35 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 const Tabs = ({ tabs, setActiveTab, scrollToSection, activeTab }) => {
+  const headerRef = useRef(null);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const headerHeight = headerRef.current.clientHeight;
+      setIsScrolled(window.scrollY > headerHeight);
+    };
+    window.addEventListener("scroll", handleScroll);
+    handleScroll();
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   const handleTabClick = (index) => {
     setActiveTab(index);
     scrollToSection(index);
   };
 
   return (
-    <div className="tabs flex justify-between lg:mx-28 xsm:mx-80 my-8 mb-12 xs:hidden lg:flex">
+    <div
+      ref={headerRef}
+      className={`${
+        isScrolled
+          ? "bg-white fixed top-[8%] w-full shadow-lg pt-8 py-6 pb-8 z-[10] tabsscroll"
+          : "py-8 pb-12"
+      } tabs flex justify-between lg:px-28 xsm:px-80  xs:hidden lg:flex`}
+    >
       {tabs.map((tab, index) => (
         <button
           key={index}

@@ -94,3 +94,8 @@
   transform: translateX(-100%);
   transition: transform 500ms ease-in-out;
 }
+/* ----------- */
+.tabsscroll > button {
+  /* border:2px solid red; */
+  font-size: 14px !important;
+}

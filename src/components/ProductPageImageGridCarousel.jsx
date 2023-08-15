@@ -10,6 +10,7 @@ import v3 from "../assets/v3.png";
 import "../styles/product.css";
 import "../styles/banner.css";
 import { useNavigate } from "react-router-dom";
+import { ButtonBlack, ContactModal } from "../components/index";
 
 const flickityOptions = {
   initialIndex: 0,
@@ -23,6 +24,7 @@ const flickityOptions = {
 
 const ProductPageImageGridCarousel = () => {
   const navigate = useNavigate();
+  const [modalIsContactsOpen, setModalIsContactsOpen] = useState(false);
 
   const [showText, setShowText] = useState(false);
   const [showText2, setShowText2] = useState(false);
@@ -46,6 +48,14 @@ const ProductPageImageGridCarousel = () => {
     setShowText(false);
     setShowText2(false);
     // alert("3")
+  };
+
+  // @-Contact Modal Function
+  const openModalContacts = () => {
+    setModalIsContactsOpen(true);
+  };
+  const CloseContact = () => {
+    setModalIsContactsOpen(false);
   };
 
   return (
@@ -78,14 +88,21 @@ const ProductPageImageGridCarousel = () => {
             }`}
             onClick={toggleText}
           >
-            <div className="text-center py-8 px-10 flex flex-col h-full">
-              <img className="w-[28%] mx-auto mb-4" src={v1} />
-              <h1 className="font-bold my-3">Aluminum Cartridge</h1>
+            <div className="text-center py-8 px-10 flex flex-col justify-evenly h-full">
+              <img className="w-[28%] mx-auto" src={v1} />
+              <h1 className="font-bold my-2">Aluminum Cartridge</h1>
               <p className="text-sm mb-2">
                 We specialize in designing and manufacturing the necessities for
                 filling and packing silicon and polyurethane sealants in
                 aluminum cartridges.
               </p>
+
+              <div className="relative z-[999999]">
+                <ButtonBlack
+                  value={"Request a Quote"}
+                  onClick={openModalContacts}
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -109,14 +126,19 @@ const ProductPageImageGridCarousel = () => {
             }`}
             onClick={toggleText2}
           >
-            <div className="text-center py-8 px-10 flex flex-col h-full">
-              <img className="w-[28%] mx-auto mb-4" src={v2} />
-              <h1 className="font-bold my-3">Collapsable Aluminum Tube</h1>
+            <div className="text-center py-8 px-10 flex flex-col justify-evenly h-full">
+              <img className="w-[28%] mx-auto" src={v2} />
+              <h1 className="font-bold my-2">Collapsable Aluminum Tube</h1>
               <p className="text-sm mb-2">
                 Widely used for packaging various products such as creams,
                 oinment, gels and pastes.
               </p>
-              {/* <ButtonBlack value={"Read More"} /> */}
+              <div className="relative z-[999999]">
+                <ButtonBlack
+                  value={"Request a Quote"}
+                  onClick={openModalContacts}
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -140,17 +162,27 @@ const ProductPageImageGridCarousel = () => {
             }`}
             onClick={toggleText3}
           >
-            <div className="text-center py-8 px-10 flex flex-col h-full">
-              <img className="w-[28%] mx-auto mb-4" src={v3} />
-              <h1 className="font-bold my-3">Rigid Aluminium Tubes</h1>
+            <div className="text-center py-8 px-10 flex flex-col justify-evenly h-full">
+              <img className="w-[28%] mx-auto" src={v3} />
+              <h1 className="font-bold my-2">Rigid Aluminium Tubes</h1>
               <p className="text-sm mb-2">
                 Commonly used for packaging and dispensing products such as
                 adhesives, pharmaceuticals, cosmetics, and food items.
               </p>
+              <div className="relative z-[999999]">
+                <ButtonBlack
+                  value={"Request a Quote"}
+                  onClick={openModalContacts}
+                />
+              </div>
             </div>
           </div>
         </div>
       </Flickity>
+
+      {/* ----------------------------------- */}
+      {/* Contact Form */}
+      {modalIsContactsOpen && <ContactModal CloseContact={CloseContact} />}
     </div>
   );
 };

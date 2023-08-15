@@ -8,9 +8,11 @@ import v3 from "../assets/v3.png";
 import "../styles/product.css";
 import "../styles/banner.css";
 import { useNavigate } from "react-router-dom";
+import { ButtonBlack, ContactModal } from "../components/index";
 
 const ProductPageImageGrid = () => {
   const navigate = useNavigate();
+  const [modalIsContactsOpen, setModalIsContactsOpen] = useState(false);
 
   const [showText, setShowText] = useState(false);
   const [showText2, setShowText2] = useState(false);
@@ -31,6 +33,15 @@ const ProductPageImageGrid = () => {
     setShowText(false);
     setShowText2(false);
   };
+
+  // @-Contact Modal Function
+  const openModalContacts = () => {
+    setModalIsContactsOpen(true);
+  };
+  const CloseContact = () => {
+    setModalIsContactsOpen(false);
+  };
+
   return (
     <>
       <div className="relative md:h-[15rem] lg:h-[20rem]">
@@ -52,17 +63,25 @@ const ProductPageImageGrid = () => {
                 </button>
               </div>
               {/* collapsable yellow */}
-              <div
-                className="div2 ProductCard z-20 overlay t4s-eff-border-run"
-              >
-                <div className="h-full flex flex-col text-center md:py-2 md:px-2 lg:py-4 lg:px-4 xsm:py-8 xsm:px-10">
-                  <img className="md:w-[12%] lg:w-[25%] mx-auto mb-4" src={v1} />
-                  <h1 className="font-bold my-3">Aluminum Cartridge</h1>
+              <div className="div2 ProductCard z-20 overlay t4s-eff-border-run">
+                <div className="h-full flex flex-col justify-evenly text-center md:py-2 md:px-2 lg:py-4 lg:px-4 xsm:py-8 xsm:px-10">
+                  <img
+                    className="md:w-[12%] lg:w-[20%] mx-auto mb-2"
+                    src={v1}
+                  />
+                  <h1 className="font-bold my-2">Aluminum Cartridge</h1>
                   <p className="md:text-xs lg:text-sm mb-2">
                     We specialize in designing and manufacturing the necessities
                     for filling and packing silicon and polyurethane sealants in
                     aluminum cartridges.
                   </p>
+
+                  <div className="relative z-[999999]">
+                    <ButtonBlack
+                      value={"Request a Quote"}
+                      onClick={openModalContacts}
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -82,16 +101,23 @@ const ProductPageImageGrid = () => {
                 </button>
               </div>
               {/* collapsable yellow */}
-              <div
-                className="div2 ProductCard z-20 overlay t4s-eff-border-run"
-              >
-                <div className="h-full flex flex-col text-center md:py-2 md:px-2 lg:py-10 lg:px-4 xsm:py-8 xsm:px-10">
-                  <img className="md:w-[15%] lg:w-[25%] mx-auto mb-4" src={v2} />
-                  <h1 className="font-bold my-3">Collapsable Aluminum Tube</h1>
+              <div className="div2 ProductCard z-20 overlay t4s-eff-border-run">
+                <div className="h-full flex flex-col justify-evenly text-center md:py-2 md:px-2 lg:py-10 lg:px-4 xsm:py-8 xsm:px-10">
+                  <img
+                    className="md:w-[15%] lg:w-[25%] mx-auto mb-2"
+                    src={v2}
+                  />
+                  <h1 className="font-bold my-2">Collapsable Aluminum Tube</h1>
                   <p className="md:text-xs lg:text-sm mb-2">
                     Widely used for packaging various products such as creams,
                     oinment, gels and pastes.
                   </p>
+                  <div className="relative z-[999999]">
+                    <ButtonBlack
+                      value={"Request a Quote"}
+                      onClick={openModalContacts}
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -111,19 +137,32 @@ const ProductPageImageGrid = () => {
                 </button>
               </div>
               {/* collapsable yellow */}
-              <div
-                className="div2 ProductCard z-20 overlay t4s-eff-border-run"
-              >
-                <div className="h-full flex flex-col text-center md:py-2 md:px-2 lg:py-4 lg:px-4 xsm:py-8 xsm:px-10">
-                  <img className="md:w-[12%] lg:w-[25%] mx-auto mb-4" src={v3} />
-                  <h1 className="font-bold my-3">Rigid Aluminium Tubes</h1>
+              <div className="div2 ProductCard z-20 overlay t4s-eff-border-run">
+                <div className="h-full flex justify-evenly flex-col text-center md:py-2 md:px-2 lg:py-4 lg:px-4 xsm:py-8 xsm:px-10">
+                  <img
+                    className="md:w-[12%] lg:w-[20%] mx-auto mb-2"
+                    src={v3}
+                  />
+                  <h1 className="font-bold my-2">Rigid Aluminium Tubes</h1>
                   <p className="md:text-xs lg:text-sm mb-2">
                     Commonly used for packaging and dispensing products such as
                     adhesives, pharmaceuticals, cosmetics, and food items.
                   </p>
+                  <div className="relative z-[999999]">
+                    <ButtonBlack
+                      value={"Request a Quote"}
+                      onClick={openModalContacts}
+                    />
+                  </div>
                 </div>
               </div>
             </div>
+
+            {/* ----------------------------------- */}
+            {/* Contact Form */}
+            {modalIsContactsOpen && (
+              <ContactModal CloseContact={CloseContact} />
+            )}
           </div>
         </div>
       </div>
