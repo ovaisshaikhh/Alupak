@@ -21,7 +21,7 @@ const FooterMenu = ({
   return (
     <React.Fragment>
       {/* @-desktop footer */}
-      <div className="block xs:pt-4 md:pt-0 xs:relative z-[5]">
+      <div className="block xs:pt-4 md:pt-0 xs:relative z-[2]">
         <div className="text-center">
           <h6 className="md:text-sm lg:text-base xs:font-medium md:font-medium xs:mb-2 md:mb-4">
             {title}
