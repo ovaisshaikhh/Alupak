@@ -5,6 +5,7 @@ import logo from "../assets/logo footer.png";
 import bg_logo from "../assets/Logo footer bg.png";
 import mail from "../assets/iconmail.svg";
 import location from "../assets/iconlocation.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -15,6 +16,9 @@ const Footer = () => {
 
   const handleCloseModal = () => {
     setIsModalOpen(false);
+  };
+  const handleClickNav = () => {
+    window.scrollTo(0, 0);
   };
 
   return (
@@ -33,11 +37,13 @@ const Footer = () => {
         {/* md:block */}
         <div className="md:grid md:grid-cols-7 md:gap-2 md:ml-4 md:mr-4 lg:ml-16 lg:mr-16 lg:gap-1 lg:mx-16 xm:mx-20 md:mt-4 xs:flex flex-col">
           <div className="relative col-span-2">
-            <img
-              className="m-auto mb-4 mt-[-2rem] xs:w-[35%] md:w-[40%]"
-              src={logo}
-              alt="image_logo"
-            />
+            <Link onClick={handleClickNav} to="/">
+              <img
+                className="m-auto mb-4 mt-[-2rem] xs:w-[35%] md:w-[40%]"
+                src={logo}
+                alt="image_logo"
+              />
+            </Link>
             <p className="xs:text-[12px] lg:text-[13px] text-center mb-4 text-[#d4d4d8]">
               Manufacturing high-quality aluminum collapsible tubes and more
               similar packaging materials since 2005.
@@ -57,7 +63,11 @@ const Footer = () => {
           {/* -- */}
           <div className="text-sm col-span-2 xs:mt-6 md:mt-0">
             <div className="flex items-center gap-3 xs:mb-4 md:mb-4">
-              <img className="xs:w-[5%] md:w-[6%] lg:w-[4%]" src={mail} alt="mail" />
+              <img
+                className="xs:w-[5%] md:w-[6%] lg:w-[4%]"
+                src={mail}
+                alt="mail"
+              />
 
               <div className="xs:text-[13px] md:text-[12px] lg:text-[13px]">
                 <a href="mailto:info@alu-pak.com">info@alu-pak.com</a>
@@ -65,7 +75,11 @@ const Footer = () => {
             </div>
 
             <div className="flex gap-3 items-start">
-              <img className="xs:w-[5%] md:w-[6%] lg:w-[4%]" src={location} alt="loc" />
+              <img
+                className="xs:w-[5%] md:w-[6%] lg:w-[4%]"
+                src={location}
+                alt="loc"
+              />
               <div className="xs:text-[13px] md:text-[12px] lg:text-[13px]">
                 <a href="https://goo.gl/maps/R9fAvz8xVMbT3PXg8" target="_blank">
                   Plot 1&2 Sector B-VII, Export Processing Zone, Landhi

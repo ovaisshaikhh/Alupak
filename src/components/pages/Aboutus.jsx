@@ -21,17 +21,17 @@ const Aboutus = () => {
 
   const scrollToSection = (index) => {
     const section = document.getElementById(`section-${index}`);
-    // section.scrollIntoView({ behavior: "smooth" });
-    if (section) {
-      const windowHeight = window.innerHeight;
-      const sectionTop = section.getBoundingClientRect().top;
-      const scrollOffset = sectionTop - windowHeight / 4;
+    section.scrollIntoView({ behavior: "smooth" });
+    // if (section) {
+    //   const windowHeight = window.innerHeight;
+    //   const sectionTop = section.getBoundingClientRect().top;
+    //   const scrollOffset = sectionTop - windowHeight / 4;
 
-      window.scrollTo({
-        top: scrollOffset,
-        behavior: "smooth",
-      });
-    }
+    //   window.scrollTo({
+    //     top: scrollOffset,
+    //     behavior: "smooth",
+    //   });
+    // }
   };
 
   return (

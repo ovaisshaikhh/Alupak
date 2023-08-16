@@ -99,3 +99,6 @@
   /* border:2px solid red; */
   font-size: 14px !important;
 }
+.tabsscroll .tabsUnderline::after {
+  bottom: -5px !important;
+}

@@ -9,7 +9,7 @@ import { ProductIndustriesCard } from "../components/index";
 const flickityOptions = {
   initialIndex: 1,
   // autoPlay: true,
-  autoPlay: 5000 ,
+  autoPlay: 4000,
   prevNextButtons: false,
   pageDots: false,
   draggable: true,

@@ -65,15 +65,65 @@ const Search = ({ closeModal }) => {
       link: "/about-us",
       file: "Page",
     },
+    {
+      name: "Corporate History",
+      link: "/about-us",
+      file: "Page",
+    },
+    {
+      name: "Corporate Cerifications",
+      link: "/about-us",
+      file: "Page",
+    },
+    {
+      name: "Vision & Mission",
+      link: "/about-us",
+      file: "Page",
+    },
     // @-Product
     {
       name: "Products",
       link: "/products",
       file: "Page",
     },
+    {
+      name: "Aluminium Cartridge",
+      link: "/products",
+      file: "Page",
+    },
+    {
+      name: "Collapsable Alluminium Tubes",
+      link: "/products",
+      file: "Page",
+    },
+    {
+      name: "Rigid Aluminium Tubes",
+      link: "/products",
+      file: "Page",
+    },
+    {
+      name: "Paint",
+      link: "/products",
+      file: "Page",
+    },
+    {
+      name: "Dying Pigments",
+      link: "/products",
+      file: "Page",
+    },
+    {
+      name: "Pharmaceutical",
+      link: "/products",
+      file: "Page",
+    },
     // @-Careers
     {
       name: "Careers",
+      link: "/careers",
+      file: "Page",
+    },
+    {
+      name: "Join team",
       link: "/careers",
       file: "Page",
     },
