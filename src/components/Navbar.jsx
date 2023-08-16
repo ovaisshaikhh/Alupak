@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import logo from "../assets/Alupak logo.svg";
-import blackLogo from "../assets/logoalu.png";
+// import blackLogo from "../assets/logoalu.png";
+import blackLogo from "../assets/Group 1.png";
 import whiteLogo from "../assets/Logo White.png";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { Button, Search, MobileMenu, ContactModal } from "./index";

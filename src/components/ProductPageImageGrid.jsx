@@ -95,7 +95,7 @@ const ProductPageImageGrid = () => {
                   className="z-10 absolute left-0 right-0 bottom-0 bg-[#ffd303] flex items-center justify-between md:px-2 md:py-2 lg:px-4 lg:py-2 font-semibold text-[#334155] cursor-pointer"
                 >
                   <span className="md:text-[13px] lg:text-sm">
-                    Collapsable Aluminum Tube
+                    Collapsible Aluminum Tube
                   </span>
                   <i className="fas fa-angle-up text-sm"></i>
                 </button>
@@ -107,7 +107,7 @@ const ProductPageImageGrid = () => {
                     className="md:w-[15%] lg:w-[25%] mx-auto mb-2"
                     src={v2}
                   />
-                  <h1 className="font-bold my-2">Collapsable Aluminum Tube</h1>
+                  <h1 className="font-bold my-2">Collapsible Aluminum Tube</h1>
                   <p className="md:text-xs lg:text-sm mb-2">
                     Widely used for packaging various products such as creams,
                     oinment, gels and pastes.

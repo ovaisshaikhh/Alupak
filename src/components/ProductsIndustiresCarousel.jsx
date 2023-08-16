@@ -13,7 +13,7 @@ const flickityOptions = {
   prevNextButtons: false,
   pageDots: false,
   draggable: true,
-  pauseAutoPlayOnHover: true,
+  pauseAutoPlayOnHover: false,
   wrapAround: true,
 };
 
@@ -46,7 +46,7 @@ const ProductsIndustiresCarousel = () => {
         <ProductIndustriesCard
           imageUrl={P2}
           title="Glue & Adhesive"
-          paragraph="Making the use of dying pigments easy and efficient as we offer secure packaging to lock the true quality of products."
+          paragraph="Making the use of glue & adhesive easy and efficient as we offer secure packaging to lock the true quality of products."
         />
 
         <ProductIndustriesCard
@@ -67,7 +67,7 @@ const ProductsIndustiresCarousel = () => {
         <ProductIndustriesCard
           imageUrl={P2}
           title="Glue & Adhesive"
-          paragraph="Making the use of dying pigments easy and efficient as we offer secure packaging to lock the true quality of products."
+          paragraph="Making the use of glue & adhesive easy and efficient as we offer secure packaging to lock the true quality of products."
         />
       </Flickity>
     </div>

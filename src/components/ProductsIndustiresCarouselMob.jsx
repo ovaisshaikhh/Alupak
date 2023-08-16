@@ -71,8 +71,8 @@ const ProductsIndustiresCarouselMob = () => {
             <div className="xs:py-4 xs:px-8">
               <h6 className="font-bold xs:mb-2 text-lg">Glue & Adhesives</h6>
               <p className="xs:text-sm">
-                Creating packaging that could let the end customer use paints to
-                their fullest quality and quantity for viable results.
+                Making the use of glue & adhesive easy and efficient as we offer
+                secure packaging to lock the true quality of products.
               </p>
             </div>
           </div>

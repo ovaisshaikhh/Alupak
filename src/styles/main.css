@@ -97,8 +97,8 @@
 /* ----------- */
 .tabsscroll > button {
   /* border:2px solid red; */
-  font-size: 14px !important;
+  font-size: 13px !important;
 }
 .tabsscroll .tabsUnderline::after {
-  bottom: -5px !important;
+  bottom: -3px !important;
 }

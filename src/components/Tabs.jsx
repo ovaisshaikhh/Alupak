@@ -26,7 +26,7 @@ const Tabs = ({ tabs, setActiveTab, scrollToSection, activeTab }) => {
       ref={headerRef}
       className={`${
         isScrolled
-          ? "bg-white fixed top-[8%] w-full shadow-lg pt-8 py-6 pb-6 z-[10] tabsscroll"
+          ? "bg-white fixed top-[8%] w-full shadow-lg pt-6 py-4 z-[10] tabsscroll"
           : "py-8 pb-12"
       } tabs flex justify-between lg:px-28 xsm:px-80  xs:hidden lg:flex`}
     >

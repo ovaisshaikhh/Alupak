@@ -115,7 +115,7 @@ const ProductPageImageGridCarousel = () => {
               onClick={toggleText2}
               className="z-10 absolute left-0 right-0 bottom-0 bg-[#ffd303] flex items-center justify-between px-4 py-2 font-semibold text-[#334155] cursor-pointer arrow"
             >
-              <span className="text-sm">Collapsable Aluminum Tube</span>
+              <span className="text-sm">Collapsible Aluminum Tube</span>
               <i className="fas fa-angle-up text-sm"></i>
             </button>
           </div>
@@ -128,7 +128,7 @@ const ProductPageImageGridCarousel = () => {
           >
             <div className="text-center py-8 px-10 flex flex-col justify-evenly h-full">
               <img className="w-[28%] mx-auto" src={v2} />
-              <h1 className="font-bold my-2">Collapsable Aluminum Tube</h1>
+              <h1 className="font-bold my-2">Collapsible Aluminum Tube</h1>
               <p className="text-sm mb-2">
                 Widely used for packaging various products such as creams,
                 oinment, gels and pastes.
