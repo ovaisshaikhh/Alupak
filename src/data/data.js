@@ -41,8 +41,8 @@ export const footerData = [
         link: "/downloads",
       },
       {
-        li2: "Download PDF",
-        link2: "/downloads",
+        li2: "",
+        link2: "",
       },
       {
         li3: "",

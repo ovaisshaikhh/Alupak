@@ -64,6 +64,18 @@ const ProductsIndustiresCarouselMob = () => {
               </p>
             </div>
           </div>
+          {/* @4 */}
+          <div className="text-center flex justify-center flex-col">
+            <img className="h-[300px] w-[150px] m-auto" src={P2} />
+
+            <div className="xs:py-4 xs:px-8">
+              <h6 className="font-bold xs:mb-2 text-lg">Glue & Adhesives</h6>
+              <p className="xs:text-sm">
+                Creating packaging that could let the end customer use paints to
+                their fullest quality and quantity for viable results.
+              </p>
+            </div>
+          </div>
         </Flickity>
       </div>
     </div>

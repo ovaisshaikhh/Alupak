@@ -90,7 +90,7 @@ const ContactModal = ({ CloseContact }) => {
         </div>
         {/* @-close button */}
         <div
-          className="block text-right cursor-pointer text-xl absolute top-[-3%] right-[-3%]"
+          className="block text-right cursor-pointer text-xl absolute xs:top-[-2.5%] md:top-[-3%] xs:right-[-5%] md:right-[-3%]"
           onClick={CloseContact}
         >
           <span className="text-white bg-[#3f3f46] rounded-full xs:px-[.6rem] xs:py-[6px] lg:px-3 lg:py-[.4rem]">
