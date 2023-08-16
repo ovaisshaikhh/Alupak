@@ -107,12 +107,12 @@ https://flickity.metafizzy.co
     width: 32px;
     height: 32px;
     /* border:2px solid red; */
-    outline: none; 
+    outline: none;
   }
-
 }
-.flickity-prev-next-button:focus{
-  box-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+.flickity-prev-next-button:focus {
+  box-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width))
+    var(--tw-ring-color);
 }
 
 @media (max-width: 350px) {

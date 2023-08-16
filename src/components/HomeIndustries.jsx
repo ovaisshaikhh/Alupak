@@ -23,7 +23,7 @@ const HomeIndustries = () => {
     if (targetRef.current) {
       observer.observe(targetRef.current);
     }
-    if(targetRef2.current){
+    if (targetRef2.current) {
       observer.observe(targetRef2.current);
     }
 
@@ -36,8 +36,6 @@ const HomeIndustries = () => {
         observer.unobserve(targetRef2.current);
       }
     };
-
-
   }, []);
 
   const handleIntersection = (entries) => {
