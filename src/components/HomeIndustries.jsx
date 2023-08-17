@@ -79,8 +79,8 @@ const HomeIndustries = () => {
             ref={targetRef2}
             className={
               isVisible
-                ? "tracking-in-expander fontBoldAlupak xs:text-[2.5rem] font-black text-[#3f3f46] pt-2 tracking-wider text-center"
-                : "fontBoldAlupak xs:text-[2.5rem] font-black text-[#3f3f46] pt-2 tracking-wider text-center"
+                ? "tracking-in-expander flex ml-4 fontBoldAlupak xs:text-[2.5rem] font-black text-[#3f3f46] pt-2 tracking-wider text-center"
+                : "fontBoldAlupak flex ml-4 xs:text-[2.5rem] font-black text-[#3f3f46] pt-2 tracking-wider text-center"
             }
           >
             Industries
