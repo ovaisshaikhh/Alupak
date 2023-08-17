@@ -227,7 +227,7 @@ const Navbar = () => {
           } justify-between px-4 xs:flex md:hidden items-center py-4 navbar fixed top-0 w-full left-0 right-0 transition-all z-[4]`}
         >
           <div>
-            <button onClick={handleMenuToggle} className="border-none">
+            <button onClick={handleMenuToggle} className="border-none flex">
               <i
                 ref={headerRef}
                 className={`${
@@ -261,7 +261,7 @@ const Navbar = () => {
           </div>
 
           <div>
-            <button className="border-none" onClick={openModal}>
+            <button className="border-none flex" onClick={openModal}>
               <svg
                 ref={headerRef}
                 className={`${

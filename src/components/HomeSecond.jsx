@@ -64,7 +64,7 @@ const HomeSecond = () => {
         </div>
       </div>
       {/* ------------------ */}
-      <div className="xs:py-8 md:mx-[4rem] lg:mx-[6rem] xsm:mx-[9rem] lg:py-10 md:py-8 md:pb-4">
+      <div className="xs:py-8 xs:pb-4 md:mx-[4rem] lg:mx-[6rem] xsm:mx-[9rem] lg:pb-10 lg:py-10 md:py-8 md:pb-4">
         <h1
           // xs:justify-center
           ref={targetRef}

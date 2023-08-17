@@ -127,7 +127,7 @@ const HomeIndustriesImages = () => {
             <img src={HI14} className="deskimg md:hidden xs:block" />
             <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
               <p className="xs:text-[12px] md:text-sm xm:text-base">
-                dying pigment
+                dyeing pigment
               </p>
             </div>
           </Link>

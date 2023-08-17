@@ -45,8 +45,8 @@ const Footer = () => {
               />
             </Link>
             <p className="xs:text-[12px] lg:text-[13px] text-center mb-4 text-[#d4d4d8]">
-              Manufacturing high-quality aluminum collapsible tubes and more
-              similar packaging materials since 2005.
+              Manufacturing high-quality aluminum collapsible tubes and similar
+              packaging materials since 2005.
             </p>
             <Socials />
           </div>

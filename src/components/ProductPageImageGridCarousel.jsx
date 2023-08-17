@@ -131,7 +131,7 @@ const ProductPageImageGridCarousel = () => {
               <h1 className="font-bold my-2">Collapsible Aluminum Tube</h1>
               <p className="text-sm mb-2">
                 Widely used for packaging various products such as creams,
-                oinment, gels and pastes.
+                oinment, gels, and pastes.
               </p>
               <div className="relative z-[999999]">
                 <ButtonBlack

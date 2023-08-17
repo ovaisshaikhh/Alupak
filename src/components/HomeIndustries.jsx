@@ -48,7 +48,7 @@ const HomeIndustries = () => {
     });
   };
   return (
-    <div className="relative my-12">
+    <div className="relative xs:my-8 md:my-12">
       <div className="absolute z-[-1]">
         <div
           ref={targetRef}
@@ -74,13 +74,13 @@ const HomeIndustries = () => {
       {/* ------- */}
       <div className="grid md:grid-cols-5 md:pt-8 lg:pt-[1.8rem] lg:mx-0 xm:mx-12 md:ml-[4rem] lg:ml-[5rem] xm:ml-[10rem]">
         {/* mobile */}
-        <div className="xs:block md:hidden">
+        <div className="xs:block md:hidden mb-[.5rem]">
           <h2
             ref={targetRef2}
             className={
               isVisible
-                ? "tracking-in-expander fontBoldAlupak xs:text-[2.5rem] font-black text-[#475569] pt-2 tracking-wider text-center"
-                : "fontBoldAlupak xs:text-[2.5rem] font-black text-[#475569] pt-2 tracking-wider text-center"
+                ? "tracking-in-expander fontBoldAlupak xs:text-[2.5rem] font-black text-[#3f3f46] pt-2 tracking-wider text-center"
+                : "fontBoldAlupak xs:text-[2.5rem] font-black text-[#3f3f46] pt-2 tracking-wider text-center"
             }
           >
             Industries
@@ -96,8 +96,8 @@ const HomeIndustries = () => {
             ref={targetRef}
             className={
               isVisible
-                ? "xll:tracking-in-expand vertical-text md:text-[2.5rem] lg:text-[3rem] xm:text-[4rem] font-black text-[#475569] pt-4 tracking-wider"
-                : "vertical-text md:text-[2.5rem] lg:text-[3rem] xm:text-[4rem] font-black text-[#475569] pt-4 tracking-wider"
+                ? "xll:tracking-in-expand vertical-text md:text-[2.5rem] lg:text-[3rem] xm:text-[4rem] font-black text-[#3f3f46] pt-4 tracking-wider"
+                : "vertical-text md:text-[2.5rem] lg:text-[3rem] xm:text-[4rem] font-black text-[#3f3f46] pt-4 tracking-wider"
             }
           >
             Industries
@@ -107,9 +107,9 @@ const HomeIndustries = () => {
       {/*  */}
       <div className="text-center m-8 md:mx-[8rem] lg:mx-[10rem] xsm:mx-[20rem]">
         <p className="mb-4 xs:text-sm md:text-xs lg:text-sm">
-          Maintaining the quality of final goods while dispatching them for use
-          is an integral quest of major industries. Alupak promises to secure
-          the true essence of products with quality packaging materials.
+          Maintaining the quality of finished goods while dispatching them for
+          use is an integral quest of major industries. Alupak promises to
+          secure the true essence of products with quality packaging materials.
         </p>
         <Button value={"Read More"} onClick={() => navigate("products")} />
       </div>

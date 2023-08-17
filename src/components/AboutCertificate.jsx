@@ -53,7 +53,7 @@ const AboutCertificate = () => {
       }
     >
       <img className="xs:hidden lg:block relative" src={aboitMission} />
-      <img className="xs:block lg:hidden w-[90%]" src={mobcert} />
+      <img className="xs:block lg:hidden mb-6 mx-4" src={mobcert} />
       <div className="xs:flex xs:justify-center lg:absolute lg:top-[80%] lg:left-[57%]">
         <a
           // href={l2}

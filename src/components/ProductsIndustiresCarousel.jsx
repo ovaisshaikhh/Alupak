@@ -40,8 +40,8 @@ const ProductsIndustiresCarousel = () => {
         />
         <ProductIndustriesCard
           imageUrl={P3}
-          title="Dying Pigments"
-          paragraph="Making the use of dying pigments easy and efficient as we offer secure packaging to lock the true quality of products."
+          title="Dyeing Pigments"
+          paragraph="Making the use of dyeing pigments easy and efficient as we offer secure packaging to lock the true quality of products."
         />
         <ProductIndustriesCard
           imageUrl={P2}
@@ -61,8 +61,8 @@ const ProductsIndustiresCarousel = () => {
         />
         <ProductIndustriesCard
           imageUrl={P3}
-          title="Dying Pigments"
-          paragraph="Making the use of dying pigments easy and efficient as we offer secure packaging to lock the true quality of products."
+          title="Dyeing Pigments"
+          paragraph="Making the use of dyeing pigments easy and efficient as we offer secure packaging to lock the true quality of products."
         />
         <ProductIndustriesCard
           imageUrl={P2}

@@ -97,7 +97,7 @@ const AboutHistory = () => {
                   <h6 className="font-bold text-[1.2rem]">Work</h6>
                   <p className="md:text-[13px] xm:text-sm">
                     Pharmaceutical, Cosmetics & Toiletries, Food Items,
-                    Industrial Products & household goods.
+                    Industrial Products, & Household Goods.
                   </p>
                 </div>
 

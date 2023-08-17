@@ -57,9 +57,9 @@ const ProductsIndustiresCarouselMob = () => {
             <img className="h-[300px] w-[150px] m-auto" src={P3} />
 
             <div className="xs:py-4 xs:px-8">
-              <h6 className="font-bold xs:mb-2 text-lg">Dying Pigments</h6>
+              <h6 className="font-bold xs:mb-2 text-lg">Dyeing Pigments</h6>
               <p className="xs:text-sm">
-                Making the use of dying pigments easy and efficient as we offer
+                Making the use of dyeing pigments easy and efficient as we offer
                 secure packaging to lock the true quality of products.
               </p>
             </div>

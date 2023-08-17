@@ -67,12 +67,12 @@ const HomeAbout = () => {
               About Us
             </h1>
             <p className="md:mb-2 xs:mb-4 xs:text-xs lg:mb-4 md:text-xs ssx:text-sm lg:text-sm">
-              Alupak is Pakistan’s trusted aluminum collapsible tube supplier
-              since 2005 based in Karachi, ISO 9001-2015 certified as well as
-              proudly meeting European standards. For 18 years, we have been
-              manufacturing high-quality packaging materials via aluminum
-              collapsible tubes, rigid containers, marker barrels, and capacitor
-              cans.
+              Alupak is Pakistan’s trusted aluminum collapsible tube
+              manufacturer since 2005 based in Karachi, ISO 9001:2015 certified
+              as well as proudly meeting European standards. For 18 years, we
+              have been manufacturing high-quality packaging materials via
+              aluminum collapsible tubes, rigid containers, marker barrels, and
+              capacitor cans.
             </p>
             <div className="text-black relative z-50">
               <Button

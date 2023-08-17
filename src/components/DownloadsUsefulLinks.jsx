@@ -23,7 +23,7 @@ import l9 from "../assets/alupak download/Collapsibles Aluminium Tubes apk.pdf";
 const DownloadsUsefulLinks = () => {
   return (
     <div className="my-8 xs:mx-4">
-      <div className="flex flex-col items-center mb-12">
+      <div className="flex flex-col items-center  xs:mb-[-1rem] lg:mb-12">
         <h6 className="fontBoldAlupak text-[1.5rem]">USEFUL LINKS</h6>
         <span className="bg-[#ffd303] h-[.2rem] w-[7rem] mt-3 mb-2"></span>
         <p className="text-center text-[.9rem]">

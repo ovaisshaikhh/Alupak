@@ -24,9 +24,9 @@ const AboutBanner = () => {
           About Us
         </h1>
         <p className="xs:text-[.9rem] ss:text-[.9rem] xs:mb-12 md:mb-3">
-          Alupak is Pakistan’s trusted aluminum collapsible tube supplier since{" "}
-          <br className="xs:hidden md:block" />
-          2005 based in Karachi, ISO 9001-2015 certified as well as proudly{" "}
+          Alupak is Pakistan’s trusted aluminum collapsible tube manufacturer
+          since <br className="xs:hidden md:block" />
+          2005 based in Karachi, ISO 9001:2015 certified as well as proudly{" "}
           <br className="xs:hidden md:block" /> meeting European standards.
         </p>
       </div>

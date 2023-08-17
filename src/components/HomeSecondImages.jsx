@@ -15,7 +15,7 @@ const HomeSecondImages = () => {
       <Cards
         imageUrl={A2}
         title="Collapsible Aluminium Tubes"
-        paragraph="Widely used for packaging various products such as creams, oinment, gels and pastes."
+        paragraph="Widely used for packaging various products such as creams, oinment, gels, and pastes."
       />
       <Cards
         imageUrl={A3}
