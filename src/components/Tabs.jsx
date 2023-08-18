@@ -28,7 +28,7 @@ const Tabs = ({ tabs, setActiveTab, scrollToSection, activeTab }) => {
         isScrolled
           ? "bg-white fixed xs:top-[5%] lg:top-[8%] w-full shadow-lg pt-6 lg:py-4 xs:z-[3] lg:z-[10] tabsscroll"
           : "py-8 pb-12"
-      } tabs xs:grid lg:flex lg:justify-between lg:px-28 xsm:px-80 xs:grid-cols-2`}
+      } tabs lg:flex lg:justify-between lg:px-28 xsm:px-80  xs:hidden`}
       // xs:hidden lg:flex
     >
       {tabs.map((tab, index) => (
