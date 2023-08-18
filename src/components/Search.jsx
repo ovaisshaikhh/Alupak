@@ -14,12 +14,12 @@ const Search = ({ closeModal }) => {
     // @-Downlaods
     { name: "Downloads", link: "/downloads", file: "Page" },
     {
-      name: "Alucan Development",
+      name: "Alupak Development",
       link: "https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Alupak_Development.pdf?v=1691043956",
       file: "Pdf",
     },
     {
-      name: "Alucan ISO Certificate",
+      name: "Alupak ISO Certificate",
       link: "https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Alupak_ISO_Certificate.pdf?v=1691044074",
       file: "Pdf",
     },
@@ -38,7 +38,6 @@ const Search = ({ closeModal }) => {
       link: "https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Certificate_of_Compliance_apk.pdf?v=1691044426",
       file: "Pdf",
     },
-
     {
       name: "Internal Lacquer Ammonia",
       link: "https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Internal_Lacquer_apk.pdf?v=1691044383",
@@ -92,7 +91,7 @@ const Search = ({ closeModal }) => {
       file: "Page",
     },
     {
-      name: "Collapsable Alluminium Tubes",
+      name: "Collapsible Alluminium Tubes",
       link: "/products",
       file: "Page",
     },
@@ -107,12 +106,17 @@ const Search = ({ closeModal }) => {
       file: "Page",
     },
     {
-      name: "Dying Pigments",
+      name: "Dyeing Pigments",
       link: "/products",
       file: "Page",
     },
     {
       name: "Pharmaceutical",
+      link: "/products",
+      file: "Page",
+    },
+    {
+      name: "Industry",
       link: "/products",
       file: "Page",
     },

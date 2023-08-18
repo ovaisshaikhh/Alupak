@@ -26,9 +26,10 @@ const Tabs = ({ tabs, setActiveTab, scrollToSection, activeTab }) => {
       ref={headerRef}
       className={`${
         isScrolled
-          ? "bg-white fixed top-[8%] w-full shadow-lg pt-6 py-4 z-[10] tabsscroll"
+          ? "bg-white fixed xs:top-[5%] lg:top-[8%] w-full shadow-lg pt-6 lg:py-4 xs:z-[3] lg:z-[10] tabsscroll"
           : "py-8 pb-12"
-      } tabs flex justify-between lg:px-28 xsm:px-80  xs:hidden lg:flex`}
+      } tabs xs:grid lg:flex lg:justify-between lg:px-28 xsm:px-80 xs:grid-cols-2`}
+      // xs:hidden lg:flex
     >
       {tabs.map((tab, index) => (
         <button
@@ -36,7 +37,7 @@ const Tabs = ({ tabs, setActiveTab, scrollToSection, activeTab }) => {
           className={
             activeTab === index
               ? "active px-4 text-[#FBD404] font-bold tabsUnderline"
-              : "px-4 text-[#4b5563] font-bold"
+              : "px-4 xs:pb-3 text-[#4b5563] font-bold lg:text-base xs:text-sm"
           }
           onClick={() => handleTabClick(index)}
         >

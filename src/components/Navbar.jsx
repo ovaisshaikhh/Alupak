@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
-import logo from "../assets/Alupak logo.svg";
+// import logo from "../assets/Alupak logo.svg";
+import logo from "../assets/Group 156.svg";
 // import blackLogo from "../assets/logoalu.png";
 import blackLogo from "../assets/Group 1.png";
 import whiteLogo from "../assets/Logo White.png";
@@ -248,6 +249,7 @@ const Navbar = () => {
                 ref={headerRef}
                 className={`${isScrolledMob ? "hidden" : ""} xs:w-[] m-auto`}
                 src={whiteLogo}
+                // src={logo}
                 alt="logo"
               />
 

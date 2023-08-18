@@ -19,7 +19,8 @@ body {
 @media (max-width: 767px) {
   .background-animation_H {
     /* left: 50%; */
-    left: 15%;
+    /* left: 15%; */
+    left:8%;
   }
 }
 

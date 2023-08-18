@@ -40,15 +40,17 @@
 .tabsUnderline {
   position: relative;
 }
-.tabsUnderline::after {
-  content: "";
-  position: absolute;
-  bottom: -9px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 70%;
-  height: 2px;
-  background-color: #fbd404;
+@media (min-width: 1024px) {
+  .tabsUnderline::after {
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 2px;
+    background-color: #fbd404;
+  }
 }
 /* ------------ */
 
