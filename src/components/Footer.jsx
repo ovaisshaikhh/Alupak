@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import { FooterMenu, Socials, ContactModal } from "./index";
 import { footerData } from "../data/data";
-import logo from "../assets/logo footer.png";
-// import logo from "../assets/Group 24.svg"
+// import logo from "../assets/logo footer.png";
+import logo from "../assets/Group 161.svg"
 // import logo from "../assets/Group 156.svg";
 import bg_logo from "../assets/Logo footer bg.png";
 import mail from "../assets/iconmail.svg";
 import location from "../assets/iconlocation.svg";
 import { Link } from "react-router-dom";
+import background from "../assets/Mask Group 51.svg";
 
 const Footer = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -29,10 +30,12 @@ const Footer = () => {
       <div className="">
         {/* xs:hidden md:block */}
         <img
-          className="md:w-[34%] absolute top-0 md:bottom-0 md:h-[-webkit-fill-available] xs:h-[22rem]"
+          className="xs:hidden md:block md:w-[34%] absolute top-0 md:bottom-0 md:h-[-webkit-fill-available] xs:h-[22rem]"
           src={bg_logo}
           alt="bg"
         />
+
+        <img src={background} className="xs:block md:hidden  absolute top-0" />
       </div>
 
       <div className="md:pb-6 lg:pb-11 xs:px-8 md:px-0 xs:pt-24 md:pt-12 xs:pb-8">
