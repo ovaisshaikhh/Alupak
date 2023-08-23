@@ -159,9 +159,9 @@ const ContactModal = ({ CloseContact }) => {
 
       {showSuccessMessage && ( // Conditionally render success message
         <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-opacity-50 z-[90] bg-gray-900">
-          <div className="bg-white rounded-lg p-5 w-[30vw]">
+          <div className="bg-white rounded-lg xs:p-4 lg:p-5 xs:w-[70vw] lg:w-[30vw]">
             <img className="m-auto mb-4" src={giff} alt="Success animation" />
-            <h3 className="text-center font-semibold z-[90] relative">
+            <h3 className="text-center font-semibold z-[90] relative xs:text-sm lg:text-base">
               Kindly be informed that your correspondence has been dispatched.
             </h3>
           </div>
