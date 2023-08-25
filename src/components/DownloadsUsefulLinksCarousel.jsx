@@ -12,15 +12,15 @@ import d7 from "../assets/downloads/layers.png";
 import d8 from "../assets/downloads/test.png";
 import d9 from "../assets/downloads/acrylic2.png";
 //
-import l1 from "../assets/alupak download/Alupak Development.pdf";
-import l2 from "../assets/alupak download/Alupak ISO Certificate.pdf";
-import l3 from "../assets/alupak download/Aluminium Can apk.pdf";
-import l4 from "../assets/alupak download/Aluminium Information apk.pdf";
-import l5 from "../assets/alupak download/Certificate of Compliance apk.pdf";
-import l6 from "../assets/alupak download/Internal Lacquer apk.pdf";
-import l7 from "../assets/alupak download/Basecoat apk.pdf";
-import l8 from "../assets/alupak download/Latex Sealing Compound apk.pdf";
-import l9 from "../assets/alupak download/Collapsibles Aluminium Tubes apk.pdf";
+import l1 from "../assets/alupak docs/Alupak Development.pdf";
+import l2 from "../assets/alupak docs/certificate.pdf";
+import l3 from "../assets/alupak docs/Aluminium_Cartridges_Brochure[1].pdf";
+import l4 from "../assets/alupak docs/Aluminium Information.pdf";
+import l5 from "../assets/alupak docs/Certificate of Compliance.pdf";
+import l6 from "../assets/alupak docs/Internal Lacquer.pdf";
+import l7 from "../assets/alupak docs/Basecoat.pdf";
+import l8 from "../assets/alupak docs/Latex Sealing Compound.pdf";
+import l9 from "../assets/alupak docs/Collapsibles Aluminium Tubes.pdf";
 
 const flickityOptions = {
   initialIndex: 0,

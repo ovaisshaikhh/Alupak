@@ -38,7 +38,7 @@ const AboutSecondInnerTabs = ({ title1, title2, paragraph, imageUrl }) => {
   return (
     <div className="relative">
       {/* ------------------ */}
-      <div className="xs:flex xs:flex-col-reverse md:grid grid-cols-5 items-center my-8 mt-12 lg:gap-12">
+      <div className="xs:flex xs:flex-col-reverse md:grid grid-cols-5 items-center my-8 mt-12 lg:mb-16 xs:gap-8 lg:gap-12">
         {/* @1 */}
         <div className="text-center relative col-span-2">
           <div>

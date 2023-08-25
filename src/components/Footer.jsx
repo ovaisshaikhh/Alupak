@@ -3,7 +3,8 @@ import { FooterMenu, Socials, ContactModal } from "./index";
 import { footerData } from "../data/data";
 // import logo from "../assets/logo footer.png";
 // import logo from "../assets/Group 161.svg"
-import logo from "../assets/footerlogo.png"
+import logo from "../assets/footerlogo.png";
+import whiteLogo from "../assets/Asset 1 w.png";
 // import logo from "../assets/Group 156.svg";
 import bg_logo from "../assets/Logo footer bg.png";
 import mail from "../assets/iconmail.svg";
@@ -45,8 +46,9 @@ const Footer = () => {
           <div className="relative col-span-2">
             <Link onClick={handleClickNav} to="/">
               <img
-                className="m-auto mb-4 mt-[-2rem] xs:w-[35%] md:w-[33%]"
-                src={logo}
+                className="m-auto mb-4 mt-[-1rem] xs:w-[52%] md:w-[53%]"
+                // src={logo}
+                src={whiteLogo}
                 alt="image_logo"
               />
             </Link>

@@ -15,47 +15,47 @@ const Search = ({ closeModal }) => {
     { name: "Downloads", link: "/downloads", file: "Page" },
     {
       name: "Alupak Development",
-      link: "https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Alupak_Development.pdf?v=1691043956",
+      link: "https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Alupak_Development.pdf?v=1692963625",
       file: "Pdf",
     },
     {
       name: "Alupak ISO Certificate",
-      link: "https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Alupak_ISO_Certificate.pdf?v=1691044074",
+      link: "https://cdn.shopify.com/s/files/1/0689/7349/4550/files/certificate.pdf?v=1692959076",
       file: "Pdf",
     },
     {
       name: "Aluminium Cartridge",
-      link: "https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Aluminium_Can_apk.pdf?v=1691044529",
+      link: "https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Aluminium_Cartridges_Brochure_1.pdf?v=1692959129",
       file: "Pdf",
     },
     {
       name: "Aluminium Information",
-      link: "https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Aluminium_Information_apk.pdf?v=1691044474",
+      link: "https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Aluminium_Information.pdf?v=1692963664",
       file: "Pdf",
     },
     {
       name: "Certificate of Compliance",
-      link: "https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Certificate_of_Compliance_apk.pdf?v=1691044426",
+      link: "https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Certificate_of_Compliance.pdf?v=1692963696",
       file: "Pdf",
     },
     {
       name: "Internal Lacquer Ammonia",
-      link: "https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Internal_Lacquer_apk.pdf?v=1691044383",
+      link: "https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Internal_Lacquer.pdf?v=1692963724",
       file: "Pdf",
     },
     {
       name: "Basecoat",
-      link: "https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Basecoat_apk.pdf?v=1691044347",
+      link: "https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Basecoat.pdf?v=1692963750",
       file: "Pdf",
     },
     {
       name: "Latex sealing compound",
-      link: "https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Latex_Sealing_Compound_apk.pdf?v=1691044314",
+      link: "https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Latex_Sealing_Compound.pdf?v=1692963777",
       file: "Pdf",
     },
     {
       name: "Collapsible Aluminium Tube",
-      link: "https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Collapsibles_Aluminium_Tubes_apk.pdf?v=1691044222",
+      link: "https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Collapsibles_Aluminium_Tubes.pdf?v=1692963798",
       file: "Pdf",
     },
     // @-About

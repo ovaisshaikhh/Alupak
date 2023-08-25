@@ -2,11 +2,12 @@ import React, { useEffect, useState, useRef } from "react";
 import HI1 from "../assets/home/Glue&adhesive.png";
 import HI2 from "../assets/home/Paint .png";
 import HI3 from "../assets/home/Pharmaceutical.png";
-import HI4 from "../assets/home/Dying Pigment.png";
+// import HI4 from "../assets/home/Dying Pigment.png";
 import HI11 from "../assets/home/Mask Group 32@2x.png";
 import HI12 from "../assets/home/Mask Group 33@2x.png";
+// import HI13 from "../assets/home/Mask Group 34@2x.png";
 import HI13 from "../assets/home/Mask Group 34@2x.png";
-import HI14 from "../assets/home/Mask Group 35@2x.png";
+// import HI14 from "../assets/home/Mask Group 35@2x.png";
 import "../styles/banner.css";
 import { Link } from "react-router-dom";
 
@@ -51,7 +52,7 @@ const HomeIndustriesImages = () => {
 
   return (
     <React.Fragment>
-      <div className="grid xs:grid-cols-2 xs:gap-1 md:gap-0 md:grid-cols-4 ">
+      <div className="grid xs:grid-cols-2 xs:gap-1 md:gap-0 md:grid-cols-3 ">
         {/* 1 */}
         <div
           ref={targetRef}
@@ -86,7 +87,9 @@ const HomeIndustriesImages = () => {
             <img src={HI2} className="deskimg xs:hidden md:block" />
             <img src={HI12} className="deskimg md:hidden xs:block" />
             <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
-              <p className="xs:text-[12px] md:text-sm xm:text-base">Artist paints</p>
+              <p className="xs:text-[12px] md:text-sm xm:text-base">
+                Artist paints
+              </p>
             </div>
           </Link>
         </div>
@@ -95,8 +98,8 @@ const HomeIndustriesImages = () => {
           ref={targetRef}
           className={
             isVisible
-              ? "fade-up-element show image-container-HI t4s-eff-border-run"
-              : "fade-up-element image-container-HI t4s-eff-border-run"
+              ? "fade-up-element show image-container-HI t4s-eff-border-run xs:col-span-2 md:col-span-1"
+              : "fade-up-element image-container-HI t4s-eff-border-run xs:col-span-2  md:col-span-1"
           }
           id="fade-up-element"
         >
@@ -112,7 +115,7 @@ const HomeIndustriesImages = () => {
           </Link>
         </div>
         {/* 4 */}
-        <div
+        {/* <div
           ref={targetRef}
           className={
             isVisible
@@ -130,7 +133,7 @@ const HomeIndustriesImages = () => {
               </p>
             </div>
           </Link>
-        </div>
+        </div> */}
       </div>
     </React.Fragment>
   );

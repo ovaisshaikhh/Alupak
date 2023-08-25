@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import aboitMission from "../assets/about/ab-w.png";
 import mobcert from "../assets/about/cer.png";
-import l2 from "../assets/alupak download/Alupak ISO Certificate.pdf";
+import l2 from "../assets/alupak docs/certificate.pdf";
 
 const AboutCertificate = () => {
   const targetRef = useRef(null);
@@ -55,7 +55,7 @@ const AboutCertificate = () => {
       <img className="xs:hidden lg:block relative" src={aboitMission} />
       <img className="xs:block lg:hidden mb-6 mx-4 w-[90%]" src={mobcert} />
 
-      <p className="text-center mx-4 mb-4">
+      <p className="text-center mx-4 mb-4 lg:hidden">
         Alupak is ISO 9001:2015 certified <br /> and meets European standards.
       </p>
       <div className="xs:flex xs:justify-center lg:absolute lg:top-[80%] lg:left-[57%]">
