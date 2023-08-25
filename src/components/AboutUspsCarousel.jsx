@@ -80,8 +80,7 @@ const AboutUspsCarousel = () => {
         <Usps
           imageUrl={sustain}
           title="Competitive Pricing"
-          paragraph="We offer good pricing points which are based on our quality
-            production standards as well as the market rate."
+          paragraph="We offer competitive pricing points which are based on global quality production standards."
         />
       </Flickity>
     </div>

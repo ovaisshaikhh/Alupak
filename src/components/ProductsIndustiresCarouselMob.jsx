@@ -45,7 +45,7 @@ const ProductsIndustiresCarouselMob = () => {
             <img className="h-[300px] w-[150px] m-auto" src={P2} />
 
             <div className="xs:py-4 xs:px-8">
-              <h6 className="font-bold xs:mb-2 text-lg">Paint</h6>
+              <h6 className="font-bold xs:mb-2 text-lg">Artist Paints</h6>
               <p className="xs:text-sm">
                 Creating packaging that could let the end customer use paints to
                 their fullest quality and quantity for viable results.
@@ -59,8 +59,8 @@ const ProductsIndustiresCarouselMob = () => {
             <div className="xs:py-4 xs:px-8">
               <h6 className="font-bold xs:mb-2 text-lg">Dyeing Pigments</h6>
               <p className="xs:text-sm">
-                Making the use of dyeing pigments easy and efficient as we offer
-                secure packaging to lock the true quality of products.
+                Creating packaging that could let the end customer use paints to
+                their fullest quality and quantity for viable results.
               </p>
             </div>
           </div>

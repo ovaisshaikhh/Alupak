@@ -175,7 +175,7 @@ const Navbar = () => {
                   About Us
                 </NavLink>
               </li>
-              <li
+              {/* <li
                 className="md:px-2 lg:px-4 tracking-wider"
                 onClick={handleClickNav}
               >
@@ -188,7 +188,7 @@ const Navbar = () => {
                 >
                   Careers
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
           </div>
           {/* ----------------------------------- */}

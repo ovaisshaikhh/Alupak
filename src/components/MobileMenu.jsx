@@ -97,7 +97,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
                   About Us
                 </NavLink>
               </li>
-              <li
+              {/* <li
                 className="md:px-2 lg:px-4 tracking-wider"
                 onClick={handleClickNav}
               >
@@ -108,7 +108,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
                 >
                   Careers
                 </NavLink>
-              </li>
+              </li> */}
               <li
                 className="md:px-2 lg:px-4 tracking-wider"
                 onClick={handleClickNav}

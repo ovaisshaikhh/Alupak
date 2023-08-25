@@ -54,7 +54,7 @@ const DownloadsUsefulLinksCarousel = () => {
         <DownloadCard
           imageUrl={d2}
           title="Alupak ISO Certificate"
-          paragraph="ISO 9001:2015 certified by the Bureau Veritas Certification Holding SAS – UK Branch"
+          paragraph="ISO 9001:2015 certified by the Bureau Veritas Certification Holding."
           link={l2}
         />
 

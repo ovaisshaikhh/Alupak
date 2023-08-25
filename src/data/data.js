@@ -24,8 +24,10 @@ export const footerData = [
         link: "",
       },
       {
-        li2: "Careers",
-        link2: "/careers",
+        li2: "",
+        link2: "",
+        // li2: "Careers",
+        // link2: "/careers",
       },
       {
         li3: "",

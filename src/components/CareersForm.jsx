@@ -159,7 +159,7 @@ const CareersForm = () => {
       </form>
 
       {/* ----------------------------------- */}
-      
+
       {showSuccessMessage && ( // Conditionally render success message
         <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-opacity-50 z-[90] bg-gray-900">
           <div className="bg-white rounded-lg xs:p-4 lg:p-5 xs:w-[70vw] lg:w-[30vw]">

@@ -45,7 +45,6 @@ const HomeIndustriesImages = () => {
   };
 
   const handleClickNav = () => {
-    // const halfPageHeight = window.innerHeight / 1.09;
     const halfPageHeight = window.innerHeight / 0.9;
     window.scrollTo(0, halfPageHeight);
   };
@@ -87,7 +86,7 @@ const HomeIndustriesImages = () => {
             <img src={HI2} className="deskimg xs:hidden md:block" />
             <img src={HI12} className="deskimg md:hidden xs:block" />
             <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
-              <p className="xs:text-[12px] md:text-sm xm:text-base">paint</p>
+              <p className="xs:text-[12px] md:text-sm xm:text-base">Artist paints</p>
             </div>
           </Link>
         </div>

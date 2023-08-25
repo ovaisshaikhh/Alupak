@@ -47,44 +47,6 @@ const ProductPageImageGrid = () => {
       <div className="relative md:h-[15rem] lg:h-[20rem]">
         <div className="absolute w-[100vw] md:top-[-9%] lg:top-[-16%] xm:top-[-30%]">
           <div className="grid grid-cols-3 gap-0 justify-items-center md:mx-8 lg:mx-20 xm:mx-60">
-            {/* @1 */}
-            <div className="container">
-              {/* visible */}
-              <div className="div1 shadow-lg image-container">
-                <img src={p1} className="" />
-                <button
-                  onClick={toggleText}
-                  className="z-10 absolute left-0 right-0 bottom-0 bg-[#ffd303] flex items-center justify-between md:px-2 md:py-2 lg:px-4 lg:py-2 font-semibold text-[#334155] cursor-pointer"
-                >
-                  <span className="md:text-[13px] lg:text-sm">
-                    Aluminum Cartridge
-                  </span>
-                  <i className="fas fa-angle-up text-sm"></i>
-                </button>
-              </div>
-              {/* collapsable yellow */}
-              <div className="div2 ProductCard z-20 overlay t4s-eff-border-run">
-                <div className="h-full flex flex-col justify-evenly text-center md:py-2 md:px-2 lg:py-4 lg:px-4 xsm:py-8 xsm:px-10">
-                  <img
-                    className="md:w-[12%] lg:w-[20%] mx-auto mb-2"
-                    src={v1}
-                  />
-                  <h1 className="font-bold my-2">Aluminum Cartridge</h1>
-                  <p className="md:text-xs lg:text-sm mb-2">
-                    We specialize in designing and manufacturing the necessities
-                    for filling and packing silicon and polyurethane sealants in
-                    aluminum cartridges.
-                  </p>
-
-                  <div className="relative z-[999999]">
-                    <ButtonBlack
-                      value={"Request a Quote"}
-                      onClick={openModalContacts}
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
             {/* @2 */}
             <div className="container">
               {/* visible */}
@@ -148,6 +110,44 @@ const ProductPageImageGrid = () => {
                     Commonly used for packaging and dispensing products such as
                     adhesives, pharmaceuticals, cosmetics, and food items.
                   </p>
+                  <div className="relative z-[999999]">
+                    <ButtonBlack
+                      value={"Request a Quote"}
+                      onClick={openModalContacts}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* @1 */}
+            <div className="container">
+              {/* visible */}
+              <div className="div1 shadow-lg image-container">
+                <img src={p1} className="" />
+                <button
+                  onClick={toggleText}
+                  className="z-10 absolute left-0 right-0 bottom-0 bg-[#ffd303] flex items-center justify-between md:px-2 md:py-2 lg:px-4 lg:py-2 font-semibold text-[#334155] cursor-pointer"
+                >
+                  <span className="md:text-[13px] lg:text-sm">
+                    Aluminum Cartridge
+                  </span>
+                  <i className="fas fa-angle-up text-sm"></i>
+                </button>
+              </div>
+              {/* collapsable yellow */}
+              <div className="div2 ProductCard z-20 overlay t4s-eff-border-run">
+                <div className="h-full flex flex-col justify-evenly text-center md:py-2 md:px-2 lg:py-4 lg:px-4 xsm:py-8 xsm:px-10">
+                  <img
+                    className="md:w-[12%] lg:w-[20%] mx-auto mb-2"
+                    src={v1}
+                  />
+                  <h1 className="font-bold my-2">Aluminum Cartridge</h1>
+                  <p className="md:text-xs lg:text-sm mb-2">
+                    We specialize in designing and manufacturing the necessities
+                    for filling and packing silicon and polyurethane sealants in
+                    aluminum cartridges.
+                  </p>
+
                   <div className="relative z-[999999]">
                     <ButtonBlack
                       value={"Request a Quote"}

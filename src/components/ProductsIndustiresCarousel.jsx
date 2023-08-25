@@ -35,13 +35,13 @@ const ProductsIndustiresCarousel = () => {
         />
         <ProductIndustriesCard
           imageUrl={P2}
-          title="Paint"
+          title="Artist Paints"
           paragraph="Creating packaging that could let the end customer use paints to their fullest quality and quantity for viable results."
         />
         <ProductIndustriesCard
           imageUrl={P3}
           title="Dyeing Pigments"
-          paragraph="Making the use of dyeing pigments easy and efficient as we offer secure packaging to lock the true quality of products."
+          paragraph="Creating packaging that could let the end customer use paints to their fullest quality and quantity for viable results."
         />
         <ProductIndustriesCard
           imageUrl={P2}
@@ -56,13 +56,13 @@ const ProductsIndustiresCarousel = () => {
         />
         <ProductIndustriesCard
           imageUrl={P2}
-          title="Paint"
+          title="Artist Paints"
           paragraph="Creating packaging that could let the end customer use paints to their fullest quality and quantity for viable results."
         />
         <ProductIndustriesCard
           imageUrl={P3}
           title="Dyeing Pigments"
-          paragraph="Making the use of dyeing pigments easy and efficient as we offer secure packaging to lock the true quality of products."
+          paragraph="Creating packaging that could let the end customer use paints to their fullest quality and quantity for viable results."
         />
         <ProductIndustriesCard
           imageUrl={P2}
