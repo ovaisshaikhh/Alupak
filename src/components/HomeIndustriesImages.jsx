@@ -1,11 +1,13 @@
 import React, { useEffect, useState, useRef } from "react";
-import HI1 from "../assets/home/Glue&adhesive.png";
-import HI2 from "../assets/home/Paint .png";
-import HI3 from "../assets/home/Pharmaceutical.png";
+// import HI1 from "../assets/home/Glue&adhesive.png";
+// import HI2 from "../assets/home/Paint .png";
+// import HI3 from "../assets/home/Pharmaceutical.png";
+import HI1 from "../assets/home/Ga.png";
+import HI2 from "../assets/home/p.png";
+import HI3 from "../assets/home/ph.png";
 // import HI4 from "../assets/home/Dying Pigment.png";
 import HI11 from "../assets/home/Mask Group 32@2x.png";
 import HI12 from "../assets/home/Mask Group 33@2x.png";
-// import HI13 from "../assets/home/Mask Group 34@2x.png";
 import HI13 from "../assets/home/Mask Group 34@2x.png";
 // import HI14 from "../assets/home/Mask Group 35@2x.png";
 import "../styles/banner.css";
@@ -52,7 +54,7 @@ const HomeIndustriesImages = () => {
 
   return (
     <React.Fragment>
-      <div className="grid xs:grid-cols-2 xs:gap-1 md:gap-0 md:grid-cols-3 ">
+      <div className="grid xs:grid-cols-2 xs:gap-1 md:gap-0 md:grid-cols-3">
         {/* 1 */}
         <div
           ref={targetRef}

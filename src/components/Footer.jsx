@@ -46,7 +46,7 @@ const Footer = () => {
           <div className="relative col-span-2">
             <Link onClick={handleClickNav} to="/">
               <img
-                className="m-auto mb-4 mt-[-1rem] xs:w-[65%] md:w-[53%]"
+                className="m-auto mb-4 mt-[-.5rem] xs:w-[65%] md:w-[53%]"
                 // src={logo}
                 src={whiteLogo}
                 alt="image_logo"
