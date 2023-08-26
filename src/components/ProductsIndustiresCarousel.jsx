@@ -40,8 +40,8 @@ const ProductsIndustiresCarousel = () => {
         />
         <ProductIndustriesCard
           imageUrl={P3}
-          title="Dyeing Pigments"
-          paragraph="Creating packaging that could let the end customer use paints to their fullest quality and quantity for viable results."
+          title="Cosmetics & Skincare"
+          paragraph="Considering the sensitivity of products, we create packaging that has excellent barrier properties to protect from air, light, and moisture exposure."
         />
         <ProductIndustriesCard
           imageUrl={P2}
@@ -61,8 +61,8 @@ const ProductsIndustiresCarousel = () => {
         />
         <ProductIndustriesCard
           imageUrl={P3}
-          title="Dyeing Pigments"
-          paragraph="Creating packaging that could let the end customer use paints to their fullest quality and quantity for viable results."
+          title="Cosmetics & Skincare"
+          paragraph="Considering the sensitivity of products, we create packaging that has excellent barrier properties to protect from air, light, and moisture exposure."
         />
         <ProductIndustriesCard
           imageUrl={P2}

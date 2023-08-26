@@ -66,7 +66,7 @@ const HomeIndustriesImages = () => {
             <img src={HI1} className="deskimg xs:hidden md:block" />
             <img src={HI11} className="deskimg md:hidden xs:block" />
             <div className="text-overlay-HI xs:p-2 md:p-3 lg:p-4 xm:p-8">
-              <p className="xs:text-[12px] md:text-sm xm:text-base">
+              <p className="xs:text-[9px] md:text-sm xm:text-base">
                 glue & adhesive
               </p>
             </div>
@@ -85,8 +85,8 @@ const HomeIndustriesImages = () => {
           <Link onClick={handleClickNav} to="/products">
             <img src={HI2} className="deskimg xs:hidden md:block" />
             <img src={HI12} className="deskimg md:hidden xs:block" />
-            <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
-              <p className="xs:text-[12px] md:text-sm xm:text-base">
+            <div className="text-overlay-HI xs:p-2 md:p-3 lg:p-4 xm:p-8">
+              <p className="xs:text-[9px] md:text-sm xm:text-base">
                 Artist paints
               </p>
             </div>
@@ -106,8 +106,8 @@ const HomeIndustriesImages = () => {
             <img src={HI3} className="deskimg xs:hidden md:block" />
             <img src={HI13} className="deskimg md:hidden xs:block" />
 
-            <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
-              <p className="xs:text-[12px] md:text-sm xm:text-base">
+            <div className="text-overlay-HI xs:p-2 md:p-3 lg:p-4 xm:p-8">
+              <p className="xs:text-[9px] md:text-sm xm:text-base">
                 pharmaceutical
               </p>
             </div>
@@ -126,9 +126,9 @@ const HomeIndustriesImages = () => {
           <Link onClick={handleClickNav} to="/products">
             <img src={HI4} className="deskimg xs:hidden md:block" />
             <img src={HI14} className="deskimg md:hidden xs:block" />
-            <div className="text-overlay-HI xs:p-3 md:p-3 lg:p-4 xm:p-8">
-              <p className="xs:text-[12px] md:text-sm xm:text-base">
-                dyeing pigment
+            <div className="text-overlay-HI xs:p-2 md:p-3 lg:p-4 xm:py-8 xm:p-4">
+              <p className="xs:text-[9px] md:text-sm xm:text-base">
+                Cosmetics & Skincare
               </p>
             </div>
           </Link>

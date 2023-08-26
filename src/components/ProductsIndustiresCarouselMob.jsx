@@ -57,10 +57,13 @@ const ProductsIndustiresCarouselMob = () => {
             <img className="h-[300px] w-[150px] m-auto" src={P3} />
 
             <div className="xs:py-4 xs:px-8">
-              <h6 className="font-bold xs:mb-2 text-lg">Dyeing Pigments</h6>
+              <h6 className="font-bold xs:mb-2 text-lg">
+                Cosmetics & Skincare
+              </h6>
               <p className="xs:text-sm">
-                Creating packaging that could let the end customer use paints to
-                their fullest quality and quantity for viable results.
+                Considering the sensitivity of products, we create packaging
+                that has excellent barrier properties to protect from air,
+                light, and moisture exposure.
               </p>
             </div>
           </div>
