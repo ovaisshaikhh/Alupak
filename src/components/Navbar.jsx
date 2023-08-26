@@ -1,16 +1,12 @@
 import React, { useState, useEffect, useRef } from "react";
-// import logo from "../assets/Alupak logo.svg";
 import logo from "../assets/Group 156.svg";
-// import blackLogo from "../assets/logoalu.png";
 import blackLogo from "../assets/Group 1.png";
-// import whiteLogo from "../assets/Logo White.png";
 import whiteLogo from "../assets/Asset 1 w.png";
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { Button, Search, MobileMenu, ContactModal } from "./index";
 import "../styles/main.css";
 
 const Navbar = () => {
-  const navigate = useNavigate();
   const headerRef = useRef(null);
   const [activeLink, setActiveLink] = useState(""); // Set the initial active link
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -175,20 +171,6 @@ const Navbar = () => {
                   About Us
                 </NavLink>
               </li>
-              {/* <li
-                className="md:px-2 lg:px-4 tracking-wider"
-                onClick={handleClickNav}
-              >
-                <NavLink
-                  exact
-                  to="/careers"
-                  className={`${
-                    isScrolled ? "text-black" : "text-white"
-                  }  md:text-xs lg:text-sm xl:text-[.9rem] hover-underline-animation hover:text-[#ffd303]`}
-                >
-                  Careers
-                </NavLink>
-              </li> */}
             </ul>
           </div>
           {/* ----------------------------------- */}

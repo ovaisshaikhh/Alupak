@@ -26,8 +26,6 @@ export const footerData = [
       {
         li2: "",
         link2: "",
-        // li2: "Careers",
-        // link2: "/careers",
       },
       {
         li3: "",

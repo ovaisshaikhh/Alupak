@@ -9,7 +9,6 @@ import v2 from "../assets/v2.png";
 import v3 from "../assets/v3.png";
 import "../styles/product.css";
 import "../styles/banner.css";
-import { useNavigate } from "react-router-dom";
 import { ButtonBlack, ContactModal } from "../components/index";
 
 const flickityOptions = {
@@ -23,7 +22,6 @@ const flickityOptions = {
 };
 
 const ProductPageImageGridCarousel = () => {
-  const navigate = useNavigate();
   const [modalIsContactsOpen, setModalIsContactsOpen] = useState(false);
 
   const [showText, setShowText] = useState(false);

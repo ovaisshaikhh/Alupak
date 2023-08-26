@@ -1,5 +1,4 @@
 import { Button } from "../components/index";
-// import banner2 from "../assets/home/bannerHome.png";
 import banner2 from "../assets/home/image.png";
 import mobBanner from "../assets/home/Mask Group 44@2x.png";
 import { useNavigate } from "react-router-dom";

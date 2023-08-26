@@ -20,24 +20,6 @@ const ContactModal = ({ CloseContact }) => {
     }
   }, [state.succeeded]);
 
-  // if (state.succeeded) {
-  //   return (
-  //     <div>
-  //       <div className="flex justify-center items-center fixed top-0 left-0 w-full h-full modal-container z-[70]">
-  //         <div className="relative bg-white rounded-lg xs:w-[80%] md:max-w-md md:min-w-[50vw] lg:max-w-md lg:min-w-[30vw] ">
-  //           <div className="px-[1.5rem] py-[2rem]">
-  //             <img className="m-auto mb-4" src={giff} />
-  //             <h3 className="text-center font-semibold">
-  //               {" "}
-  //               Kindly be informed that your correspondence has been dispatched.
-  //             </h3>
-  //           </div>
-  //         </div>
-  //       </div>
-  //     </div>
-  //   );
-  // }
-
   return (
     <div className="flex justify-center items-center fixed top-0 left-0 w-full h-full modal-container z-[70]">
       <div className=" relative bg-white rounded-lg xs:w-[80%] md:max-w-md md:min-w-[70vw] lg:max-w-md lg:min-w-[50vw] max-h-[85vh] min-h-[50vh]">

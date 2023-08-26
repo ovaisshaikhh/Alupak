@@ -1,11 +1,8 @@
 import React, { useState } from "react";
 import { FooterMenu, Socials, ContactModal } from "./index";
 import { footerData } from "../data/data";
-// import logo from "../assets/logo footer.png";
-// import logo from "../assets/Group 161.svg"
-import logo from "../assets/footerlogo.png";
+// import logo from "../assets/footerlogo.png";
 import whiteLogo from "../assets/Asset 1 w.png";
-// import logo from "../assets/Group 156.svg";
 import bg_logo from "../assets/Logo footer bg.png";
 import mail from "../assets/iconmail.svg";
 import location from "../assets/iconlocation.svg";
@@ -18,7 +15,6 @@ const Footer = () => {
   const handleContactClick = () => {
     setIsModalOpen(true);
   };
-
   const handleCloseModal = () => {
     setIsModalOpen(false);
   };

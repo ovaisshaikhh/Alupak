@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "../styles/main.css";
 import Socials from "./Socials";
 import "../styles/modal.css";
@@ -8,13 +8,11 @@ import { ContactModal } from "./index";
 import background from "../assets/Mask Group 50.svg";
 
 const MobileMenu = ({ isOpen, onClose }) => {
-  const navigate = useNavigate();
   const [modalIsContactOpen, setModalIsContactOpen] = useState(false);
 
   const handleClickNav = () => {
     window.scrollTo(0, 0);
   };
-
   // Contact Modal Function
   const openModalContact = () => {
     setModalIsContactOpen(true);
@@ -40,7 +38,6 @@ const MobileMenu = ({ isOpen, onClose }) => {
           }`}
         >
           <div className="p-6">
-            {/* <h1 className="text-white text-[1.5rem] font-bold">MENU</h1> */}
             <Link to="/" onClick={handleClickNav}>
               <img src={whiteLogo} className="w-[70%]" />
             </Link>
@@ -49,18 +46,9 @@ const MobileMenu = ({ isOpen, onClose }) => {
               &times;
             </span>
           </div>
-          {/* <hr /> */}
 
           <div className="p-4 ">
             <ul className="flex flex-col gap-4 text-center">
-              {/* <li
-              className="md:px-2 lg:px-4 tracking-wider"
-              onClick={handleClickNav}
-            >
-              <NavLink exact to="/" className="text-white">
-                Home
-              </NavLink>
-            </li> */}
               <li
                 className="md:px-2 lg:px-4 tracking-wider"
                 onClick={handleClickNav}
@@ -97,25 +85,12 @@ const MobileMenu = ({ isOpen, onClose }) => {
                   About Us
                 </NavLink>
               </li>
-              {/* <li
-                className="md:px-2 lg:px-4 tracking-wider"
-                onClick={handleClickNav}
-              >
-                <NavLink
-                  exact
-                  to="/careers"
-                  className="text-white hover:font-bold hover:text-yellow-400"
-                >
-                  Careers
-                </NavLink>
-              </li> */}
               <li
                 className="md:px-2 lg:px-4 tracking-wider"
                 onClick={handleClickNav}
               >
                 <NavLink
                   exact
-                  // to="/products"
                   onClick={openModalContact}
                   className="text-white hover:font-bold hover:text-yellow-400"
                 >
@@ -124,19 +99,13 @@ const MobileMenu = ({ isOpen, onClose }) => {
               </li>
             </ul>
           </div>
-          <div
-            className="mt-[1rem] mx-6"
-            // className="absolute w-full bottom-[1%]"
-          >
+          <div className="mt-[1rem] mx-6">
             {/* <hr /> */}
             <Socials />
           </div>
 
           <div>
-            <img
-              // className="absolute bottom-[-12px]"
-              src={background}
-            />
+            <img src={background} />
           </div>
         </div>
       </div>

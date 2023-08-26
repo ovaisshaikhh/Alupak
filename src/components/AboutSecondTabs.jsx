@@ -5,7 +5,6 @@ import "../styles/main.css";
 
 const AboutSecondTabs = () => {
   // const [activeTab, setActiveTab] = useState(1);
-
   const handleTabClick = (tabIndex) => {
     setActiveTab(tabIndex);
   };

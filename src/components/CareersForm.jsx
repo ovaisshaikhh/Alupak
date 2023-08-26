@@ -22,7 +22,6 @@ const CareersForm = () => {
   // if (state.succeeded) {
   //   return <p>Thanks for joining!</p>;
   // }
-
   const handleButtonClick = () => {
     inputRef.current.click();
   };

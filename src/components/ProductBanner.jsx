@@ -1,6 +1,5 @@
 import React from "react";
 import productBanner from "../assets/products/pb.png";
-// import mobbanner from "../assets/products/Mask Group 47.png";
 import mobbanner from "../assets/products/product mob.png";
 import "../styles/banner.css";
 import "../styles/font.css";
