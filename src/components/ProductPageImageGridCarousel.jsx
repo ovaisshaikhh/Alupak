@@ -126,8 +126,8 @@ const ProductPageImageGridCarousel = () => {
               <img className="w-[28%] mx-auto" src={v3} />
               <h1 className="font-bold my-2">Rigid Aluminium Tubes</h1>
               <p className="text-sm mb-2">
-                Commonly used for packaging and dispensing products such as
-                adhesives, pharmaceuticals, cosmetics, and food items.
+                Commonly used for packaging pharmaceutical effervescent tablets
+                and home test kit strips.
               </p>
               <div className="relative z-[999999]">
                 <ButtonBlack

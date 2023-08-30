@@ -37,7 +37,7 @@ const DownloadsUsefulLinks = () => {
         <DownloadCard
           imageUrl={d1}
           title="Alupak Development"
-          paragraph="Our local business unit has covered a journey of expansions to produce and deliver the best final products to all clients till date."
+          paragraph="Our business unit has covered a journey of expansions to produce and deliver the best final products to all clients till date."
           link={l1}
         />
 

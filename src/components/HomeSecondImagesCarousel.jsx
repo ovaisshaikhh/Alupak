@@ -35,7 +35,8 @@ const HomeSecondImagesCarousel = () => {
         <Cards
           imageUrl={A3}
           title="Rigid Aluminium Tubes"
-          paragraph="Commonly used for packaging and dispensing products such as adhesives, pharmaceuticals, cosmetics, and food items."
+          paragraph="Commonly used for packaging pharmaceutical effervescent tablets
+          and home test kit strips."
         />
         <Cards
           imageUrl={A1}

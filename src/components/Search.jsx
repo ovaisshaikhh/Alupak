@@ -25,7 +25,7 @@ const Search = ({ closeModal }) => {
     },
     {
       name: "Aluminium Cartridge",
-      link: "https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Aluminium_Cartridges_Brochure_1.pdf?v=1692959129",
+      link: "https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Aluminium_Cartridges_Brochure_1_a17f590e-cfde-41be-a4a6-cd15836b1f1d.pdf?v=1693373359",
       file: "Pdf",
     },
     {
