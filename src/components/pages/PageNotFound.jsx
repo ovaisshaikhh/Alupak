@@ -4,6 +4,7 @@ import { Pg404} from "../index"
 const PageNotFound = () => {
   return (
     <>
+    {/* helo */}
       <Pg404 />
     </>
   );
