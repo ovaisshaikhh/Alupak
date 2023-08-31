@@ -4,7 +4,7 @@ import Productbanner from "../assets/about/Group 11.png";
 import "../styles/banner.css";
 import "../styles/font.css";
 import "../styles/animate.css";
-
+//
 const AboutBanner = () => {
   return (
     <div className="relative">
