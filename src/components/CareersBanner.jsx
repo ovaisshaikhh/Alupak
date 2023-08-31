@@ -24,12 +24,11 @@ const CareersBanner = () => {
         <h1 className="tracking-in-expand xs:text-[2.2rem] xm:text-[2.9rem] font-extrabold mb-4 fontBoldAlupak tracking-[.01rem]">
           Careers
         </h1>
-        <p className="xs:text-[.9rem] ss:text-[.9rem] text-[.9rem] xs:mb-12 md:mb-3">
+        {/* <p className="xs:text-[.9rem] ss:text-[.9rem] text-[.9rem] xs:mb-12 md:mb-3">
           Are you interested to uplift your career with Alupak, Pakistan’s most
           trusted <br className="xs:hidden md:block" /> aluminum collapsible
-          tube manufacturer? <br /> Fill out the form below and let us reach out
-          to you!
-        </p>
+          tube manufacturer?
+        </p> */}
       </div>
     </div>
   );
