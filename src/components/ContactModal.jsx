@@ -117,7 +117,7 @@ const ContactModal = ({ CloseContact }) => {
           <div className="col-span-2">
             <img
               src={img}
-              className="md:h-[100%] rounded-br-lg rounded-tr-lg md:block xs:hidden "
+              className="md:h-[-webkit-fill-available] w-full rounded-br-lg rounded-tr-lg md:block xs:hidden "
             />
             <img
               src={mobimg}

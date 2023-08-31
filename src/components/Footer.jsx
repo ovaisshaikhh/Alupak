@@ -28,7 +28,7 @@ const Footer = () => {
       <div className="">
         {/* xs:hidden md:block */}
         <img
-          className="xs:hidden md:block md:w-[34%] absolute top-0 md:bottom-0 md:h-[-webkit-fill-available] xs:h-[22rem]"
+          className="xs:hidden md:block md:w-[34%] absolute top-0 md:bottom-0 md:h-[100%] xs:h-[22rem]"
           src={bg_logo}
           alt="bg"
         />
