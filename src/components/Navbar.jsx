@@ -171,6 +171,20 @@ const Navbar = () => {
                   About Us
                 </NavLink>
               </li>
+              <li
+                className="md:px-2 lg:px-4 tracking-wider"
+                onClick={handleClickNav}
+              >
+                <NavLink
+                  exact
+                  to="/careers"
+                  className={`${
+                    isScrolled ? "text-black" : "text-white"
+                  }  md:text-xs lg:text-sm xl:text-[.9rem] hover-underline-animation hover:text-[#ffd303]`}
+                >
+                  Careers
+                </NavLink>
+              </li>
             </ul>
           </div>
           {/* ----------------------------------- */}

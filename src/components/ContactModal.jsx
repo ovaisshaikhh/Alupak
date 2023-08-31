@@ -7,7 +7,7 @@ import { ValidationError, useForm } from "@formspree/react";
 import giff from "../assets/icons8-tick (1).gif";
 
 const ContactModal = ({ CloseContact }) => {
-  const [state, handleSubmit] = useForm("xvojareb");
+  const [state, handleSubmit] = useForm("xqkvbkjr");
 
   const [showSuccessMessage, setShowSuccessMessage] = useState(false); // State to control success message display
 
@@ -144,7 +144,7 @@ const ContactModal = ({ CloseContact }) => {
           <div className="bg-white rounded-lg xs:p-4 lg:p-5 xs:w-[70vw] lg:w-[30vw]">
             <img className="m-auto mb-4" src={giff} alt="Success animation" />
             <h3 className="text-center font-semibold z-[90] relative xs:text-sm lg:text-base">
-              Kindly be informed that your correspondence has been dispatched.
+              Kindly be informed that your message has been dispatched.
             </h3>
           </div>
         </div>

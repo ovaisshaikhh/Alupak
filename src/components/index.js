@@ -44,6 +44,7 @@ import AboutHistoryCarousel from "./AboutHistoryCarousel";
 import Tabs from "./Tabs";
 import ContactModal from "./ContactModal";
 import Pg404 from "./Pg404";
+import CareersText from "./CareersText";
 
 export {
   Navbar,
@@ -92,4 +93,5 @@ export {
   Tabs,
   ContactModal,
   Pg404,
+  CareersText,
 };

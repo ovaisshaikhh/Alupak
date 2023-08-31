@@ -1,11 +1,11 @@
 import React from "react";
-import { CareersBanner, CareersForm } from "../index";
+import { CareersBanner, CareersForm, CareersText } from "../index";
 
 const Careers = () => {
   return (
     <React.Fragment>
       <CareersBanner />
-      <CareersForm />
+      <CareersText />
     </React.Fragment>
   );
 };

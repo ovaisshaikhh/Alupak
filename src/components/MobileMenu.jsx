@@ -91,6 +91,18 @@ const MobileMenu = ({ isOpen, onClose }) => {
               >
                 <NavLink
                   exact
+                  to="/careers"
+                  className="text-white hover:font-bold hover:text-yellow-400"
+                >
+                  Careers
+                </NavLink>
+              </li>
+              <li
+                className="md:px-2 lg:px-4 tracking-wider"
+                onClick={handleClickNav}
+              >
+                <NavLink
+                  exact
                   onClick={openModalContact}
                   className="text-white hover:font-bold hover:text-yellow-400"
                 >
